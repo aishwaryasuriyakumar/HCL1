@@ -1,0 +1,842 @@
+[
+  {
+    "id": "genai_llm_001",
+    "domain": "generative_ai",
+    "skill": "LLM Fundamentals",
+    "difficulty": "easy",
+    "question": "What is the primary loss objective used when pre-training autoregressive LLMs (like GPT)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contrastive Loss"
+      },
+      {
+        "id": "B",
+        "text": "Causal Language Modeling (predicting the next token)"
+      },
+      {
+        "id": "C",
+        "text": "Mean Squared Error on word positions"
+      },
+      {
+        "id": "D",
+        "text": "Sequence-to-Sequence Translation mapping"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Autoregressive models are trained using Causal Language Modeling (CLM) where the model predicts the next token given preceding context.",
+    "weight": 1
+  },
+  {
+    "id": "genai_llm_002",
+    "domain": "generative_ai",
+    "skill": "LLM Fundamentals",
+    "difficulty": "medium",
+    "question": "In LLM generation, what is the impact of setting the temperature parameter close to 0?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The model's output becomes highly deterministic, repeatedly picking the most probable tokens."
+      },
+      {
+        "id": "B",
+        "text": "The model stops processing inputs due to execution timeout."
+      },
+      {
+        "id": "C",
+        "text": "The output becomes highly creative and randomized."
+      },
+      {
+        "id": "D",
+        "text": "It increases the length of the generated tokens."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Temperature controls the scaling of logits before softmax. Lower temperature (approaching 0) sharpens the probability distribution, forcing the model to select top tokens (making output deterministic).",
+    "weight": 1
+  },
+  {
+    "id": "genai_llm_003",
+    "domain": "generative_ai",
+    "skill": "LLM Fundamentals",
+    "difficulty": "hard",
+    "question": "Describe the mechanistic differences between RLHF (PPO) and DPO (Direct Preference Optimization) for aligning LLMs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RLHF uses contrastive learning, while DPO trains an auxiliary actor-critic model."
+      },
+      {
+        "id": "B",
+        "text": "RLHF requires training a separate reward model and runs computationally expensive reinforcement learning (PPO); DPO mathematically bypasses the reward model, optimizing the policy directly using preference binary cross-entropy."
+      },
+      {
+        "id": "C",
+        "text": "DPO requires vector databases, while RLHF runs strictly in memory loops."
+      },
+      {
+        "id": "D",
+        "text": "DPO relies on prompt engineering, whereas RLHF edits model weights directly."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "RLHF requires building a reward model followed by PPO actor-critic optimization loops (unstable and memory-heavy). DPO derives closed-form equations showing preference loss directly correlates to token probabilities, training the policy on labeled binary preferences directly.",
+    "weight": 1
+  },
+  {
+    "id": "genai_prompt_001",
+    "domain": "generative_ai",
+    "skill": "Prompt Engineering",
+    "difficulty": "easy",
+    "question": "Which prompt engineering technique involves showing the model a few input-output examples before the target query?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zero-shot prompting"
+      },
+      {
+        "id": "B",
+        "text": "Few-shot prompting"
+      },
+      {
+        "id": "C",
+        "text": "Meta-prompting"
+      },
+      {
+        "id": "D",
+        "text": "Chain of Thought"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Few-shot prompting provides in-context examples to help the model identify context patterns and format target requirements.",
+    "weight": 1
+  },
+  {
+    "id": "genai_prompt_002",
+    "domain": "generative_ai",
+    "skill": "Prompt Engineering",
+    "difficulty": "medium",
+    "question": "What is the key mechanism of Chain of Thought (CoT) prompting, and why does it improve LLM reasoning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It forces the model to generate multiple answers in parallel and take a majority vote."
+      },
+      {
+        "id": "B",
+        "text": "It prompts the model to generate its intermediate logical reasoning steps before outputting the final answer, allocating more compute tokens to logical derivation."
+      },
+      {
+        "id": "C",
+        "text": "It shortens prompts to prevent context window overflow."
+      },
+      {
+        "id": "D",
+        "text": "It encrypts the prompt text to bypass safety filters."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "CoT prompts the model to output step-by-step reasoning. Because transformers process sequentially, generating reasoning tokens allows the model to compute intermediate logic, improving complex problem solving.",
+    "weight": 1
+  },
+  {
+    "id": "genai_prompt_003",
+    "domain": "generative_ai",
+    "skill": "Prompt Engineering",
+    "difficulty": "hard",
+    "question": "Explain the structure and utility of ReAct (Reasoning and Acting) prompting pattern for agentic workflows.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It compiles prompts into Javascript React components to render web interfaces."
+      },
+      {
+        "id": "B",
+        "text": "It structures prompts into alternating cycles of Thought (reasoning), Action (calling external tools), and Observation (receiving tool output) to solve problems dynamically."
+      },
+      {
+        "id": "C",
+        "text": "It is a fine-tuning loss function that penalizes long outputs."
+      },
+      {
+        "id": "D",
+        "text": "It limits prompt syntax strictly to XML schemas."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "ReAct combines reasoning and acting. By alternating Thought (LLM analyzes situation), Action (LLM selects tool/inputs), and Observation (system feeds back tool response), the LLM dynamically interacts with external APIs to accomplish goals.",
+    "weight": 1
+  },
+  {
+    "id": "genai_tokens_001",
+    "domain": "generative_ai",
+    "skill": "Tokens & Context Windows",
+    "difficulty": "easy",
+    "question": "What is a 'token' in the context of LLMs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A secure API key used for billing"
+      },
+      {
+        "id": "B",
+        "text": "Sub-word segments or characters representing the basic units of text processed by the model"
+      },
+      {
+        "id": "C",
+        "text": "A vector stored in a vector database"
+      },
+      {
+        "id": "D",
+        "text": "The weight matrix inside transformer feedforward layers"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Tokenizers split raw text into integer-mapped sub-word tokens, representing the basic numerical inputs/outputs of LLMs.",
+    "weight": 1
+  },
+  {
+    "id": "genai_tokens_002",
+    "domain": "generative_ai",
+    "skill": "Tokens & Context Windows",
+    "difficulty": "medium",
+    "question": "What is 'needle in a haystack' (NIAH) testing in context window evaluation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Evaluating if a tokenizer can identify hidden punctuation marks."
+      },
+      {
+        "id": "B",
+        "text": "Retrieving a specific small piece of information (needle) placed at various positions within a massive context block (haystack) to evaluate recall accuracy."
+      },
+      {
+        "id": "C",
+        "text": "Compressing LLM parameters using integer quantization."
+      },
+      {
+        "id": "D",
+        "text": "Evaluating if an agent can write Python code without bugs."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "NIAH evaluates context utilization. It inserts a random fact at different depth percentiles in long documents to verify if the LLM's attention mechanism can retrieve it correctly.",
+    "weight": 1
+  },
+  {
+    "id": "genai_tokens_003",
+    "domain": "generative_ai",
+    "skill": "Tokens & Context Windows",
+    "difficulty": "hard",
+    "question": "How does FlashAttention optimize the standard Self-Attention calculation to permit long context windows?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It drops standard QKV projections, replacing them with linear regressions."
+      },
+      {
+        "id": "B",
+        "text": "It computes attention in-memory by tiling blocks, minimizing read/write operations between GPU HBM (High Bandwidth Memory) and SRAM, yielding O(N) memory IO savings."
+      },
+      {
+        "id": "C",
+        "text": "It converts token IDs to 4-bit integers on the fly during training loops."
+      },
+      {
+        "id": "D",
+        "text": "It distributes calculations across remote REST APIs to save local resources."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Standard attention is bounded by memory reads/writes. FlashAttention tiles attention matrix blocks into fast GPU SRAM, avoiding writing the intermediate NxN attention matrix to slow HBM, accelerating execution speeds.",
+    "weight": 1
+  },
+  {
+    "id": "genai_embed_001",
+    "domain": "generative_ai",
+    "skill": "Embeddings",
+    "difficulty": "easy",
+    "question": "What is the primary purpose of embeddings in an NLP system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Represent information as numerical vectors in a continuous vector space"
+      },
+      {
+        "id": "B",
+        "text": "Encrypt user input data before database storage"
+      },
+      {
+        "id": "C",
+        "text": "Increase network bandwidth speeds"
+      },
+      {
+        "id": "D",
+        "text": "Compile Python code into machine code"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Embeddings represent semantic information using numerical vectors.",
+    "weight": 1
+  },
+  {
+    "id": "genai_embed_002",
+    "domain": "generative_ai",
+    "skill": "Embeddings",
+    "difficulty": "medium",
+    "question": "Why is Cosine Similarity generally preferred over Euclidean Distance for evaluating similarity between text embeddings?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cosine similarity measures vector magnitudes, which represents token length differences."
+      },
+      {
+        "id": "B",
+        "text": "Cosine similarity evaluates the angle between vectors, normalizing for document/token length differences, whereas Euclidean distance is sensitive to vector magnitudes."
+      },
+      {
+        "id": "C",
+        "text": "Euclidean distance is only mathematically valid in two-dimensional coordinate systems."
+      },
+      {
+        "id": "D",
+        "text": "Cosine similarity runs in constant time O(1) regardless of dimensions."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Cosine similarity measures the angular similarity. In text embeddings, longer texts can have higher vector magnitudes (Euclidean distance is large), but they share the same direction (cosine similarity is close to 1).",
+    "weight": 1
+  },
+  {
+    "id": "genai_embed_003",
+    "domain": "generative_ai",
+    "skill": "Embeddings",
+    "difficulty": "hard",
+    "question": "You are building a multilingual semantic search engine. You notice search queries in French fail to return matching English documents despite using a vector search setup. What is the root cause?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The vector database does not support UTF-8 encoded search inputs."
+      },
+      {
+        "id": "B",
+        "text": "You are using a monolingual English embedding model, which maps French inputs to unrelated vector spaces. You must switch to a joint multilingual embedding model."
+      },
+      {
+        "id": "C",
+        "text": "The cosine similarity formula needs to be modified for foreign languages."
+      },
+      {
+        "id": "D",
+        "text": "English and French embeddings have different dimensionality configurations by definition."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Monolingual models map different languages to distinct regions of vector space. A multilingual model (e.g. Cohere Multilingual, mUSE) is trained on translation pairs to map semantically equivalent sentences to overlapping vector spaces.",
+    "weight": 1
+  },
+  {
+    "id": "genai_vectordb_001",
+    "domain": "generative_ai",
+    "skill": "Vector Databases",
+    "difficulty": "easy",
+    "question": "What is the primary role of a Vector Database in a RAG system?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To execute SQL join queries on user accounts"
+      },
+      {
+        "id": "B",
+        "text": "To store and search high-dimensional embeddings efficiently using similarity metrics"
+      },
+      {
+        "id": "C",
+        "text": "To compile fine-tuned weights of transformers"
+      },
+      {
+        "id": "D",
+        "text": "To convert PDF text to markdown formats"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Vector databases index embeddings (vectors) to support fast approximate nearest neighbor (ANN) lookups.",
+    "weight": 1
+  },
+  {
+    "id": "genai_vectordb_002",
+    "domain": "generative_ai",
+    "skill": "Vector Databases",
+    "difficulty": "medium",
+    "question": "How does HNSW (Hierarchical Navigable Small World) index optimize vector search speeds compared to a flat index?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It uses standard binary trees, which guarantees O(log N) search times."
+      },
+      {
+        "id": "B",
+        "text": "It constructs a multi-layer graph where top layers have sparse connections for fast routing, and lower layers have dense connections for precise search, avoiding scanning every database vector (flat scan)."
+      },
+      {
+        "id": "C",
+        "text": "It maps vectors into hash tables to achieve O(1) query times."
+      },
+      {
+        "id": "D",
+        "text": "It converts float vectors into integer indexes, sacrificing all precision."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "HNSW builds hierarchical graphs. Search starts at top layers (skip list structure) to traverse large distances fast, dropping down to lower layers for localized proximity clustering, drastically speeding up queries.",
+    "weight": 1
+  },
+  {
+    "id": "genai_vectordb_003",
+    "domain": "generative_ai",
+    "skill": "Vector Databases",
+    "difficulty": "hard",
+    "question": "Describe the tradeoff between Product Quantization (PQ) and Flat indexing in a vector database containing 100 million vectors.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQ speeds up search times but requires rebuilding the entire database on every insert."
+      },
+      {
+        "id": "B",
+        "text": "PQ compresses high-dimensional vectors to smaller byte codes, significantly reducing memory footprint and accelerating search speeds, but introduces quantization errors that reduce search recall precision compared to Flat indexing."
+      },
+      {
+        "id": "C",
+        "text": "Flat indexing requires less RAM but is slower, while PQ requires more RAM but is faster."
+      },
+      {
+        "id": "D",
+        "text": "There is no difference; both index types use identical memory and search latency properties."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "PQ splits vectors into sub-vectors and quantizes them into centroids, saving up to 95% RAM and increasing speeds, but since it is lossy compression, the similarity calculations are approximations, yielding lower recall.",
+    "weight": 1
+  },
+  {
+    "id": "genai_rag_001",
+    "domain": "generative_ai",
+    "skill": "RAG",
+    "difficulty": "easy",
+    "question": "What does the abbreviation RAG stand for in generative AI system design?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Random Access Generation"
+      },
+      {
+        "id": "B",
+        "text": "Retrieval-Augmented Generation"
+      },
+      {
+        "id": "C",
+        "text": "Recurrent Attention Gradients"
+      },
+      {
+        "id": "D",
+        "text": "Reinforced Action Graphs"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "RAG combines search retrieval methods with generative models to output factually correct answers using external documents.",
+    "weight": 1
+  },
+  {
+    "id": "genai_rag_002",
+    "domain": "generative_ai",
+    "skill": "RAG",
+    "difficulty": "medium",
+    "question": "What is the primary role of a Re-ranker model (e.g. Cohere Rerank) in a multi-stage RAG pipeline?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It converts retrieved vectors back into markdown documents."
+      },
+      {
+        "id": "B",
+        "text": "It takes the initial retrieval candidate list (e.g. top 50) and uses a cross-encoder model to re-evaluate semantic relevance, outputting a high-precision subset (e.g. top 5) for the LLM prompt."
+      },
+      {
+        "id": "C",
+        "text": "It translates queries into different languages before indexing."
+      },
+      {
+        "id": "D",
+        "text": "It acts as a backup caching mechanism."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Initial vector retrieval is fast but can miss deep relationships. A cross-encoder re-ranker processes query-document pairs jointly, recalculating highly accurate relevance scores to filter down candidates, reducing prompt clutter.",
+    "weight": 1
+  },
+  {
+    "id": "genai_rag_003",
+    "domain": "generative_ai",
+    "skill": "RAG",
+    "difficulty": "hard",
+    "question": "A RAG pipeline is returning relevant context, but the LLM still hallucinates answers or includes incorrect facts in its response. Which configuration change will mitigate this best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase the LLM's temperature parameter to 1.5 to encourage wider outputs."
+      },
+      {
+        "id": "B",
+        "text": "Apply system instructions enforcing strict alignment to the provided context, reduce the temperature parameter to 0, and use a re-ranking model to ensure only highly relevant context chunks are in the prompt."
+      },
+      {
+        "id": "C",
+        "text": "Switch to an embedding model with smaller dimensionality sizes."
+      },
+      {
+        "id": "D",
+        "text": "Increase the chunk size overlap limit to maximum context bounds."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Hallucinations are minimized by restricting generation freedom (temp=0) and using strict system prompt templates (e.g., 'Answer ONLY using the provided text. If unknown, state I do not know.'). Re-ranking ensures clean context blocks.",
+    "weight": 1
+  },
+  {
+    "id": "genai_finetune_001",
+    "domain": "generative_ai",
+    "skill": "Fine-tuning",
+    "difficulty": "easy",
+    "question": "Which parameter-efficient fine-tuning (PEFT) technique injects low-rank decomposition matrices into transformer layers to reduce trainable weights?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prefix Tuning"
+      },
+      {
+        "id": "B",
+        "text": "LoRA (Low-Rank Adaptation)"
+      },
+      {
+        "id": "C",
+        "text": "Adapter Layers"
+      },
+      {
+        "id": "D",
+        "text": "Quantization"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "LoRA freezes base model weights and inserts small trainable low-rank matrices into attention layers, cutting trainable parameters drastically.",
+    "weight": 1
+  },
+  {
+    "id": "genai_finetune_002",
+    "domain": "generative_ai",
+    "skill": "Fine-tuning",
+    "difficulty": "medium",
+    "question": "In QLoRA, what is the primary memory-saving mechanism compared to standard LoRA?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It drops all attention layer calculations completely."
+      },
+      {
+        "id": "B",
+        "text": "It quantizes the frozen base model parameters to a specialized 4-bit NormalFloat (NF4) data type and uses double quantization for scaling factors."
+      },
+      {
+        "id": "C",
+        "text": "It distributes calculations to external APIs during training loops."
+      },
+      {
+        "id": "D",
+        "text": "It removes backpropagation entirely, updating weights randomly."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "QLoRA combines quantization and LoRA. The base model weights are loaded in 4-bit NF4 representation, saving massive VRAM, and gradients are backpropagated through these frozen weights into active 16-bit LoRA adapters.",
+    "weight": 1
+  },
+  {
+    "id": "genai_finetune_003",
+    "domain": "generative_ai",
+    "skill": "Fine-tuning",
+    "difficulty": "hard",
+    "question": "You want an LLM to consistently generate structured outputs (e.g. JSON schemas matching strict database fields) and answer queries based on custom enterprise manuals. What is the optimal architecture choice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fine-tune the model to learn the custom manuals, and use zero-shot prompts for the JSON output structure."
+      },
+      {
+        "id": "B",
+        "text": "Implement a RAG pipeline to retrieve updated manuals context dynamically, and use a structured parsing library (e.g., Instructor or Pydantic JSON validation) during inference to guarantee JSON compliance."
+      },
+      {
+        "id": "C",
+        "text": "Fine-tune the model on both documents and schemas; this guarantees 100% database schema compliance without any runtime code validations."
+      },
+      {
+        "id": "D",
+        "text": "Increase context windows to maximum sizes and append raw PDF strings."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Fine-tuning is poor at learning specific facts or ensuring strict JSON structures (no reliability guarantees). RAG resolves fact retrieval dynamically. JSON compliance is strictly enforced at the API client level using parser constraints.",
+    "weight": 1
+  },
+  {
+    "id": "genai_trans_001",
+    "domain": "generative_ai",
+    "skill": "Transformers",
+    "difficulty": "easy",
+    "question": "Which core mechanism introduced in the seminal 'Attention Is All You Need' paper allows transformers to process words in parallel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recurrence loops"
+      },
+      {
+        "id": "B",
+        "text": "Self-Attention mechanism"
+      },
+      {
+        "id": "C",
+        "text": "Convolutions"
+      },
+      {
+        "id": "D",
+        "text": "Stochastic Gradient Descent"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Self-attention computes relations between all words in a sequence simultaneously, bypassing the sequential bottlenecks of RNNs/LSTMs.",
+    "weight": 1
+  },
+  {
+    "id": "genai_trans_002",
+    "domain": "generative_ai",
+    "skill": "Transformers",
+    "difficulty": "medium",
+    "question": "In a transformer block, what is the role of Layer Normalization (LayerNorm)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It scales logits to sum to exactly 1."
+      },
+      {
+        "id": "B",
+        "text": "It stabilizes training by normalizing activations across features within a layer, preventing gradient explosion or vanishing."
+      },
+      {
+        "id": "C",
+        "text": "It compresses the weights of feedforward layers."
+      },
+      {
+        "id": "D",
+        "text": "It translates words into integer tokens."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "LayerNorm calculates mean and variance across the hidden dimensions of each single sample, stabilizing optimization processes and accelerating training convergence.",
+    "weight": 1
+  },
+  {
+    "id": "genai_trans_003",
+    "domain": "generative_ai",
+    "skill": "Transformers",
+    "difficulty": "hard",
+    "question": "Explain the difference in attention mask application between Encoder-only (e.g. BERT) and Decoder-only (e.g. GPT) transformer architectures.",
+    "options": [
+      {
+        "id": "A",
+        "text": "BERT uses bidirectional attention masking, whereas GPT uses causal masking to prevent tokens from attending to future tokens in the sequence."
+      },
+      {
+        "id": "B",
+        "text": "BERT masking forces sequential tokens, while GPT allows fully parallel attention projections."
+      },
+      {
+        "id": "C",
+        "text": "GPT uses zero-masked softmax, while BERT drops the softmax scaling factor."
+      },
+      {
+        "id": "D",
+        "text": "Encoder architectures cannot utilize masks by design."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "BERT is bidirectional (tokens attend to both left and right context). GPT is autoregressive and employs a lower-triangular causal attention mask, ensuring predictions for index i only depend on tokens up to index i-1.",
+    "weight": 1
+  },
+  {
+    "id": "genai_agents_001",
+    "domain": "generative_ai",
+    "skill": "AI Agents",
+    "difficulty": "easy",
+    "question": "What is the defining capability of an AI Agent compared to a simple LLM chatbot?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It can run on mobile devices without internet connection."
+      },
+      {
+        "id": "B",
+        "text": "It can plan, call external tools/APIs, and make autonomous decisions based on observations to achieve a goal."
+      },
+      {
+        "id": "C",
+        "text": "It can store infinitely long conversations in its model parameters."
+      },
+      {
+        "id": "D",
+        "text": "It is written in binary C++ rather than Python script."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Agents are action-oriented. They combine LLM generation with execution loops (planning, tool use, feedback reflection) to perform workflows autonomously.",
+    "weight": 1
+  },
+  {
+    "id": "genai_agents_002",
+    "domain": "generative_ai",
+    "skill": "AI Agents",
+    "difficulty": "medium",
+    "question": "What is the primary risk of using loops in multi-agent collaboration (e.g. CrewAI or AutoGen) and how is it typically handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agents will consume infinite tokens and enter infinite loops if they fail to converge on a solution; handled by implementing maximum iteration caps."
+      },
+      {
+        "id": "B",
+        "text": "Agents will overwrite database structures; handled by disabling SQL execution."
+      },
+      {
+        "id": "C",
+        "text": "It causes models to compile weights; handled by resetting cache files."
+      },
+      {
+        "id": "D",
+        "text": "It leads to syntax errors in tokenizers; handled by rewriting prompts."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In multi-agent loops, agents can pass the same error back and forth (infinite critique cycles), incurring massive costs. Hard limits (max_iterations, timeouts, human-in-the-loop checks) prevent this.",
+    "weight": 1
+  },
+  {
+    "id": "genai_agents_003",
+    "domain": "generative_ai",
+    "skill": "AI Agents",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'reflexion' (self-reflection) in agentic architectures and how it reduces execution failures.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is when the LLM mirrors the user's personality traits to build rapport."
+      },
+      {
+        "id": "B",
+        "text": "It evaluates agent outputs using a separate validation agent that generates text-based critiques of failures, which are appended to the agent's context window to guide subsequent attempts."
+      },
+      {
+        "id": "C",
+        "text": "It compiles code directly to assembly to trace variable allocation errors."
+      },
+      {
+        "id": "D",
+        "text": "It requires the agent to write unit tests before executing any tool."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Reflexion is a meta-cognitive pattern. Rather than stopping on tool errors, the agent evaluates its execution trace, generates a critique of what went wrong, and feeds this back as prompt memory, leading to self-correction.",
+    "weight": 1
+  },
+  {
+    "id": "genai_eval_001",
+    "domain": "generative_ai",
+    "skill": "LLM Evaluation",
+    "difficulty": "easy",
+    "question": "Which benchmark is widely used to evaluate LLM performance on general knowledge multiple-choice questions across diverse subjects?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GLUE"
+      },
+      {
+        "id": "B",
+        "text": "MMLU (Massive Multitask Language Understanding)"
+      },
+      {
+        "id": "C",
+        "text": "ImageNet"
+      },
+      {
+        "id": "D",
+        "text": "BLEU"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "MMLU evaluates LLMs across elementary mathematics, US history, computer science, law, and other academic subjects.",
+    "weight": 1
+  },
+  {
+    "id": "genai_eval_002",
+    "domain": "generative_ai",
+    "skill": "LLM Evaluation",
+    "difficulty": "medium",
+    "question": "What is the primary limitation of utilizing BLEU or ROUGE metrics to evaluate the output quality of a summarization LLM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They require GPU acceleration to execute metrics calculation."
+      },
+      {
+        "id": "B",
+        "text": "They rely on exact n-gram overlap between generated and reference summaries, penalizing correct summaries that use different wording (synonyms)."
+      },
+      {
+        "id": "C",
+        "text": "They only support classification targets, not generated texts."
+      },
+      {
+        "id": "D",
+        "text": "They are bounded by context window size limits."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "BLEU/ROUGE are syntactic overlap metrics. They fail to evaluate semantic meaning. If the LLM generates a paraphrase using synonyms, overlap score drops, making them poor indicators of generation quality.",
+    "weight": 1
+  },
+  {
+    "id": "genai_eval_003",
+    "domain": "generative_ai",
+    "skill": "LLM Evaluation",
+    "difficulty": "hard",
+    "question": "You are implementing 'LLM-as-a-Judge' to evaluate agent dialogues. What biases must you monitor, and how do you reduce them?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Token limits bias; resolved by truncating context lines."
+      },
+      {
+        "id": "B",
+        "text": "Self-favoritism bias (preferring own model output), position bias (ordering of options), and verbosity bias (preferring longer outputs); reduced by swap-testing response ordering, using high-quality rubric formatting, and setting sentence length constraints."
+      },
+      {
+        "id": "C",
+        "text": "SQL injection bias; resolved by sanitizing eval logs."
+      },
+      {
+        "id": "D",
+        "text": "There are no documented biases when utilizing GPT-4 as a judge."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "LLM judges exhibit position bias, length bias, and model familiarity bias. Mitigation involves swapping target candidate order in prompts, using chain of thought justification templates (rubrics), and length normalization constraints.",
+    "weight": 1
+  }
+]

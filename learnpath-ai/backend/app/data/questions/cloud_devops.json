@@ -1,0 +1,842 @@
+[
+  {
+    "id": "devops_linux_001",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "difficulty": "easy",
+    "question": "Which Linux command is used to display the contents of a text file to the terminal screen?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ls"
+      },
+      {
+        "id": "B",
+        "text": "cat"
+      },
+      {
+        "id": "C",
+        "text": "pwd"
+      },
+      {
+        "id": "D",
+        "text": "grep"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "`cat` (concatenate) prints files to stdout.",
+    "weight": 1
+  },
+  {
+    "id": "devops_linux_002",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "difficulty": "medium",
+    "question": "In Linux file permissions, what does `chmod 755 filename` accomplish?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grants read/write/execute to owner, and read/execute to group and others."
+      },
+      {
+        "id": "B",
+        "text": "Grants full permissions (read/write/execute) to everyone."
+      },
+      {
+        "id": "C",
+        "text": "Restricts all access to the file except for root."
+      },
+      {
+        "id": "D",
+        "text": "Sets the file size to 755 kilobytes."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "755 translates to binary octals: Owner gets 7 (rwx), Group gets 5 (r-x), Others get 5 (r-x).",
+    "weight": 1
+  },
+  {
+    "id": "devops_linux_003",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "difficulty": "hard",
+    "question": "What is the difference between a hard link and a soft (symbolic) link in Linux filesystems?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hard links are for directories only; soft links are for files."
+      },
+      {
+        "id": "B",
+        "text": "A hard link points directly to the file inode (sharing physical disk blocks) and survives deletion of the original file path; a soft link is a path-pointer that becomes a broken link if the target is deleted."
+      },
+      {
+        "id": "C",
+        "text": "Soft links allocate physical disk space for files, while hard links compile code."
+      },
+      {
+        "id": "D",
+        "text": "Hard links are encrypted; soft links are clear text."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Hard links share the same inode number. Deleting the original name leaves the hard link intact. Soft links point to the pathname; if target pathname is renamed or deleted, the soft link points to a non-existent path.",
+    "weight": 1
+  },
+  {
+    "id": "devops_net_001",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "difficulty": "easy",
+    "question": "What is the primary function of DNS (Domain Name System) in computer networking?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Encrypt HTTP traffic"
+      },
+      {
+        "id": "B",
+        "text": "Translate human-readable domain names to numerical IP addresses"
+      },
+      {
+        "id": "C",
+        "text": "Assign dynamic IP addresses to client devices"
+      },
+      {
+        "id": "D",
+        "text": "Route packets between different subnets"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "DNS acts as a phone book for the internet, resolving domain names (e.g. google.com) to IP addresses (e.g. 142.250.190.46).",
+    "weight": 1
+  },
+  {
+    "id": "devops_net_002",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "difficulty": "medium",
+    "question": "What is a subnet mask (e.g., /24 in CIDR notation) used for in IP routing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To hide the IP address of the server from search engines."
+      },
+      {
+        "id": "B",
+        "text": "To divide an IP address into network portion and host portion, determining which IPs belong to the local subnet."
+      },
+      {
+        "id": "C",
+        "text": "To encrypt packets at the transport layer."
+      },
+      {
+        "id": "D",
+        "text": "To adjust the bandwidth speeds of network cables."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "/24 CIDR means the first 24 bits represent the network prefix (e.g. 255.255.255.0). Any IP sharing these 24 bits is local; other targets route through the default gateway.",
+    "weight": 1
+  },
+  {
+    "id": "devops_net_003",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "difficulty": "hard",
+    "question": "Explain the fundamental difference between TCP and UDP at the Transport layer, and how they handle packet loss.",
+    "options": [
+      {
+        "id": "A",
+        "text": "UDP uses handshakes to recover lost packets; TCP ignores drops to prioritize speeds."
+      },
+      {
+        "id": "B",
+        "text": "TCP is connection-oriented, ensuring reliable packet delivery via handshakes, sequencing, and retransmissions when loss is detected; UDP is connectionless and sends packets immediately without tracking delivery or retransmitting drops, prioritizing low latency over reliability."
+      },
+      {
+        "id": "C",
+        "text": "TCP operates at Layer 3; UDP operates at Layer 7."
+      },
+      {
+        "id": "D",
+        "text": "TCP is only used for local networks, whereas UDP routes across the internet."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "TCP builds sessions (3-way handshake). It expects ACKs for packets; if an ACK is missing, it triggers retransmissions. UDP dumps packets to targets directly, making it optimal for video streams where speed matters more than occasional pixel drops.",
+    "weight": 1
+  },
+  {
+    "id": "devops_git_001",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "difficulty": "easy",
+    "question": "Which Git command is used to fetch changes from a remote repository and integrate them immediately into the current local branch?",
+    "options": [
+      {
+        "id": "A",
+        "text": "git push"
+      },
+      {
+        "id": "B",
+        "text": "git pull"
+      },
+      {
+        "id": "C",
+        "text": "git commit"
+      },
+      {
+        "id": "D",
+        "text": "git fetch"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "`git pull` is a shortcut for running `git fetch` followed immediately by `git merge` on the target remote branch.",
+    "weight": 1
+  },
+  {
+    "id": "devops_git_002",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "difficulty": "medium",
+    "question": "What is the difference between `git merge` and `git rebase` when integrating changes from a feature branch?",
+    "options": [
+      {
+        "id": "A",
+        "text": "merge deletes the branch; rebase keeps it."
+      },
+      {
+        "id": "B",
+        "text": "merge combines branches by creating a new merge commit (preserving historical commit sequence); rebase applies feature commits sequentially on top of the target branch tip, writing a clean, linear commit history."
+      },
+      {
+        "id": "C",
+        "text": "rebase is slower because it uploads files to GitHub."
+      },
+      {
+        "id": "D",
+        "text": "merge only works with single commits."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Merge retains the historical branch graph showing exact splits. Rebase rewrites history by changing the base commit of the feature branch to the head of target (e.g. main), creating a clean linear path.",
+    "weight": 1
+  },
+  {
+    "id": "devops_git_003",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "difficulty": "hard",
+    "question": "What does `git reset --hard HEAD~1` accomplish, and what are the risks of using it on a shared remote branch?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It renames the branch; has no risk since remote is untouched."
+      },
+      {
+        "id": "B",
+        "text": "It deletes the latest commit, resetting the working directory and staging index; if pushed to a shared remote, it rewrites history, forcing other developers out of sync and causing merge conflicts during pulls."
+      },
+      {
+        "id": "C",
+        "text": "It resets only configuration files, maintaining commit history safely."
+      },
+      {
+        "id": "D",
+        "text": "It creates a backup of the branch under a hidden folder."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "The `--hard` flag discards all changes. Running it deletes the latest commit from history. Pushing this remote requires `--force`, which breaks coworkers' clones because commits they pulled are deleted.",
+    "weight": 1
+  },
+  {
+    "id": "devops_docker_001",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "difficulty": "easy",
+    "question": "Which Dockerfile instruction specifies the default command executed when a container starts up?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RUN"
+      },
+      {
+        "id": "B",
+        "text": "FROM"
+      },
+      {
+        "id": "C",
+        "text": "CMD"
+      },
+      {
+        "id": "D",
+        "text": "COPY"
+      }
+    ],
+    "correct_option_id": "C",
+    "explanation": "CMD sets the entry point executable command for container executions (e.g. `CMD ['python', 'app.py']`). RUN runs commands during the image build process.",
+    "weight": 1
+  },
+  {
+    "id": "devops_docker_002",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "difficulty": "medium",
+    "question": "In Docker, what is the conceptual difference between an Image and a Container?",
+    "options": [
+      {
+        "id": "A",
+        "text": "An image is a running instance, and a container is the static blueprint."
+      },
+      {
+        "id": "B",
+        "text": "An image is a read-only, static package template containing app code and dependencies; a container is a live, writeable execution instance of that image running in isolated namespace processes."
+      },
+      {
+        "id": "C",
+        "text": "Images are stored on servers; containers can only run locally."
+      },
+      {
+        "id": "D",
+        "text": "Images are virtual machines; containers are physical servers."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Images are blueprints (read-only layers). Containers are active instances of these images running with a read-write layer on top to handle system outputs.",
+    "weight": 1
+  },
+  {
+    "id": "devops_docker_003",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "difficulty": "hard",
+    "question": "How does Docker leverage Linux kernel namespaces and control groups (cgroups) to isolate container processes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Namespaces compile code to assembly; cgroups translate network addresses."
+      },
+      {
+        "id": "B",
+        "text": "Namespaces provide isolation of system resources (PID, NET, MNT, IPC) so a container only sees its own processes; cgroups enforce resource limits (CPU, RAM, I/O bandwidth) to prevent resource hogging."
+      },
+      {
+        "id": "C",
+        "text": "cgroups encrypt files on disk, while namespaces block root ports."
+      },
+      {
+        "id": "D",
+        "text": "Both mechanisms perform virtual machine bios hypervisor operations."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Namespaces ensure container processes cannot see or interfere with files, networks, or process trees of the host or other containers. Cgroups throttle physical CPU/RAM consumption to enforce resource quotas.",
+    "weight": 1
+  },
+  {
+    "id": "devops_cont_001",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "difficulty": "easy",
+    "question": "What is the primary purpose of a container registry (e.g. Docker Hub)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To compile container source code"
+      },
+      {
+        "id": "B",
+        "text": "To store, version, and distribute built container images"
+      },
+      {
+        "id": "C",
+        "text": "To monitor CPU usage of active servers"
+      },
+      {
+        "id": "D",
+        "text": "To edit code files directly in production"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Registries act as central storage depots from which deployment targets pull container images to instantiate containers.",
+    "weight": 1
+  },
+  {
+    "id": "devops_cont_002",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "difficulty": "medium",
+    "question": "Why is running a container as root (UID 0) inside production environments considered a severe security risk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It causes the container to crash if memory usage spikes."
+      },
+      {
+        "id": "B",
+        "text": "If a hacker escapes the container process, they automatically gain root permissions on the host system, compromising the entire host node."
+      },
+      {
+        "id": "C",
+        "text": "Root containers cannot route network queries through ports."
+      },
+      {
+        "id": "D",
+        "text": "It forces images to double their file sizes."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Container root matches host root. If container escaping vulnerabilities occur, the intruder gains full host access. Restricting processes to non-root users inside Dockerfiles mitigates this.",
+    "weight": 1
+  },
+  {
+    "id": "devops_cont_003",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'multi-stage builds' in Dockerfiles and how they optimize build footprints.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using multiple base images to build separate containers in parallel."
+      },
+      {
+        "id": "B",
+        "text": "Using separate `FROM` instructions, allowing developers to use heavy build environments (with compilers/SDKs) in early stages, and copying only the compiled artifacts into a lightweight production stage (e.g. alpine), leaving build tools behind."
+      },
+      {
+        "id": "C",
+        "text": "Uploading files to multiple container registries during the run step."
+      },
+      {
+        "id": "D",
+        "text": "Scaling containers vertically before compilation."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Multi-stage builds use different images. For example, you build a Go app in `golang:latest` (800MB), and copy only the compiled binary to `alpine` (5MB). The final production image excludes compilers, reducing attack surfaces and footprints.",
+    "weight": 1
+  },
+  {
+    "id": "devops_cicd_001",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "difficulty": "easy",
+    "question": "What does Continuous Integration (CI) focus on in development lifecycles?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Manually testing code in production environments"
+      },
+      {
+        "id": "B",
+        "text": "Automatically building, testing, and merging code changes into a shared repository to detect integration errors early"
+      },
+      {
+        "id": "C",
+        "text": "Deploying servers to different geographic regions"
+      },
+      {
+        "id": "D",
+        "text": "Managing developer salaries and calendars"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "CI automates build/test triggers on every code commit, ensuring code integrates cleanly before branch merges.",
+    "weight": 1
+  },
+  {
+    "id": "devops_cicd_002",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "difficulty": "medium",
+    "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Delivery runs tests; Deployment does not."
+      },
+      {
+        "id": "B",
+        "text": "Continuous Delivery prepares code and automatically builds it, requiring manual approval to push to production; Continuous Deployment automates the entire process, releasing changes to production without human intervention after passing tests."
+      },
+      {
+        "id": "C",
+        "text": "Delivery deploys databases; Deployment only deploys static files."
+      },
+      {
+        "id": "D",
+        "text": "Continuous Deployment is for local environments only."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Delivery keeps code deployable at any time, requiring a manual trigger. Deployment removes this manual step, automatically pushing every verified commit through the pipeline into production.",
+    "weight": 1
+  },
+  {
+    "id": "devops_cicd_003",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "difficulty": "hard",
+    "question": "Explain the concept of 'blue-green deployment' in CI/CD pipeline strategies and how it minimizes production downtime.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Running half of the code in dark mode (blue) and half in light mode (green)."
+      },
+      {
+        "id": "B",
+        "text": "Maintaining two identical production environments (Blue is live, Green is idle); new code is deployed to Green, tested, and a router switches traffic to Green, making it live. If failures occur, traffic is routed back to Blue immediately, yielding zero downtime."
+      },
+      {
+        "id": "C",
+        "text": "Dividing databases into SQL and NoSQL targets during build steps."
+      },
+      {
+        "id": "D",
+        "text": "Deploying servers in alternate timezone schedules."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Blue-green deployment uses redundant environments. Deploying to the idle environment permits testing. Swapping traffic via load balancers is instantaneous, providing zero-downtime releases and rapid rollback.",
+    "weight": 1
+  },
+  {
+    "id": "devops_cloud_001",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "difficulty": "easy",
+    "question": "Which cloud computing model provides virtualized computing resources over the internet, like raw VMs (e.g. AWS EC2)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Software as a Service (SaaS)"
+      },
+      {
+        "id": "B",
+        "text": "Platform as a Service (PaaS)"
+      },
+      {
+        "id": "C",
+        "text": "Infrastructure as a Service (IaaS)"
+      },
+      {
+        "id": "D",
+        "text": "Functions as a Service (FaaS)"
+      }
+    ],
+    "correct_option_id": "C",
+    "explanation": "IaaS provides raw compute, network, and storage resources (e.g. AWS EC2, GCP Compute Engine).",
+    "weight": 1
+  },
+  {
+    "id": "devops_cloud_002",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "difficulty": "medium",
+    "question": "Explain the difference between vertical scaling (scaling up) and horizontal scaling (scaling out) in cloud architectures.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scaling up requires migrating to different cloud providers; scaling out is automatic."
+      },
+      {
+        "id": "B",
+        "text": "Scaling up means adding more RAM or CPU to an existing single virtual machine; scaling out means adding more virtual machines in parallel behind a load balancer."
+      },
+      {
+        "id": "C",
+        "text": "Scaling out is for storage disks; scaling up is for databases."
+      },
+      {
+        "id": "D",
+        "text": "Scaling up is cheap; scaling out requires Docker containers."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Scaling up hits hardware limits and requires downtime. Scaling out scales infinitely by distributing traffic across multiple running nodes using a load balancer.",
+    "weight": 1
+  },
+  {
+    "id": "devops_cloud_003",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "difficulty": "hard",
+    "question": "What is the Shared Responsibility Model in cloud computing, and how is responsibility typically split for an IaaS deployment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The client handles hardware cooling; the cloud provider handles code compilation."
+      },
+      {
+        "id": "B",
+        "text": "The cloud provider handles security OF the cloud (physical security, virtualization, global infrastructure); the customer handles security IN the cloud (OS updates, firewall rules, data encryption, application code)."
+      },
+      {
+        "id": "C",
+        "text": "The provider assumes 100% of all liability for data breaches."
+      },
+      {
+        "id": "D",
+        "text": "Responsibilities are divided based on monthly billing limits."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "In IaaS (like AWS EC2), the vendor secures the physical hypervisors. However, the OS configuration, network ports (Security Groups), patches, database setups, and app vulnerabilities are entirely the customer's responsibility.",
+    "weight": 1
+  },
+  {
+    "id": "devops_vm_001",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "difficulty": "easy",
+    "question": "What is the software component that creates and runs virtual machines on physical host hardware?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kernel"
+      },
+      {
+        "id": "B",
+        "text": "Hypervisor"
+      },
+      {
+        "id": "C",
+        "text": "BIOS"
+      },
+      {
+        "id": "D",
+        "text": "Docker Engine"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "A hypervisor (e.g. KVM, ESXi, Hyper-V) splits physical hardware into virtual slots, running isolated guest OSs.",
+    "weight": 1
+  },
+  {
+    "id": "devops_vm_002",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "difficulty": "medium",
+    "question": "What is the core structural difference between Type 1 (bare-metal) and Type 2 (hosted) hypervisors?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Type 1 hypervisors run directly on host hardware for high performance; Type 2 hypervisors run as applications on top of an existing host operating system."
+      },
+      {
+        "id": "B",
+        "text": "Type 1 is only for Linux; Type 2 is only for Windows VMs."
+      },
+      {
+        "id": "C",
+        "text": "Type 2 hypervisors do not support network routing."
+      },
+      {
+        "id": "D",
+        "text": "Type 1 requires GPUs to function, whereas Type 2 does not."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Type 1 (ESXi, Xen) runs directly on the hardware, maximizing virtualization efficiency. Type 2 (VirtualBox, VMware Workstation) runs within an OS, suffering from host OS translation overhead.",
+    "weight": 1
+  },
+  {
+    "id": "devops_vm_003",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "difficulty": "hard",
+    "question": "Compare the architecture and startup overhead of Virtual Machines versus Containers regarding guest OS inclusion.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Virtual machines share the host kernel directly; containers require loading full kernel images."
+      },
+      {
+        "id": "B",
+        "text": "Virtual Machines include a full guest Operating System, kernel, and virtual drivers, resulting in gigabyte footprints and minutes to start; Containers share the host OS kernel and isolate user space, resulting in megabyte footprints and milliseconds to start."
+      },
+      {
+        "id": "C",
+        "text": "Containers require virtual BIOS booting; VMs run directly in namespaces."
+      },
+      {
+        "id": "D",
+        "text": "Both use identical virtual kernels, leading to identical startup times."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "VMs simulate complete systems, loading distinct guest kernels, which takes time and memory. Containers are lightweight isolated processes running directly on the host kernel, starting near-instantaneously.",
+    "weight": 1
+  },
+  {
+    "id": "devops_k8s_001",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "difficulty": "easy",
+    "question": "What is the smallest deployable object in Kubernetes architecture?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Container"
+      },
+      {
+        "id": "B",
+        "text": "Pod"
+      },
+      {
+        "id": "C",
+        "text": "Service"
+      },
+      {
+        "id": "D",
+        "text": "Deployment"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "A Pod represents a single instance of a running process in your cluster, hosting one or more tightly coupled containers sharing network and storage namespace.",
+    "weight": 1
+  },
+  {
+    "id": "devops_k8s_002",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "difficulty": "medium",
+    "question": "What is the difference between a Pod and a Service in Kubernetes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pods compile images, while Services deploy them."
+      },
+      {
+        "id": "B",
+        "text": "A Pod is a transient running container group; a Service is a stable network endpoint that exposes a logical set of Pods, routing traffic dynamically as Pods terminate or scale."
+      },
+      {
+        "id": "C",
+        "text": "Services run only on worker nodes; Pods run on master nodes."
+      },
+      {
+        "id": "D",
+        "text": "Pods are databases; Services are API routes."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Pods are ephemeral. When they die, their IPs change. A Service defines a policy-driven abstraction layer (stable IP/DNS) over dynamic Pod targets.",
+    "weight": 1
+  },
+  {
+    "id": "devops_k8s_003",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "difficulty": "hard",
+    "question": "Explain the role and communication flow of the Kubernetes Control Plane components: API Server, etcd, Scheduler, and Controller Manager.",
+    "options": [
+      {
+        "id": "A",
+        "text": "etcd compiles code; scheduler builds images; API server routes requests; controller manager allocates ports."
+      },
+      {
+        "id": "B",
+        "text": "The API Server is the entrypoint for all cluster commands; etcd is the key-value database storing cluster state; the Scheduler assigns Pods to nodes; the Controller Manager runs loop regulators to maintain the desired cluster state (replicas, node status)."
+      },
+      {
+        "id": "C",
+        "text": "API Server runs on Docker; etcd runs on PostgreSQL; Scheduler coordinates database queries."
+      },
+      {
+        "id": "D",
+        "text": "The control plane runs strictly in worker nodes, bypassing etcd."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "The API Server is the central communications hub. It writes state to etcd. The scheduler watches for unassigned Pods and schedules them to nodes. The controller manager runs reconcile loops, comparing active states to target layouts.",
+    "weight": 1
+  },
+  {
+    "id": "devops_sec_001",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "difficulty": "easy",
+    "question": "Which security principle enforces granting users only the minimum access permissions necessary to perform their job duties?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Security through obscurity"
+      },
+      {
+        "id": "B",
+        "text": "Principle of Least Privilege"
+      },
+      {
+        "id": "C",
+        "text": "Single Sign-On (SSO)"
+      },
+      {
+        "id": "D",
+        "text": "Defense in Depth"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "The Principle of Least Privilege (PoLP) minimizes access rights, limiting potential damage from compromised credentials.",
+    "weight": 1
+  },
+  {
+    "id": "devops_sec_002",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "difficulty": "medium",
+    "question": "What is the difference between IAM Users and IAM Roles in cloud environments (like AWS)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Users represent databases, while Roles represent policies."
+      },
+      {
+        "id": "B",
+        "text": "An IAM User represents a permanent identity (with long-term credentials); an IAM Role is assumed temporarily by users or applications, providing temporary, auto-rotating security credentials."
+      },
+      {
+        "id": "C",
+        "text": "Roles are only for billing, whereas Users handle API connections."
+      },
+      {
+        "id": "D",
+        "text": "IAM Users are hosted on-premises; IAM Roles are hosted in the cloud."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "IAM Users have permanent keys, which pose leakage risks. IAM Roles are assumed on-demand (e.g. by EC2 services or users), yielding short-lived STS tokens, mitigating security exposures.",
+    "weight": 1
+  },
+  {
+    "id": "devops_sec_003",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "difficulty": "hard",
+    "question": "Describe the concept of 'Zero Trust Architecture' in cloud environments and how it differs from traditional perimeter-based security.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zero Trust assumes all developers are malicious and blocks Git access entirely."
+      },
+      {
+        "id": "B",
+        "text": "Traditional security trusts anything inside the corporate network perimeter (firewall); Zero Trust assumes threats exist everywhere, requiring continuous verification, micro-segmentation, and strict access controls for every request regardless of origin."
+      },
+      {
+        "id": "C",
+        "text": "Zero Trust relies entirely on physical hardware keys, removing all digital firewalls."
+      },
+      {
+        "id": "D",
+        "text": "Zero Trust is a policy that stops all incoming REST API queries."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Zero Trust is 'never trust, always verify'. Perimeter security (castle-and-moat) is vulnerable if an intruder gains internal entry. Zero Trust enforces strict identity verification, device health checks, and context authentication at every API call layer.",
+    "weight": 1
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "web_html_001",
+    "domain": "web_development",
+    "skill": "HTML",
+    "difficulty": "easy",
+    "question": "Which HTML5 semantic tag represents an independent, self-contained piece of content (e.g. blog post)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "<section>"
+      },
+      {
+        "id": "B",
+        "text": "<article>"
+      },
+      {
+        "id": "C",
+        "text": "<div>"
+      },
+      {
+        "id": "D",
+        "text": "<aside>"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "The <article> tag specifies independent, self-contained content that should be reusable and distributable.",
+    "weight": 1
+  },
+  {
+    "id": "web_html_002",
+    "domain": "web_development",
+    "skill": "HTML",
+    "difficulty": "medium",
+    "question": "What is the purpose and SEO significance of using `alt` attributes on `<img>` tags?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It scales the image size to fit screen bounds."
+      },
+      {
+        "id": "B",
+        "text": "It provides a text description for screen readers (accessibility) and helps search engine crawlers index the image context correctly."
+      },
+      {
+        "id": "C",
+        "text": "It compiles CSS styles inside the image container."
+      },
+      {
+        "id": "D",
+        "text": "It prevents scripts from executing inside the image src."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Alt text ensures accessibility for visually impaired users using screen readers and serves as indexing text for search engine optimizations (SEO).",
+    "weight": 1
+  },
+  {
+    "id": "web_html_003",
+    "domain": "web_development",
+    "skill": "HTML",
+    "difficulty": "hard",
+    "question": "Explain the difference in document lifecycle and parsing behavior when using `<script src='...' async>` versus `<script src='...' defer>` tags.",
+    "options": [
+      {
+        "id": "A",
+        "text": "async executes scripts in alphabetical order; defer executes them randomly."
+      },
+      {
+        "id": "B",
+        "text": "async downloads the script in parallel and executes it immediately (blocking HTML parsing during execution); defer downloads in parallel but waits to execute until HTML document parsing is complete (maintaining script load order)."
+      },
+      {
+        "id": "C",
+        "text": "defer loads scripts asynchronously, while async blocks downloads during image parsing."
+      },
+      {
+        "id": "D",
+        "text": "There is no difference; they are aliases in modern browsers."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Async script downloads don't block parsing but pause parsing the moment the script is downloaded to execute it immediately. Defer scripts guarantee download in parallel without pausing parsing, running strictly in source order after document parsing is done.",
+    "weight": 1
+  },
+  {
+    "id": "web_css_001",
+    "domain": "web_development",
+    "skill": "CSS",
+    "difficulty": "easy",
+    "question": "In the CSS Box Model, which property control spacing outside the border of an element?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Padding"
+      },
+      {
+        "id": "B",
+        "text": "Margin"
+      },
+      {
+        "id": "C",
+        "text": "Content"
+      },
+      {
+        "id": "D",
+        "text": "Height"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Padding handles spacing inside the border. Margin handles spacing outside the border of elements.",
+    "weight": 1
+  },
+  {
+    "id": "web_css_002",
+    "domain": "web_development",
+    "skill": "CSS",
+    "difficulty": "medium",
+    "question": "What is the default value of the `position` property in CSS, and how does it behave in the normal document flow?",
+    "options": [
+      {
+        "id": "A",
+        "text": "relative; positions elements relative to their parent container."
+      },
+      {
+        "id": "B",
+        "text": "static; the element is positioned according to the normal flow of the document (top, left, z-index have no effect)."
+      },
+      {
+        "id": "C",
+        "text": "absolute; removes the element from the normal document flow."
+      },
+      {
+        "id": "D",
+        "text": "fixed; pins the element to the viewport."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "The default position is static. Static elements sit in the normal document flow, ignoring properties like top, bottom, left, right, and z-index.",
+    "weight": 1
+  },
+  {
+    "id": "web_css_003",
+    "domain": "web_development",
+    "skill": "CSS",
+    "difficulty": "hard",
+    "question": "Explain the concept of CSS Specifity and calculate the specificity score of the selector: `div.content ul li a:hover`.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Specificity is 0, 0, 1, 4 (one class/pseudo-class, four element selectors)."
+      },
+      {
+        "id": "B",
+        "text": "Specificity is 0, 0, 2, 4 (two classes/pseudo-classes: .content and :hover, and four elements: div, ul, li, a)."
+      },
+      {
+        "id": "C",
+        "text": "Specificity is 0, 1, 0, 0 (one ID selector overrides elements)."
+      },
+      {
+        "id": "D",
+        "text": "Specificity is 0, 0, 0, 6 (six tag names counted uniformly)."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Specificity is calculated in components: (ID, Class/Attribute/Pseudo-class, Element/Pseudo-element). Here, we have two class-like components (`.content`, `:hover` pseudo-class) and four element tags (`div`, `ul`, `li`, `a`). Hence, score is (0, 2, 4).",
+    "weight": 1
+  },
+  {
+    "id": "web_js_001",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "difficulty": "easy",
+    "question": "Which JavaScript keyword is used to declare block-scoped variables that cannot be reassigned?",
+    "options": [
+      {
+        "id": "A",
+        "text": "var"
+      },
+      {
+        "id": "B",
+        "text": "let"
+      },
+      {
+        "id": "C",
+        "text": "const"
+      },
+      {
+        "id": "D",
+        "text": "function"
+      }
+    ],
+    "correct_option_id": "C",
+    "explanation": "const declares block-scoped variables that cannot be reassigned, although objects/arrays declared with const can still have their properties mutated.",
+    "weight": 1
+  },
+  {
+    "id": "web_js_002",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "difficulty": "medium",
+    "question": "Explain how event delegation works in JavaScript DOM manipulation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "By adding event listeners to every single child element in the document tree manually."
+      },
+      {
+        "id": "B",
+        "text": "By attaching a single event listener to a parent element, leveraging event bubbling to catch events fired by child elements through `event.target`."
+      },
+      {
+        "id": "C",
+        "text": "By executing event handlers inside async web worker tasks."
+      },
+      {
+        "id": "D",
+        "text": "By calling `event.stopPropagation()` on all window clicks."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Event delegation leverages event bubbling. Instead of adding listeners to 100 buttons, you add 1 listener to the container. Clicks on buttons bubble up to the container, which processes them.",
+    "weight": 1
+  },
+  {
+    "id": "web_js_003",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "difficulty": "hard",
+    "question": "What is a Closure in JavaScript, and what memory management issues can it potentially introduce in long-lived applications?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Closures compile functions to binary formats; they trigger stack overflow errors."
+      },
+      {
+        "id": "B",
+        "text": "A closure is a function that retains access to its lexical scope even when executed outside that scope; they can cause memory leaks by preventing the garbage collector from freeing variables in parent scopes if the closure persists in memory."
+      },
+      {
+        "id": "C",
+        "text": "A closure is an API call; it causes network memory exhaustion."
+      },
+      {
+        "id": "D",
+        "text": "It is when you close the browser window; it releases all RAM."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "A closure preserves variables of its outer scope because the inner function references them. If the inner function is kept alive (e.g. in a global list or event listener), the outer variables cannot be garbage collected, creating memory leaks.",
+    "weight": 1
+  },
+  {
+    "id": "web_dom_001",
+    "domain": "web_development",
+    "skill": "DOM",
+    "difficulty": "easy",
+    "question": "Which DOM method is used to select an element by its ID attribute in vanilla JavaScript?",
+    "options": [
+      {
+        "id": "A",
+        "text": "document.querySelectorClass()"
+      },
+      {
+        "id": "B",
+        "text": "document.getElementById()"
+      },
+      {
+        "id": "C",
+        "text": "document.findId()"
+      },
+      {
+        "id": "D",
+        "text": "document.createElement()"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "document.getElementById(id) returns the Element object whose id property matches the specified string.",
+    "weight": 1
+  },
+  {
+    "id": "web_dom_002",
+    "domain": "web_development",
+    "skill": "DOM",
+    "difficulty": "medium",
+    "question": "What is the key performance difference between writing directly to `innerHTML` and using `document.createElement()` with `appendChild()`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "innerHTML is faster because it bypasses the browser parser."
+      },
+      {
+        "id": "B",
+        "text": "innerHTML parses the string as HTML, destroying and rebuilding the entire DOM tree of the target container, causing poor performance and potential XSS vulnerability, while appendChild() manipulates nodes directly."
+      },
+      {
+        "id": "C",
+        "text": "appendChild() requires CSS stylesheets to be re-parsed, making it slower."
+      },
+      {
+        "id": "D",
+        "text": "There is no difference; browsers execute them identically."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Writing to `innerHTML` invokes the HTML parser for the entire content string, resetting all child nodes (losing event listeners). Direct node methods manipulate the DOM tree directly without full parsing, protecting against XSS.",
+    "weight": 1
+  },
+  {
+    "id": "web_dom_003",
+    "domain": "web_development",
+    "skill": "DOM",
+    "difficulty": "hard",
+    "question": "What is layout thrashing (forced synchronous layout) in web browsers, and how do you prevent it in animations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is when too many DOM nodes are deleted; resolved by using virtual nodes."
+      },
+      {
+        "id": "B",
+        "text": "It is when JavaScript writes to DOM styles then reads layout properties (e.g. offsetHeight) in quick succession, forcing the browser to calculate layout multiple times inside a single frame; prevented by batching reads and batching writes (e.g. using FastDOM or requestAnimationFrame)."
+      },
+      {
+        "id": "C",
+        "text": "It is network traffic congestion; resolved by using throttling APIs."
+      },
+      {
+        "id": "D",
+        "text": "It is when images load slower than text; resolved by applying alt attributes."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": " forced synchronous layout occurs when you style an element (write) and query its physical size (read) in a loop. The browser is forced to reflow layout on demand to give accurate reads. Batching reads first, then writes in `requestAnimationFrame` fixes this.",
+    "weight": 1
+  },
+  {
+    "id": "web_http_001",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "difficulty": "easy",
+    "question": "Which HTTP method is designed for creating new resources in a RESTful API architecture?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GET"
+      },
+      {
+        "id": "B",
+        "text": "POST"
+      },
+      {
+        "id": "C",
+        "text": "PUT"
+      },
+      {
+        "id": "D",
+        "text": "DELETE"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "In REST, POST is standard for submitting data to a resource to create a new record entry.",
+    "weight": 1
+  },
+  {
+    "id": "web_http_002",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "difficulty": "medium",
+    "question": "Explain the difference in idempotency between HTTP PUT and PATCH methods.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PUT is idempotent (replacing the entire resource); PATCH is generally non-idempotent (applying partial updates)."
+      },
+      {
+        "id": "B",
+        "text": "PATCH is idempotent, and PUT is non-idempotent."
+      },
+      {
+        "id": "C",
+        "text": "Both methods are non-idempotent in all circumstances."
+      },
+      {
+        "id": "D",
+        "text": "PUT only works with JSON data, whereas PATCH only works with XML."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "PUT replaces the resource entirely. Running it multiple times yields identical results (idempotent). PATCH applies partial edits; depending on the operation, repeating it may alter the state (e.g. append updates).",
+    "weight": 1
+  },
+  {
+    "id": "web_http_003",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "difficulty": "hard",
+    "question": "Explain how CORS (Cross-Origin Resource Sharing) preflight requests function and when they are triggered by the browser.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Preflight is an HTTP GET query triggered automatically for simple forms to cache stylesheets."
+      },
+      {
+        "id": "B",
+        "text": "Preflight is an HTTP OPTIONS request sent by the browser to verify permissions before the actual request is sent, triggered for non-simple requests (e.g., using custom headers like Authorization or methods like PUT/DELETE)."
+      },
+      {
+        "id": "C",
+        "text": "Preflight checks database indexes using SQL scripts."
+      },
+      {
+        "id": "D",
+        "text": "Preflight executes only when servers return a 500 error status."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Before sending requests that could mutate data or use custom parameters, browsers send an OPTIONS preflight to verify if the origin has server permissions, securing APIs against unauthorized cross-site scripts.",
+    "weight": 1
+  },
+  {
+    "id": "web_react_001",
+    "domain": "web_development",
+    "skill": "React",
+    "difficulty": "easy",
+    "question": "Which React hook is used to perform side effects (e.g. data fetching) in functional components?",
+    "options": [
+      {
+        "id": "A",
+        "text": "useState"
+      },
+      {
+        "id": "B",
+        "text": "useEffect"
+      },
+      {
+        "id": "C",
+        "text": "useContext"
+      },
+      {
+        "id": "D",
+        "text": "useMemo"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "useEffect lets you synchronize a component with an external system (side effects, subscriptions, API fetching).",
+    "weight": 1
+  },
+  {
+    "id": "web_react_002",
+    "domain": "web_development",
+    "skill": "React",
+    "difficulty": "medium",
+    "question": "In React, why must you avoid mutating state variables directly (e.g. calling `state.push(item)`) instead of using setter functions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Direct mutations will cause the browser to crash immediately."
+      },
+      {
+        "id": "B",
+        "text": "React relies on reference comparison of state to trigger re-renders; mutating objects in-place does not change reference, preventing UI updates."
+      },
+      {
+        "id": "C",
+        "text": "Mutations violate CSS specificity rules."
+      },
+      {
+        "id": "D",
+        "text": "Setters compress values into local storage automatically."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "React compares old and new state references (`Object.is`). Mutating arrays or objects in place keeps the same reference, so React assumes no state change occurred, ignoring re-renders.",
+    "weight": 1
+  },
+  {
+    "id": "web_react_003",
+    "domain": "web_development",
+    "skill": "React",
+    "difficulty": "hard",
+    "question": "What is the function of the `key` prop in React lists, and what are the performance and state bugs introduced by using array indexes as keys?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keys act as CSS styles; indexes slow down style evaluations."
+      },
+      {
+        "id": "B",
+        "text": "Keys help React identify which items changed, added, or removed; using array index as a key can cause rendering bugs and state inconsistency when list order changes (reordering, prepending) because React correlates state to index positions."
+      },
+      {
+        "id": "C",
+        "text": "Keys prevent external API queries from executing twice during render cycles."
+      },
+      {
+        "id": "D",
+        "text": "Keys encrypt component tags for search engines."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "React uses keys to track node identity. If you prepend an item to a list and use index as key, React sees index 0 exist before and after, map-linking the existing state of old index 0 to the new prepended element, causing visual/input bugs.",
+    "weight": 1
+  },
+  {
+    "id": "web_state_001",
+    "domain": "web_development",
+    "skill": "State Management",
+    "difficulty": "easy",
+    "question": "What is 'prop drilling' in React application architectures?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accessing state stored in local storage"
+      },
+      {
+        "id": "B",
+        "text": "Passing props down through multiple layers of nested components to reach a deeply nested child"
+      },
+      {
+        "id": "C",
+        "text": "Rendering lists using map functions"
+      },
+      {
+        "id": "D",
+        "text": "Debugging API calls in the browser"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Prop drilling is passing props through intermediary components that don't need the data themselves, purely to pass it to lower components.",
+    "weight": 1
+  },
+  {
+    "id": "web_state_002",
+    "domain": "web_development",
+    "skill": "State Management",
+    "difficulty": "medium",
+    "question": "When is it appropriate to use a global state manager (like Redux or Zustand) instead of standard React Context API?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When you only have static layout variables."
+      },
+      {
+        "id": "B",
+        "text": "When you have high-frequency state updates in large applications, because Context triggers re-renders on all consumers on any value update, causing performance bottlenecks."
+      },
+      {
+        "id": "C",
+        "text": "Zustand is required to fetch REST API data securely."
+      },
+      {
+        "id": "D",
+        "text": "Only when working with class components."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Context isn't optimized for high-frequency updates. Changing context forces all consumer components to re-render. State managers use selectors to ensure components only re-render when their specific sliced data updates.",
+    "weight": 1
+  },
+  {
+    "id": "web_state_003",
+    "domain": "web_development",
+    "skill": "State Management",
+    "difficulty": "hard",
+    "question": "Explain the architectural differences and performance implications of Unidirectional Data Flow (Redux) versus Proxy-based reactive state (Zustand/MobX).",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proxy state requires compiling code at runtime, while unidirectional flow executes natively in browsers."
+      },
+      {
+        "id": "B",
+        "text": "Redux uses immutable states with central reducers and dispatch actions, ensuring highly predictable state logs; MobX uses observable properties and proxy get/set intercepts to track dependencies and trigger precise granular updates dynamically, which can be faster but harder to debug."
+      },
+      {
+        "id": "C",
+        "text": "Zustand uses SQLite databases in the browser, while Redux uses files."
+      },
+      {
+        "id": "D",
+        "text": "Proxy-based state management is only supported in Node.js backends."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Redux uses actions/reducers to build new states immutably. MobX wraps state in JS Proxies; reading values links components to properties, and mutating values triggers re-renders automatically for those specific components, bypassing virtual DOM diffing paths.",
+    "weight": 1
+  },
+  {
+    "id": "web_back_001",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "difficulty": "easy",
+    "question": "What is the primary difference between a process and a thread in operating system backend architectures?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Threads contain processes; processes run in memory."
+      },
+      {
+        "id": "B",
+        "text": "A process has its own isolated memory space, while threads within a process share the same memory space."
+      },
+      {
+        "id": "C",
+        "text": "Processes are only used for databases, and threads handle HTTP queries."
+      },
+      {
+        "id": "D",
+        "text": "Processes are virtual; threads are hardware components."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Processes run isolated. Sharing data requires IPC (Inter-Process Communication). Threads run inside a process and share its address space, making communication fast but prone to race conditions.",
+    "weight": 1
+  },
+  {
+    "id": "web_back_002",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "difficulty": "medium",
+    "question": "How does an Event Loop (like Node.js or Python asyncio) handle thousands of concurrent I/O connections using only a single thread?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It runs queries in separate child processes behind the scenes."
+      },
+      {
+        "id": "B",
+        "text": "It delegates blocking I/O calls to the operating system kernel (using epoll/kqueue) and registers callbacks, running JavaScript/Python code sequentially without waiting for connections to respond."
+      },
+      {
+        "id": "C",
+        "text": "It automatically increases thread counts based on CPU cores."
+      },
+      {
+        "id": "D",
+        "text": "It converts files to local memory buffers."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Non-blocking I/O registers callbacks in the OS kernel. The event loop continuously polls the OS for finished I/O events, executing callbacks sequentially in a single thread, avoiding thread switching context overhead.",
+    "weight": 1
+  },
+  {
+    "id": "web_back_003",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "difficulty": "hard",
+    "question": "What is horizontal scaling versus vertical scaling of web backends, and what architectural challenges does horizontal scaling introduce for session management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vertical scaling requires database clusters; horizontal scaling is strictly a CSS design pattern."
+      },
+      {
+        "id": "B",
+        "text": "Vertical scaling adds resources (CPU/RAM) to a single server; horizontal scaling adds more server nodes, which requires moving session state from local server memory to a shared distributed cache (like Redis) so requests from the same user are session-aware on any server."
+      },
+      {
+        "id": "C",
+        "text": "Horizontal scaling requires rewriting code in C++; vertical scaling runs automatically on docker containers."
+      },
+      {
+        "id": "D",
+        "text": "Vertical scaling is cheaper; horizontal scaling eliminates database locks."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Horizontal scaling distributes load. Because requests can hit any server node, storing session state in a server's local memory (e.g. local dict) breaks authorization. A centralized session store (Redis) resolves this.",
+    "weight": 1
+  },
+  {
+    "id": "web_auth_001",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "difficulty": "easy",
+    "question": "What are the three components of a JSON Web Token (JWT)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Username, Password, Salt"
+      },
+      {
+        "id": "B",
+        "text": "Header, Payload, Signature"
+      },
+      {
+        "id": "C",
+        "text": "Host, Request, Response"
+      },
+      {
+        "id": "D",
+        "text": "Client, Server, Database"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "A JWT is a dot-separated string containing a base64url-encoded Header (metadata), Payload (claims), and a Signature (verifiability).",
+    "weight": 1
+  },
+  {
+    "id": "web_auth_002",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "difficulty": "medium",
+    "question": "What is the difference between Authentication and Authorization in security architectures?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Authentication is verifying who a user is (identity), while Authorization is verifying what specific resources or actions they are allowed to access (permissions)."
+      },
+      {
+        "id": "B",
+        "text": "Authorization is identifying users, and Authentication is logging out."
+      },
+      {
+        "id": "C",
+        "text": "Authentication is client-side validation; Authorization is database checks."
+      },
+      {
+        "id": "D",
+        "text": "There is no difference; they are synonymous."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Authentication validates identity credentials (e.g. login). Authorization maps validated identities to access control policies (permissions).",
+    "weight": 1
+  },
+  {
+    "id": "web_auth_003",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "difficulty": "hard",
+    "question": "Explain the security differences between storing JWTs in browser `localStorage` versus in `httpOnly` secure Cookies, specifically regarding XSS and CSRF attacks.",
+    "options": [
+      {
+        "id": "A",
+        "text": "localStorage protects against XSS; httpOnly cookies protect against CSRF."
+      },
+      {
+        "id": "B",
+        "text": "localStorage is vulnerable to XSS (malicious scripts can read the token directly); httpOnly cookies protect against XSS by hiding the token from client-side JavaScript, but introduce vulnerability to CSRF (Cross-Site Request Forgery), which must be mitigated using SameSite attributes and anti-CSRF tokens."
+      },
+      {
+        "id": "C",
+        "text": "Cookies only support string tokens, while localStorage supports JSON objects."
+      },
+      {
+        "id": "D",
+        "text": "httpOnly cookies are obsolete; modern browsers block them entirely."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "httpOnly cookies hide contents from Javascript, protecting against XSS token theft. However, browsers send cookies automatically on all requests to that domain, making them vulnerable to CSRF. CSRF is blocked using SameSite=Strict and custom headers.",
+    "weight": 1
+  },
+  {
+    "id": "web_db_001",
+    "domain": "web_development",
+    "skill": "Databases",
+    "difficulty": "easy",
+    "question": "Which database type stores data in structured tables with primary and foreign keys to enforce relationships?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NoSQL Database"
+      },
+      {
+        "id": "B",
+        "text": "Relational (SQL) Database"
+      },
+      {
+        "id": "C",
+        "text": "Graph Database"
+      },
+      {
+        "id": "D",
+        "text": "Key-Value Store"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Relational databases use tables, rows, columns, and foreign keys to define data relations.",
+    "weight": 1
+  },
+  {
+    "id": "web_db_002",
+    "domain": "web_development",
+    "skill": "Databases",
+    "difficulty": "medium",
+    "question": "What are ACID properties in database transaction management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Algorithms, Clusters, Indexes, Directories"
+      },
+      {
+        "id": "B",
+        "text": "Atomicity, Consistency, Isolation, Durability"
+      },
+      {
+        "id": "C",
+        "text": "Aggregation, Coding, Interface, Deployment"
+      },
+      {
+        "id": "D",
+        "text": "Access, Compression, Integrity, Duplication"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "ACID properties guarantee database transactions are processed reliably: Atomicity (all or nothing), Consistency (preserves rules), Isolation (independent runs), Durability (persisted outcomes).",
+    "weight": 1
+  },
+  {
+    "id": "web_db_003",
+    "domain": "web_development",
+    "skill": "Databases",
+    "difficulty": "hard",
+    "question": "Explain the architectural trade-offs between SQL (Relational) and NoSQL (Document) databases regarding schema flexibility and scaling.",
+    "options": [
+      {
+        "id": "A",
+        "text": "NoSQL does not support queries; SQL databases only scale horizontally."
+      },
+      {
+        "id": "B",
+        "text": "SQL databases enforce strict schemas and referential integrity, scaling primarily vertically (expensive); NoSQL databases provide schema flexibility (dynamic JSON documents) and scale horizontally by partitioning data across nodes easily, but sacrifice strict cross-document consistency."
+      },
+      {
+        "id": "C",
+        "text": "SQL databases scale horizontally by default, and NoSQL only scales vertically."
+      },
+      {
+        "id": "D",
+        "text": "NoSQL is always faster because it does not support disk writes."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "SQL is designed for relational consistency (joins). Scaling horizontally requires complex sharding. NoSQL document databases partition data naturally across nodes since documents are self-contained, but don't support ACID across distributed records.",
+    "weight": 1
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "ml_python_001",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "difficulty": "easy",
+    "question": "Which Python library is primarily used for providing high-performance multidimensional array objects and tools for working with them?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pandas"
+      },
+      {
+        "id": "B",
+        "text": "NumPy"
+      },
+      {
+        "id": "C",
+        "text": "Scikit-Learn"
+      },
+      {
+        "id": "D",
+        "text": "Matplotlib"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "NumPy is the fundamental package for scientific computing in Python, providing support for large, multi-dimensional arrays and matrices.",
+    "weight": 1
+  },
+  {
+    "id": "ml_python_002",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "difficulty": "medium",
+    "question": "In Scikit-Learn, what is the key difference between calling fit() and fit_transform() on a data preprocessor object like StandardScaler?",
+    "options": [
+      {
+        "id": "A",
+        "text": "fit() calculates parameters and applies them, while fit_transform() only calculates parameters."
+      },
+      {
+        "id": "B",
+        "text": "fit() only calculates the mean and variance parameters, while fit_transform() calculates them and applies the transformation to return scaled data."
+      },
+      {
+        "id": "C",
+        "text": "fit() is used for training labels, while fit_transform() is only used for training features."
+      },
+      {
+        "id": "D",
+        "text": "There is no difference; they are exact aliases of each other."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "fit() computes the parameters (e.g. mean, std dev for StandardScaler) and stores them as internal state. fit_transform() computes the parameters AND applies the scaling transformation, returning the transformed array.",
+    "weight": 1
+  },
+  {
+    "id": "ml_python_003",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "difficulty": "hard",
+    "question": "You are training a large neural network in PyTorch and want to optimize GPU memory utilization during validation. Which action is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Run code inside a `with torch.no_grad():` block to disable gradient computation and free up cache memory."
+      },
+      {
+        "id": "B",
+        "text": "Manually delete all model parameters using `del model` before validation starts."
+      },
+      {
+        "id": "C",
+        "text": "Set the learning rate to zero during validation."
+      },
+      {
+        "id": "D",
+        "text": "Call `loss.backward()` inside the validation loop to flush the computational graph."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "`torch.no_grad()` disables gradient tracking, which prevents the building of the dynamic computation graph, significantly reducing memory consumption during inference/validation.",
+    "weight": 1
+  },
+  {
+    "id": "ml_prep_001",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "difficulty": "easy",
+    "question": "Which encoding technique represents categorical features as binary vectors where only one index is hot?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ordinal Encoding"
+      },
+      {
+        "id": "B",
+        "text": "Label Encoding"
+      },
+      {
+        "id": "C",
+        "text": "One-Hot Encoding"
+      },
+      {
+        "id": "D",
+        "text": "Target Encoding"
+      }
+    ],
+    "correct_option_id": "C",
+    "explanation": "One-hot encoding creates a binary column for each category, setting exactly one column to 1 (hot) and the others to 0.",
+    "weight": 1
+  },
+  {
+    "id": "ml_prep_002",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "difficulty": "medium",
+    "question": "When preprocessing data for a Distance-based algorithm like K-Nearest Neighbors (KNN), why is scaling features crucial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unscaled features will cause the algorithm to run out of memory during calculations."
+      },
+      {
+        "id": "B",
+        "text": "Features with larger magnitudes will dominate the distance metric, making other features irrelevant."
+      },
+      {
+        "id": "C",
+        "text": "Scaling categorical variables is required before applying distance computations."
+      },
+      {
+        "id": "D",
+        "text": "Scaling shifts feature distribution to perfectly match a binomial distribution."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "KNN uses distance measures like Euclidean distance. Unscaled features with high values will dominate the distance calculation compared to features with small numeric ranges.",
+    "weight": 1
+  },
+  {
+    "id": "ml_prep_003",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "difficulty": "hard",
+    "question": "You have a dataset with a highly skewed continuous target variable (e.g. house prices). How should you preprocess the target variable before training a linear regression model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apply a logarithmic transformation to the target variable to stabilize variance and normalize distributions, and apply exp() during inference."
+      },
+      {
+        "id": "B",
+        "text": "Impute the target variable using the median value to remove the skew."
+      },
+      {
+        "id": "C",
+        "text": "One-hot encode the continuous price ranges to treat them as nominal values."
+      },
+      {
+        "id": "D",
+        "text": "Use min-max scaling to compress the range strictly between 0 and 1, ignoring the skewness."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Linear regression performs best when the target variable distribution is normal. Transforming it via logarithm helps handle extreme skewness and stabilizes residuals variance. Exponentiation reverses the prediction to original scale during inference.",
+    "weight": 1
+  },
+  {
+    "id": "ml_stats_001",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "difficulty": "easy",
+    "question": "What does the Central Limit Theorem state about the sampling distribution of the sample mean as sample size increases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It will always follow a uniform distribution."
+      },
+      {
+        "id": "B",
+        "text": "It will follow a normal distribution, regardless of the shape of the population distribution."
+      },
+      {
+        "id": "C",
+        "text": "It will match the exact distribution of the population."
+      },
+      {
+        "id": "D",
+        "text": "It will have a variance equal to the standard deviation."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "The CLT states that the sample mean distribution approaches a normal distribution as sample size increases, even if the parent population distribution is non-normal.",
+    "weight": 1
+  },
+  {
+    "id": "ml_stats_002",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "difficulty": "medium",
+    "question": "Which term describes the probability of rejecting the null hypothesis when it is actually true (Type I error)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Statistical Power (1 - Beta)"
+      },
+      {
+        "id": "B",
+        "text": "Significance Level (Alpha)"
+      },
+      {
+        "id": "C",
+        "text": "Margin of Error"
+      },
+      {
+        "id": "D",
+        "text": "Confidence Level (1 - Alpha)"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "The significance level alpha is the probability of committing a Type I error (incorrectly rejecting a true null hypothesis).",
+    "weight": 1
+  },
+  {
+    "id": "ml_stats_003",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "difficulty": "hard",
+    "question": "Under what condition is Naive Bayes' assumption of class conditional independence violated in practice, and how does it affect predictions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When features are highly correlated; this leads to overconfident predictions near 0 or 1, although classification ranking remains relatively robust."
+      },
+      {
+        "id": "B",
+        "text": "When the dataset is small, causing the probability distributions to fail to converge."
+      },
+      {
+        "id": "C",
+        "text": "When the target classes are highly unbalanced, causing the prior probability of the minority class to drift to zero."
+      },
+      {
+        "id": "D",
+        "text": "When data is normalized, which violates the gaussian assumption of numerical features."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Naive Bayes assumes all features are independent given the class. If features are correlated, they double-count evidence, resulting in posterior probabilities pushed excessively toward 0 or 1, though the model ranking predictions can remain highly accurate.",
+    "weight": 1
+  },
+  {
+    "id": "ml_regr_001",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "difficulty": "easy",
+    "question": "Which loss function is minimized in ordinary least squares (OLS) linear regression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mean Absolute Error (MAE)"
+      },
+      {
+        "id": "B",
+        "text": "Mean Squared Error (MSE)"
+      },
+      {
+        "id": "C",
+        "text": "Cross-Entropy Loss"
+      },
+      {
+        "id": "D",
+        "text": "Hinge Loss"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "OLS regression minimizes the sum of squared residuals, which directly equates to minimizing Mean Squared Error (MSE).",
+    "weight": 1
+  },
+  {
+    "id": "ml_regr_002",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "difficulty": "medium",
+    "question": "What is the primary difference in regularization effect between Lasso (L1) and Ridge (L2) regression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lasso shrinks coefficients to exactly zero (feature selection), while Ridge shrinks them close to zero but not exactly zero."
+      },
+      {
+        "id": "B",
+        "text": "Lasso only works on linear regression, while Ridge is designed for logistic regression."
+      },
+      {
+        "id": "C",
+        "text": "Ridge performs automatic feature selection, whereas Lasso shrinks all weights uniformly."
+      },
+      {
+        "id": "D",
+        "text": "Lasso increases model complexity, while Ridge reduces it."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Lasso (L1) adds a penalty proportional to the absolute values of the coefficients, causing some coefficients to become exactly 0. Ridge (L2) uses squared values penalty, shrinking them asymptotically close to 0.",
+    "weight": 1
+  },
+  {
+    "id": "ml_regr_003",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "difficulty": "hard",
+    "question": "A linear regression model has high R-squared on training data, but low R-squared on test data. Multicollinearity is detected. Which approach will resolve this issues best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Add polynomial terms for all features to increase the capacity of the model."
+      },
+      {
+        "id": "B",
+        "text": "Remove highly correlated features or apply Ridge/Lasso regularization to penalize large weights."
+      },
+      {
+        "id": "C",
+        "text": "Change the loss metric from MSE to MAE."
+      },
+      {
+        "id": "D",
+        "text": "Increase the learning rate of the optimization step."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Multicollinearity inflates coefficient variance, leading to overfitting. Dropping redundant features or utilizing L1/L2 regularization stabilizes the coefficient estimations, improving generalization.",
+    "weight": 1
+  },
+  {
+    "id": "ml_class_001",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "difficulty": "easy",
+    "question": "Which function is used to map real-valued output predictions of a linear model to a probability score between 0 and 1 in logistic regression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ReLU function"
+      },
+      {
+        "id": "B",
+        "text": "Sigmoid (Logistic) function"
+      },
+      {
+        "id": "C",
+        "text": "Hyperbolic Tangent (tanh)"
+      },
+      {
+        "id": "D",
+        "text": "Softmax function"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "The sigmoid function maps any real value into a range between 0 and 1, representing the probability of the positive class.",
+    "weight": 1
+  },
+  {
+    "id": "ml_class_002",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "difficulty": "medium",
+    "question": "For a classification task, when is using F1-Score preferred over standard Accuracy as the main evaluation metric?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When the classes are balanced and the cost of false positives is extremely low."
+      },
+      {
+        "id": "B",
+        "text": "When dealing with imbalanced datasets where the cost of false positives and false negatives is highly unequal or critical."
+      },
+      {
+        "id": "C",
+        "text": "When you want to evaluate continuous regression targets."
+      },
+      {
+        "id": "D",
+        "text": "Only when training on random forests or decision tree architectures."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "F1-Score is the harmonic mean of precision and recall. Accuracy is misleading when classes are highly imbalanced (e.g. 99% majority class), whereas F1 focus is on the performance on the minority class.",
+    "weight": 1
+  },
+  {
+    "id": "ml_class_003",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "difficulty": "hard",
+    "question": "In Support Vector Machines (SVM), how does the choice of a radial basis function (RBF) kernel parameter gamma (high vs low) affect model complexity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "High gamma means a single training sample has a close range of influence, leading to overfitting; low gamma means a wide range of influence, leading to underfitting."
+      },
+      {
+        "id": "B",
+        "text": "High gamma makes the decision boundary linear, while low gamma makes it highly non-linear."
+      },
+      {
+        "id": "C",
+        "text": "Gamma does not affect complexity; it only adjusts the scale of the target label."
+      },
+      {
+        "id": "D",
+        "text": "High gamma reduces computation time by simplifying the support vectors."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Gamma determines the radius of influence of individual support vectors. High gamma values mean support vectors have localized influence, causing tight fitting around samples (overfitting). Low values mean broader influence, leading to smoother boundaries (underfitting).",
+    "weight": 1
+  },
+  {
+    "id": "ml_feat_001",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "difficulty": "easy",
+    "question": "What is the primary objective of Principal Component Analysis (PCA)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To increase the number of features in a dataset"
+      },
+      {
+        "id": "B",
+        "text": "To perform linear regression scaling"
+      },
+      {
+        "id": "C",
+        "text": "To reduce the dimensionality of the dataset while preserving most variance"
+      },
+      {
+        "id": "D",
+        "text": "To automatically detect target categories"
+      }
+    ],
+    "correct_option_id": "C",
+    "explanation": "PCA is an unsupervised dimensionality reduction technique that projects features into orthogonal directions of maximum variance.",
+    "weight": 1
+  },
+  {
+    "id": "ml_feat_002",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "difficulty": "medium",
+    "question": "Which technique would be most appropriate to handle a high-cardinality categorical feature (e.g., zip code) in a predictive gradient boosting model?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apply One-Hot Encoding to create thousands of columns."
+      },
+      {
+        "id": "B",
+        "text": "Use Target Encoding (with regularization/smoothing) to map categories to the target mean."
+      },
+      {
+        "id": "C",
+        "text": "Min-max scale the categorical strings alphabetically."
+      },
+      {
+        "id": "D",
+        "text": "Drop the column entirely, since categorical variables cannot be used in trees."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Target Encoding maps categories to target values. For high-cardinality features, One-Hot Encoding creates high dimensionality (sparse matrices), causing trees to perform poorly. Target encoding with smoothing resolves this cleanly.",
+    "weight": 1
+  },
+  {
+    "id": "ml_feat_003",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "difficulty": "hard",
+    "question": "What is a primary risk of using target encoding on categorical features, and how is it typically mitigated?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It risks target leakage (overfitting); it is mitigated by adding smoothing and using out-of-fold target averages (e.g., via K-Fold)."
+      },
+      {
+        "id": "B",
+        "text": "It risks underfitting; it is mitigated by duplicating rows to increase dataset volume."
+      },
+      {
+        "id": "C",
+        "text": "It risks multicollinearity; it is mitigated by running PCA immediately after target encoding."
+      },
+      {
+        "id": "D",
+        "text": "It risks numerical instability; it is mitigated by multiplying values by zero."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Target encoding directly uses the target label to calculate averages for categories, creating massive target leakage. Mitigations include adding noise (smoothing) and calculating averages out-of-fold (using cross-validation subsets).",
+    "weight": 1
+  },
+  {
+    "id": "ml_eval_001",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "difficulty": "easy",
+    "question": "What does a Confusion Matrix help visualize?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The gradient descent steps over epochs"
+      },
+      {
+        "id": "B",
+        "text": "Feature importances of a random forest"
+      },
+      {
+        "id": "C",
+        "text": "Actual versus predicted class distributions for a classifier"
+      },
+      {
+        "id": "D",
+        "text": "The memory consumption of train vs validation splits"
+      }
+    ],
+    "correct_option_id": "C",
+    "explanation": "A confusion matrix shows the counts of true positives, true negatives, false positives, and false negatives for classification evaluations.",
+    "weight": 1
+  },
+  {
+    "id": "ml_eval_002",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "difficulty": "medium",
+    "question": "How does K-Fold Cross-Validation provide a better estimate of model generalization performance than a single Train/Test split?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It trains the model on the test data to guarantee high test metrics."
+      },
+      {
+        "id": "B",
+        "text": "It runs the training process in parallel to double the learning rate."
+      },
+      {
+        "id": "C",
+        "text": "It uses multiple different splits iteratively, ensuring that every data point is used for both training and validation once."
+      },
+      {
+        "id": "D",
+        "text": "It automatically prunes redundant model features at each fold."
+      }
+    ],
+    "correct_option_id": "C",
+    "explanation": "K-fold cross-validation splits data into K subsets. It trains K times, using each fold as a validation set once, providing a distribution of validation scores with low variance.",
+    "weight": 1
+  },
+  {
+    "id": "ml_eval_003",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "difficulty": "hard",
+    "question": "You are building a diagnostic tool to identify a rare disease. A false negative (missing a sick patient) is far more costly than a false positive. Which metric should you optimize, and how does it affect the decision threshold?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Optimize Recall (Sensitivity); decrease the probability decision threshold below 0.5."
+      },
+      {
+        "id": "B",
+        "text": "Optimize Precision; increase the probability decision threshold to 0.9."
+      },
+      {
+        "id": "C",
+        "text": "Optimize Accuracy; keep the threshold at exactly 0.5."
+      },
+      {
+        "id": "D",
+        "text": "Optimize Specificity; increase the threshold to 0.7."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "To minimize false negatives, you need to maximize Recall (Recall = TP / (TP + FN)). Lowering the decision threshold below 0.5 classifies more patients as positive, catching more sick patients at the cost of some additional false positives.",
+    "weight": 1
+  },
+  {
+    "id": "ml_ens_001",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "difficulty": "easy",
+    "question": "Which ensemble technique fits multiple independent decision trees in parallel on bootstrapped subsets of training data?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AdaBoost"
+      },
+      {
+        "id": "B",
+        "text": "Gradient Boosting"
+      },
+      {
+        "id": "C",
+        "text": "Random Forest"
+      },
+      {
+        "id": "D",
+        "text": "Stacking"
+      }
+    ],
+    "correct_option_id": "C",
+    "explanation": "Random Forest builds independent decision trees in parallel using bootstrapping (bagging) and random feature selection.",
+    "weight": 1
+  },
+  {
+    "id": "ml_ens_002",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "difficulty": "medium",
+    "question": "What is the key difference in training strategy between Bagging and Boosting algorithms?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bagging fits models sequentially to correct errors, while Boosting fits models in parallel independently."
+      },
+      {
+        "id": "B",
+        "text": "Bagging builds independent models in parallel, while Boosting builds models sequentially where each new model corrects previous errors."
+      },
+      {
+        "id": "C",
+        "text": "Bagging is only used for neural networks, whereas Boosting is used for linear regression."
+      },
+      {
+        "id": "D",
+        "text": "Bagging increases model bias, while Boosting decreases model variance."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Bagging (Bootstrap Aggregating) trains models independently in parallel (e.g. Random Forest). Boosting trains models sequentially (e.g. XGBoost), focusing on sample weights or residuals missed by predecessor models.",
+    "weight": 1
+  },
+  {
+    "id": "ml_ens_003",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "difficulty": "hard",
+    "question": "How do Gradient Boosting Trees (GBDT) handle the bias-variance tradeoff differently as the number of estimators (trees) increases compared to Random Forests?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Random Forests overfit heavily as the number of trees increases; GBDTs maintain a constant variance because trees are sequential."
+      },
+      {
+        "id": "B",
+        "text": "Adding trees to Random Forests reduces variance without increasing bias (doesn't overfit easily); adding trees to GBDTs continues to reduce training bias and can easily lead to overfitting (variance increases)."
+      },
+      {
+        "id": "C",
+        "text": "GBDTs reduce variance through averaging, while Random Forests reduce bias through boosting."
+      },
+      {
+        "id": "D",
+        "text": "Both architectures respond identically, overfitting at exactly the same rate as trees are added."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "In Random Forest, averaging independent trees reduces variance but cannot overfit by adding more trees (generalization error plateaus). GBDTs minimize residuals sequentially, so adding too many trees will cause the model to eventually fit sample noise (overfit).",
+    "weight": 1
+  },
+  {
+    "id": "ml_unsup_001",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "difficulty": "easy",
+    "question": "Which clustering algorithm groups data points by iteratively assigning them to the nearest centroid and recalculating the centroid position?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DBSCAN"
+      },
+      {
+        "id": "B",
+        "text": "K-Means Clustering"
+      },
+      {
+        "id": "C",
+        "text": "Hierarchical Clustering"
+      },
+      {
+        "id": "D",
+        "text": "Isolation Forest"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "K-Means is a classic centroid-based clustering algorithm that alternates assignment and update steps.",
+    "weight": 1
+  },
+  {
+    "id": "ml_unsup_002",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "difficulty": "medium",
+    "question": "When comparing K-Means and DBSCAN clustering, which is a major advantage of DBSCAN?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DBSCAN requires you to specify the number of clusters (K) in advance."
+      },
+      {
+        "id": "B",
+        "text": "DBSCAN can find arbitrarily shaped clusters and naturally identifies outlier noise points."
+      },
+      {
+        "id": "C",
+        "text": "DBSCAN uses linear projections to guarantee cluster separation."
+      },
+      {
+        "id": "D",
+        "text": "DBSCAN is computationally faster on highly high-dimensional datasets."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Unlike K-Means (which forms spherical clusters and forces every point into a cluster), DBSCAN identifies clusters based on density, allowing arbitrary shapes and designating sparse points as noise (-1).",
+    "weight": 1
+  },
+  {
+    "id": "ml_unsup_003",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "difficulty": "hard",
+    "question": "Explain the 'curse of dimensionality' in the context of distance-based clustering algorithms like K-Means.",
+    "options": [
+      {
+        "id": "A",
+        "text": "As dimensions increase, distance values become smaller, causing K-Means to divide by zero."
+      },
+      {
+        "id": "B",
+        "text": "As dimensionality increases, the distance between any two points in the high-dimensional space converges to the same value, rendering distance metrics ineffective."
+      },
+      {
+        "id": "C",
+        "text": "High dimensions cause features to become highly dependent on target classes."
+      },
+      {
+        "id": "D",
+        "text": "High-dimensional spaces cause the cluster centroids to shift outside the convex hull of the dataset."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "In high-dimensional spaces, data points become extremely sparse. The ratio between the distance to the nearest point and the distance to the farthest point approaches 1, meaning all points appear almost equidistant from one another, breaking distance-based algorithms.",
+    "weight": 1
+  },
+  {
+    "id": "ml_deploy_001",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "difficulty": "easy",
+    "question": "Which Python library is standard for serializing model objects to disk so they can be loaded later in production?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pickle (or Joblib)"
+      },
+      {
+        "id": "B",
+        "text": "JSON"
+      },
+      {
+        "id": "C",
+        "text": "Requests"
+      },
+      {
+        "id": "D",
+        "text": "NumPy"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Pickle or Joblib serialize Python objects (like trained models) into a byte stream on disk, facilitating fast loading.",
+    "weight": 1
+  },
+  {
+    "id": "ml_deploy_002",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "difficulty": "medium",
+    "question": "What is the primary benefit of deploying a model as a REST API microservice (e.g. using FastAPI) compared to embedded deployment in the main application codebase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FastAPI guarantees the model uses 100% CPU capacity."
+      },
+      {
+        "id": "B",
+        "text": "It decouples the model lifecycle, permitting independent updates and scalability without affecting the main client application."
+      },
+      {
+        "id": "C",
+        "text": "FastAPI automatically translates models to WebAssembly."
+      },
+      {
+        "id": "D",
+        "text": "It eliminates latency entirely during prediction requests."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Decoupling model deployment as an independent API microservice means changes/versions of models can be deployed without deploying the parent application, and model instances can be scaled horizontally.",
+    "weight": 1
+  },
+  {
+    "id": "ml_deploy_003",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "difficulty": "hard",
+    "question": "What is 'data drift' in production ML deployment, and how is it typically monitored and resolved?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is when model code modifications are pushed directly to main; resolved by using Git branches."
+      },
+      {
+        "id": "B",
+        "text": "It is a shift in the statistical distribution of input feature data compared to training data over time; resolved by monitoring features (e.g. KS test) and retraining the model on newer data."
+      },
+      {
+        "id": "C",
+        "text": "It is the loss of database records due to server crashes; resolved by implementing daily backups."
+      },
+      {
+        "id": "D",
+        "text": "It is when predictions slow down; resolved by increasing system RAM."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Data drift occurs when production input feature distributions diverge from training distributions. Monitoring tools compare statistical distributions (using Kolmogorov-Smirnov test, Population Stability Index) to alert engineers to retrain.",
+    "weight": 1
+  }
+]

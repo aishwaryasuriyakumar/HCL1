@@ -1,0 +1,842 @@
+[
+  {
+    "id": "ds_python_001",
+    "domain": "data_science",
+    "skill": "Python",
+    "difficulty": "easy",
+    "question": "Which Python data structure represents an unordered, mutable collection of unique elements?",
+    "options": [
+      {
+        "id": "A",
+        "text": "List"
+      },
+      {
+        "id": "B",
+        "text": "Tuple"
+      },
+      {
+        "id": "C",
+        "text": "Set"
+      },
+      {
+        "id": "D",
+        "text": "Dictionary"
+      }
+    ],
+    "correct_option_id": "C",
+    "explanation": "Sets in Python store unique, unordered items and provide fast membership testing.",
+    "weight": 1
+  },
+  {
+    "id": "ds_python_002",
+    "domain": "data_science",
+    "skill": "Python",
+    "difficulty": "medium",
+    "question": "What is the key difference between list.sort() and the sorted() function in Python?",
+    "options": [
+      {
+        "id": "A",
+        "text": "list.sort() modifies the list in-place and returns None, whereas sorted() returns a new sorted list, leaving the original list unchanged."
+      },
+      {
+        "id": "B",
+        "text": "list.sort() is faster because it compiles to C, while sorted() is written in pure Python."
+      },
+      {
+        "id": "C",
+        "text": "sorted() only works on dictionaries, while list.sort() only works on lists."
+      },
+      {
+        "id": "D",
+        "text": "There is no difference; they are interchangeable."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "list.sort() is a method of list class that operates in-place (mutates target). sorted() is a built-in function that takes any iterable and returns a new list copy.",
+    "weight": 1
+  },
+  {
+    "id": "ds_python_003",
+    "domain": "data_science",
+    "skill": "Python",
+    "difficulty": "hard",
+    "question": "What is the behavior of the Global Interpreter Lock (GIL) in standard CPython implementation during multi-threaded CPU-bound operations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The GIL enables true multi-core parallel processing for CPU-bound tasks automatically."
+      },
+      {
+        "id": "B",
+        "text": "The GIL restricts execution to exactly one native thread at a time, preventing multi-threaded Python code from fully utilizing multiple CPU cores for CPU-bound tasks."
+      },
+      {
+        "id": "C",
+        "text": "The GIL locks memory allocations to prevent imports from leaking memory blocks."
+      },
+      {
+        "id": "D",
+        "text": "The GIL disables async execution routines."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "The GIL prevents multiple threads from executing Python bytecodes in parallel in CPython. For CPU-bound tasks, multiprocessing must be used instead of multithreading to scale across cores.",
+    "weight": 1
+  },
+  {
+    "id": "ds_numpy_001",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "difficulty": "easy",
+    "question": "What is the term for NumPy applying arithmetic operations element-wise to arrays of different shapes during operations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vectorization"
+      },
+      {
+        "id": "B",
+        "text": "Broadcasting"
+      },
+      {
+        "id": "C",
+        "text": "Reshaping"
+      },
+      {
+        "id": "D",
+        "text": "Slicing"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Broadcasting describes how NumPy treats arrays with different shapes during arithmetic operations under certain constraints.",
+    "weight": 1
+  },
+  {
+    "id": "ds_numpy_002",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "difficulty": "medium",
+    "question": "Why are NumPy array operations significantly faster than standard Python list loops for mathematical tasks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NumPy automatically compiles code to CUDA on the fly."
+      },
+      {
+        "id": "B",
+        "text": "NumPy arrays are homogeneous, contiguous memory structures that utilize vectorized C-implemented loops, avoiding Python overhead and dynamic typing lookups."
+      },
+      {
+        "id": "C",
+        "text": "NumPy skips arithmetic operations that result in decimals."
+      },
+      {
+        "id": "D",
+        "text": "NumPy forces CPU cores to overclock automatically."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "NumPy ndarrays are dense blocks of homogeneous data stored contiguously, allowing C code to execute iterations directly without runtime type checking or pointer dereferencing common in Python lists.",
+    "weight": 1
+  },
+  {
+    "id": "ds_numpy_003",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "difficulty": "hard",
+    "question": "You slice a NumPy array `b = a[1:5, 1:5]`. If you modify a value in `b`, what happens to `a`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nothing, since slicing returns a deep copy of the array data."
+      },
+      {
+        "id": "B",
+        "text": "The corresponding value in `a` is modified because slicing returns a view sharing the same underlying memory buffer."
+      },
+      {
+        "id": "C",
+        "text": "NumPy raises a ReadOnlyError because views are immutable."
+      },
+      {
+        "id": "D",
+        "text": "A runtime warning is printed and the system defaults to generating a copy."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "In NumPy, slicing creates a 'view' rather than a copy. Modifying the view will mutate the original array. If you need a copy, you must explicitly call `b = a[1:5, 1:5].copy()`.",
+    "weight": 1
+  },
+  {
+    "id": "ds_pandas_001",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "difficulty": "easy",
+    "question": "Which Pandas DataFrame method is used to remove rows containing missing values (NaN)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "drop_missing()"
+      },
+      {
+        "id": "B",
+        "text": "dropna()"
+      },
+      {
+        "id": "C",
+        "text": "fillna()"
+      },
+      {
+        "id": "D",
+        "text": "remove_null()"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "dropna() removes rows or columns containing null (NaN) values.",
+    "weight": 1
+  },
+  {
+    "id": "ds_pandas_002",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "difficulty": "medium",
+    "question": "In Pandas, what is the conceptual difference between using `.loc` and `.iloc` for selecting data?",
+    "options": [
+      {
+        "id": "A",
+        "text": "loc is for labels, while iloc is for integer-based index positions."
+      },
+      {
+        "id": "B",
+        "text": "loc is for rows, and iloc is only for columns."
+      },
+      {
+        "id": "C",
+        "text": "iloc is faster because it works in-place, whereas loc makes a copy."
+      },
+      {
+        "id": "D",
+        "text": "There is no difference; they are aliases."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": ".loc is label-based indexing (e.g. df.loc['row_label', 'col_label']), while .iloc is integer-position based indexing (e.g. df.iloc[0, 1]).",
+    "weight": 1
+  },
+  {
+    "id": "ds_pandas_003",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "difficulty": "hard",
+    "question": "You are performing a grouping operation `df.groupby('A')['B'].transform('mean')`. What is the difference between this and `df.groupby('A')['B'].mean()`?",
+    "options": [
+      {
+        "id": "A",
+        "text": "mean() returns a Series with a length equal to the number of unique groups, while transform('mean') returns a Series with the same shape as the original DataFrame containing the mapped group means."
+      },
+      {
+        "id": "B",
+        "text": "transform() is slower because it converts values to string types first."
+      },
+      {
+        "id": "C",
+        "text": "mean() outputs values in sorted order, while transform() outputs values in random order."
+      },
+      {
+        "id": "D",
+        "text": "mean() aggregates rows, while transform() removes all grouping keys."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "`.mean()` computes aggregate stats returning group size shape. `.transform()` computes the group-level metrics but broadcasts them back to align with original row positions, outputting identical dimensions to the inputs.",
+    "weight": 1
+  },
+  {
+    "id": "ds_stats_001",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "difficulty": "easy",
+    "question": "Which statistical measure of central tendency is calculated by sum of all values divided by count?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Median"
+      },
+      {
+        "id": "B",
+        "text": "Mean"
+      },
+      {
+        "id": "C",
+        "text": "Mode"
+      },
+      {
+        "id": "D",
+        "text": "Standard Deviation"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "The mean (arithmetic average) is the sum of observations divided by the number of observations.",
+    "weight": 1
+  },
+  {
+    "id": "ds_stats_002",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "difficulty": "medium",
+    "question": "What is the standard interpretation of a p-value of 0.03 in a hypothesis test with a significance level (alpha) of 0.05?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fail to reject the null hypothesis; the result is not statistically significant."
+      },
+      {
+        "id": "B",
+        "text": "Reject the null hypothesis; the result is statistically significant."
+      },
+      {
+        "id": "C",
+        "text": "The null hypothesis has a 3% chance of being true."
+      },
+      {
+        "id": "D",
+        "text": "The alternative hypothesis has a 97% chance of being true."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Since p-value (0.03) < alpha (0.05), we reject the null hypothesis in favor of the alternative hypothesis as the result is statistically significant.",
+    "weight": 1
+  },
+  {
+    "id": "ds_stats_003",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "difficulty": "hard",
+    "question": "Explain the difference between covariance and correlation as measures of relationship between two variables.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Covariance measures linear relationships, whereas correlation only measures non-linear relationships."
+      },
+      {
+        "id": "B",
+        "text": "Covariance indicates direction only and is scale-dependent, while correlation is scaled (normalized) between -1 and 1, indicating both direction and strength independently of scale."
+      },
+      {
+        "id": "C",
+        "text": "Covariance is calculated using variance, while correlation is calculated using median absolute deviation."
+      },
+      {
+        "id": "D",
+        "text": "Covariance is normalized between -1 and 1, whereas correlation is unbound."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Covariance measures how variables move together but its units depend on the variable scales. Correlation is covariance normalized by standard deviations, yielding a dimensionless scale between -1 and 1.",
+    "weight": 1
+  },
+  {
+    "id": "ds_clean_001",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "difficulty": "easy",
+    "question": "What is the first step in handling duplicate rows in a Pandas DataFrame?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Use `df.drop_duplicates()` to remove identical rows"
+      },
+      {
+        "id": "B",
+        "text": "Use `df.fillna()` with a zero value"
+      },
+      {
+        "id": "C",
+        "text": "Run `df.describe()` to plot values"
+      },
+      {
+        "id": "D",
+        "text": "Perform log transformation"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "`drop_duplicates()` identifies and drops rows where all (or specific) column values are identical.",
+    "weight": 1
+  },
+  {
+    "id": "ds_clean_002",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "difficulty": "medium",
+    "question": "When cleaning missing numerical data, why might imputing with the median be preferred over the mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The median is computationally faster to compute on all datasets."
+      },
+      {
+        "id": "B",
+        "text": "The mean is highly sensitive to extreme outliers, which can skew the imputed value, while the median is robust to outliers."
+      },
+      {
+        "id": "C",
+        "text": "The median automatically scales the values between 0 and 1."
+      },
+      {
+        "id": "D",
+        "text": "Median imputation preserves categorical strings."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Outliers bias the mean. If a dataset has high skewness (e.g. income levels), the mean will be pulled upward, making median the better measure of central tendency for imputation.",
+    "weight": 1
+  },
+  {
+    "id": "ds_clean_003",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "difficulty": "hard",
+    "question": "Describe the risk of treating missing values by simply dropping rows (listwise deletion) in a dataset where data is not Missing Completely at Random (MCAR).",
+    "options": [
+      {
+        "id": "A",
+        "text": "It has no impact since dropping rows only reduces sample size."
+      },
+      {
+        "id": "B",
+        "text": "It introduces systemic bias into the dataset because the missingness is correlated with other variables, leading to invalid inference and skewed model parameters."
+      },
+      {
+        "id": "C",
+        "text": "It causes the target variable to switch values between positive and negative."
+      },
+      {
+        "id": "D",
+        "text": "It makes SQL queries run significantly slower."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "If data is not MCAR (e.g., high-income individuals refusing to report income), dropping rows results in non-random loss of information. The remaining subset is biased (e.g., under-representing high incomes), invalidating modeling outcomes.",
+    "weight": 1
+  },
+  {
+    "id": "ds_eda_001",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "difficulty": "easy",
+    "question": "Which visualization is best suited for showing the distribution of a single continuous variable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scatter plot"
+      },
+      {
+        "id": "B",
+        "text": "Pie chart"
+      },
+      {
+        "id": "C",
+        "text": "Histogram"
+      },
+      {
+        "id": "D",
+        "text": "Line chart"
+      }
+    ],
+    "correct_option_id": "C",
+    "explanation": "A histogram groups continuous values into bins, counting occurrences in each bin to visualize distribution shapes.",
+    "weight": 1
+  },
+  {
+    "id": "ds_eda_002",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "difficulty": "medium",
+    "question": "In a box plot, what statistical values represent the box boundaries and the whiskers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Boundaries are the minimum and maximum; whiskers are the standard deviations."
+      },
+      {
+        "id": "B",
+        "text": "Boundaries represent the 25th percentile (Q1) and 75th percentile (Q3), while whiskers represent values within 1.5 times the Interquartile Range (IQR) from the quartiles."
+      },
+      {
+        "id": "C",
+        "text": "Boundaries are the mean and standard error; whiskers are standard deviations."
+      },
+      {
+        "id": "D",
+        "text": "Boundaries represent class probabilities; whiskers represent regression limits."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "A box plot visualizes Q1, Q2 (median), Q3. The IQR is (Q3 - Q1). Whiskers extend to the furthest points within 1.5 * IQR. Points beyond this are plotted as individual outliers.",
+    "weight": 1
+  },
+  {
+    "id": "ds_eda_003",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "difficulty": "hard",
+    "question": "You compute a Pearson correlation coefficient matrix and find a high correlation (r = 0.85) between features X and Y. What should you evaluate before drawing conclusions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ensure that the relationship is strictly linear, check for influential outliers using a scatter plot, and verify if X and Y share a common confounding variable."
+      },
+      {
+        "id": "B",
+        "text": "Verify if the values of X and Y sum to exactly 1."
+      },
+      {
+        "id": "C",
+        "text": "Run an ANOVA test to confirm that both means are identical."
+      },
+      {
+        "id": "D",
+        "text": "Remove the column with the lower standard deviation immediately."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Pearson correlation measures linear relationships. Outliers can heavily inflate/deflate Pearson's r. Furthermore, correlation does not imply causation; a third variable (confounder) could drive both, requiring visual validation (scatter plot) and domain logic review.",
+    "weight": 1
+  },
+  {
+    "id": "ds_viz_001",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "difficulty": "easy",
+    "question": "Which Python library is standard for plotting graphs and is the low-level foundation for Seaborn?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pandas"
+      },
+      {
+        "id": "B",
+        "text": "Matplotlib"
+      },
+      {
+        "id": "C",
+        "text": "Scikit-Learn"
+      },
+      {
+        "id": "D",
+        "text": "Numpy"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Matplotlib is the core plotting library in Python's data ecosystem, and Seaborn wraps it to provide high-level abstractions.",
+    "weight": 1
+  },
+  {
+    "id": "ds_viz_002",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "difficulty": "medium",
+    "question": "For visualizing trends over a continuous variable (like timeline sales over months), which plot is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bar chart"
+      },
+      {
+        "id": "B",
+        "text": "Line chart"
+      },
+      {
+        "id": "C",
+        "text": "Scatter plot"
+      },
+      {
+        "id": "D",
+        "text": "Box plot"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Line charts connect data points sequentially, making them optimal for displaying time-series trends and sequential developments.",
+    "weight": 1
+  },
+  {
+    "id": "ds_viz_003",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "difficulty": "hard",
+    "question": "When designing dashboards, how does the choice of chart type differ when displaying composition over time versus a single snapshot comparison?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Use a pie chart for both scenarios to maintain consistent dashboard styles."
+      },
+      {
+        "id": "B",
+        "text": "Use stacked area charts or stacked bar charts for composition changes over time, and simple horizontal bar charts or treemaps for snapshot comparisons."
+      },
+      {
+        "id": "C",
+        "text": "Snapshot comparisons require line charts, while temporal composition requires scatter plots."
+      },
+      {
+        "id": "D",
+        "text": "Always convert temporal composition data to linear regressions before plotting."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Stacked area/bar charts show relative breakdowns as they change sequentially over time. Snapshot comparisons are best served by simple bar charts or treemaps because pie charts over time become hard to read.",
+    "weight": 1
+  },
+  {
+    "id": "ds_sql_001",
+    "domain": "data_science",
+    "skill": "SQL",
+    "difficulty": "easy",
+    "question": "Which SQL clause is used to filter query results based on conditions?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GROUP BY"
+      },
+      {
+        "id": "B",
+        "text": "WHERE"
+      },
+      {
+        "id": "C",
+        "text": "ORDER BY"
+      },
+      {
+        "id": "D",
+        "text": "SELECT"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "The WHERE clause filters rows returned by the FROM clause based on boolean search conditions.",
+    "weight": 1
+  },
+  {
+    "id": "ds_sql_002",
+    "domain": "data_science",
+    "skill": "SQL",
+    "difficulty": "medium",
+    "question": "In SQL, what is the difference between WHERE and HAVING clauses?",
+    "options": [
+      {
+        "id": "A",
+        "text": "WHERE is for filtering individual rows, while HAVING is for filtering aggregated group rows calculated after GROUP BY."
+      },
+      {
+        "id": "B",
+        "text": "WHERE can only be used on string columns, while HAVING only works on numbers."
+      },
+      {
+        "id": "C",
+        "text": "HAVING runs before the JOIN operations, whereas WHERE runs after JOINs."
+      },
+      {
+        "id": "D",
+        "text": "There is no difference; they can be used interchangeably."
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "WHERE filters source rows before grouping. HAVING filters the grouped results using aggregate functions (e.g. `HAVING COUNT(*) > 5`).",
+    "weight": 1
+  },
+  {
+    "id": "ds_sql_003",
+    "domain": "data_science",
+    "skill": "SQL",
+    "difficulty": "hard",
+    "question": "Explain the difference in execution behavior and output between LEFT JOIN, INNER JOIN, and FULL OUTER JOIN.",
+    "options": [
+      {
+        "id": "A",
+        "text": "INNER JOIN retains all rows; LEFT JOIN drops all columns; FULL JOIN matches rows horizontally."
+      },
+      {
+        "id": "B",
+        "text": "INNER JOIN returns only matching rows; LEFT JOIN returns all rows from the left table and matching rows from the right (filling right columns with NULL for mismatches); FULL OUTER JOIN returns all rows from both tables, filling mismatches with NULLs."
+      },
+      {
+        "id": "C",
+        "text": "LEFT JOIN only matches rows if they are sorted; INNER JOIN executes faster because it skips indexes."
+      },
+      {
+        "id": "D",
+        "text": "LEFT JOIN drops matching rows, and FULL OUTER JOIN matches rows on primary keys only."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "INNER JOIN restricts the result to intersecting rows. LEFT JOIN preserves all rows from the left table, injecting NULLs for right-table missing elements. FULL OUTER JOIN preserves all rows from both tables, with NULL values where rows do not align on join keys.",
+    "weight": 1
+  },
+  {
+    "id": "ds_mlbas_001",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "difficulty": "easy",
+    "question": "Which machine learning paradigm involves training models on labeled inputs to predict known outcomes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unsupervised Learning"
+      },
+      {
+        "id": "B",
+        "text": "Supervised Learning"
+      },
+      {
+        "id": "C",
+        "text": "Reinforcement Learning"
+      },
+      {
+        "id": "D",
+        "text": "Semi-supervised Clustering"
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Supervised learning learns mappings from input features to target labels, using labels as guidance (supervision).",
+    "weight": 1
+  },
+  {
+    "id": "ds_mlbas_002",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "difficulty": "medium",
+    "question": "What does a Decision Tree split on at each node during training?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Random mathematical equations."
+      },
+      {
+        "id": "B",
+        "text": "The feature and split point that maximizes information gain (or minimizes Gini impurity/MSE)."
+      },
+      {
+        "id": "C",
+        "text": "An average of all feature vectors."
+      },
+      {
+        "id": "D",
+        "text": "Class distributions determined by an SVM kernel."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Decision trees choose splits that maximize impurity reduction (Gini index or Information Gain for classification, variance reduction/MSE for regression).",
+    "weight": 1
+  },
+  {
+    "id": "ds_mlbas_003",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "difficulty": "hard",
+    "question": "What is the bias-variance tradeoff, and how do overfitting and underfitting relate to these concepts?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bias is testing error, and variance is validation error. Overfitting is high bias; underfitting is low variance."
+      },
+      {
+        "id": "B",
+        "text": "Underfitting is caused by high bias (simple model assumptions fail to capture patterns), while overfitting is caused by high variance (model fits training data/noise too closely, failing to generalize)."
+      },
+      {
+        "id": "C",
+        "text": "Bias measures predictions accuracy, while variance measures training speeds. Overfitting is when models are too slow."
+      },
+      {
+        "id": "D",
+        "text": "Underfitting is high variance; overfitting is low bias."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Bias represents model assumptions errors. High bias models underfit (too simple). Variance is sensitivity to training fluctuations. High variance models overfit (capture noise), leading to poor test generalization.",
+    "weight": 1
+  },
+  {
+    "id": "ds_interpret_001",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "difficulty": "easy",
+    "question": "What is the primary fallacy in concluding that ice cream sales cause drownings because both peak during the summer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Correlation does not imply causation (omitted variable bias)"
+      },
+      {
+        "id": "B",
+        "text": "Sample size is too small"
+      },
+      {
+        "id": "C",
+        "text": "Ice cream actually has a biological link to swimming cramps"
+      },
+      {
+        "id": "D",
+        "text": "The data is improperly scaled"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "The relationship is a correlation driven by a confounding variable (hot weather), meaning one does not cause the other.",
+    "weight": 1
+  },
+  {
+    "id": "ds_interpret_002",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "difficulty": "medium",
+    "question": "Explain Simpson's Paradox in statistical analysis.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It states that smaller samples have larger variances."
+      },
+      {
+        "id": "B",
+        "text": "A trend that appears in different groups of data disappears or reverses when these groups are combined."
+      },
+      {
+        "id": "C",
+        "text": "It means all correlation coefficients approach zero in massive datasets."
+      },
+      {
+        "id": "D",
+        "text": "It is when outlier values represent correct labels."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "Simpson's Paradox occurs when aggregate statistics hide or invert relationships present in sub-categories due to confounding factors.",
+    "weight": 1
+  },
+  {
+    "id": "ds_interpret_003",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "difficulty": "hard",
+    "question": "An analytics dashboard claims a feature change increased conversion rate from 1.0% to 1.1% based on 1,000 visitors in an A/B test. How should you interpret this result?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Celebrate the 10% increase because conversion improved."
+      },
+      {
+        "id": "B",
+        "text": "Run a statistical significance test (e.g. chi-squared or z-test); at 1,000 visitors, the change from 1.0% to 1.1% is highly likely to be statistically insignificant noise."
+      },
+      {
+        "id": "C",
+        "text": "Conclude that the sample size is double what is needed for a reliable test."
+      },
+      {
+        "id": "D",
+        "text": "Double the conversion metric scale on the visual axis to emphasize the change."
+      }
+    ],
+    "correct_option_id": "B",
+    "explanation": "For tiny changes (0.1% absolute lift), small sample sizes (1,000 visitors total) yield low statistical power, making the margin of error much larger than the detected lift. A z-test or chi-squared test would confirm the difference is insignificant noise.",
+    "weight": 1
+  }
+]
