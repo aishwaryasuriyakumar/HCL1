@@ -8,6 +8,7 @@ from app.database.base import Base
 # Import models to ensure they are registered with Base metadata
 from app.models.learner import Learner
 from app.models.assessment import AssessmentAttempt, AssessmentAnswer, SkillAssessmentResult, SkillGapAnalysis
+from app.models.learning_path import LearningPath
 
 # Create tables
 Base.metadata.create_all(bind=engine)
