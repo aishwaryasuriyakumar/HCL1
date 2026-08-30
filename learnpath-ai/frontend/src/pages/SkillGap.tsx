@@ -94,7 +94,7 @@ export const SkillGapPage: React.FC = () => {
 
   return (
     <AppLayout>
-      <div className="container py-12 max-w-5xl">
+      <div className="container py-12 max-w-6xl">
         {isGeneratingPath && <Loader fullScreen message="AI is crafting your personalized roadmap..." />}
         {generationError && (
           <div className="alert-error mb-6 text-center">
@@ -110,8 +110,8 @@ export const SkillGapPage: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 mb-8">
-          <div className="md:col-span-2 space-y-6">
+        <div className="grid lg:grid-cols-3 gap-8 mb-8">
+          <div className="lg:col-span-2 space-y-6">
             <Card>
               <CardHeader>
                 <CardTitle>Detailed Skill Breakdown</CardTitle>

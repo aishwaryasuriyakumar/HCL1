@@ -160,11 +160,11 @@ a:hover {
 /* Base Utility Classes */
 .container {
   width: 100%;
-  max-width: 1180px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: var(--spacing-6);
-  padding-right: var(--spacing-6);
+  padding-left: clamp(1rem, 2.5vw, 2rem);
+  padding-right: clamp(1rem, 2.5vw, 2rem);
 }
 
 .text-center { text-align: center; }
@@ -200,6 +200,8 @@ a:hover {
 .max-w-3xl { max-width: 48rem; }
 .max-w-4xl { max-width: 56rem; }
 .max-w-5xl { max-width: 64rem; }
+.max-w-6xl { max-width: 72rem; }
+.max-w-7xl { max-width: 80rem; }
 
 .flex { display: flex; }
 .inline-flex { display: inline-flex; }
@@ -217,8 +219,14 @@ a:hover {
 .gap-2 { gap: var(--spacing-2); }
 .gap-3 { gap: var(--spacing-3); }
 .gap-4 { gap: var(--spacing-4); }
+.gap-5 { gap: var(--spacing-5); }
 .gap-6 { gap: var(--spacing-6); }
 .gap-8 { gap: var(--spacing-8); }
+.gap-10 { gap: var(--spacing-10); }
+
+.space-y-4 > * + * { margin-top: var(--spacing-4); }
+.space-y-6 > * + * { margin-top: var(--spacing-6); }
+.space-y-8 > * + * { margin-top: var(--spacing-8); }
 
 .w-full { width: 100%; }
 

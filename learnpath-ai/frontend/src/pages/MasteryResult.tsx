@@ -58,7 +58,7 @@ export const MasteryResultPage: React.FC = () => {
 
   return (
     <AppLayout>
-      <div className="container py-12 max-w-4xl">
+      <div className="container py-12 max-w-5xl">
         
         <div className="text-center mb-10">
           <div className="inline-flex items-center justify-center w-20 h-20 rounded-full mb-6 mx-auto bg-muted/10">
