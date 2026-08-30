@@ -63,7 +63,7 @@ export const AssessmentResultPage: React.FC = () => {
 
   return (
     <AppLayout>
-      <div className="container py-12 max-w-4xl">
+      <div className="container py-12 max-w-5xl">
         {isAnalyzing && <Loader fullScreen message="Analyzing your skill gaps..." />}
         
         <div className="text-center mb-10">

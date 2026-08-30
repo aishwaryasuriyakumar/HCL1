@@ -94,7 +94,7 @@ export const SkillGapPage: React.FC = () => {
 
   return (
     <AppLayout>
-      <div className="container py-12 max-w-5xl">
+      <div className="container-wide py-12">
         {isGeneratingPath && <Loader fullScreen message="AI is crafting your personalized roadmap..." />}
         {generationError && (
           <div className="alert-error mb-6 text-center">
@@ -105,13 +105,13 @@ export const SkillGapPage: React.FC = () => {
         
         <div className="mb-10 text-center">
           <h1 className="text-3xl font-bold mb-4">Your Skill Gap Analysis</h1>
-          <p className="text-muted max-w-3xl mx-auto text-lg leading-relaxed">
+          <p className="text-muted max-w-4xl mx-auto text-lg leading-relaxed">
             {skillGap.summary}
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 mb-8">
-          <div className="md:col-span-2 space-y-6">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-10 mb-8">
+          <div className="lg:col-span-7 space-y-6">
             <Card>
               <CardHeader>
                 <CardTitle>Detailed Skill Breakdown</CardTitle>
@@ -169,7 +169,7 @@ export const SkillGapPage: React.FC = () => {
             </Card>
           </div>
           
-          <div className="space-y-6">
+          <div className="lg:col-span-5 space-y-6">
             <Card className="shadow-md">
               <CardContent className="p-8">
                 <h3 className="font-bold text-2xl mb-3 text-foreground" style={{ color: 'var(--color-text)' }}>

@@ -113,7 +113,7 @@ export const Dashboard: React.FC = () => {
 
   return (
     <AppLayout>
-      <div className="container py-10 max-w-5xl">
+      <div className="container py-10 max-w-6xl">
         {/* Header Bar */}
         <div className="flex justify-between items-center mb-8 flex-wrap gap-4">
           <div>
@@ -218,9 +218,9 @@ export const Dashboard: React.FC = () => {
             </CardContent>
           </Card>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid lg:grid-cols-3 gap-8">
             {/* Current Focus / Completion Status */}
-            <div className="md:col-span-2 space-y-6">
+            <div className="lg:col-span-2 space-y-6">
               <h3 className="text-lg font-bold">Current Focus</h3>
               
               {isPathCompleted ? (
