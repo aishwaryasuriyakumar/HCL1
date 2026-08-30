@@ -25,13 +25,17 @@ export const PathResult: React.FC = () => {
         setPath(pathData);
         
         try {
-          // Try to fetch curated resources. We could use curateForPath, but getPathResources is safer 
-          // if they're already curated, or we just call getPathResources.
           const resData = await resourceService.getPathResources(pathId);
           setResources(resData);
         } catch (resErr) {
-          console.warn("Could not load resources, they might not be curated yet.");
-          // We can optionally trigger curation here, but it might take a long time.
+          console.warn("Resources not found, attempting to curate...");
+          try {
+            await resourceService.curateForPath(pathId);
+            const resData = await resourceService.getPathResources(pathId);
+            setResources(resData);
+          } catch (curationErr) {
+            console.error("Curation failed", curationErr);
+          }
         }
       } catch (err: any) {
         console.error(err);
@@ -69,7 +73,8 @@ export const PathResult: React.FC = () => {
   }
 
   const getPhaseResources = (phaseId: string): ResourceCardData[] => {
-    if (!resources) return [];
+    // Ensure resources and its phases array are defined before searching
+    if (!resources || !resources.phases) return [];
     const phaseRes = resources.phases.find(p => p.phase_id === phaseId);
     return phaseRes ? phaseRes.resources : [];
   };
@@ -129,7 +134,7 @@ export const PathResult: React.FC = () => {
                       <div className="mb-6">
                         <h4 className="text-sm font-semibold mb-2">Key Skills</h4>
                         <div className="flex flex-wrap gap-2">
-                          {phase.skills.map(skill => (
+                          {(phase.skills ?? []).map(skill => (
                             <span key={skill} className="skill-tag">{skill}</span>
                           ))}
                         </div>

@@ -12,7 +12,7 @@ import { MasteryIntro } from './pages/MasteryIntro';
 import { Mastery } from './pages/Mastery';
 import { MasteryResultPage } from './pages/MasteryResult';
 import { auth } from './utils/auth';
-
+import { GeneratePath } from './pages/GeneratePath';
 
 
 // Simple PrivateRoute wrapper
@@ -53,6 +53,7 @@ export const App: React.FC = () => {
         <Route path="/path/:pathId" element={
           <PrivateRoute><PathResult /></PrivateRoute>
         } />
+          <Route path="/generate" element={<PrivateRoute><GeneratePath /></PrivateRoute>} />
         
         {/* Mastery Flow */}
         <Route path="/mastery/intro/:phaseId" element={

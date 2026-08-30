@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import { AppLayout } from '../components/layout/AppLayout';
 import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
@@ -13,8 +13,11 @@ import './Onboarding.css';
 
 export const Onboarding: React.FC = () => {
   const navigate = useNavigate();
-  const [step, setStep] = useState(1);
+  const [searchParams] = useSearchParams();
+  const initialStep = searchParams.get('skip') === 'basic' ? 2 : 1;
+  const [step, setStep] = useState(initialStep);
   const [isLoading, setIsLoading] = useState(false);
+  const [isLoadingProfile, setIsLoadingProfile] = useState(true);
   const [error, setError] = useState<string | null>(null);
   
   const [domains, setDomains] = useState<DomainInfo[]>([]);
@@ -49,7 +52,38 @@ export const Onboarding: React.FC = () => {
         setIsLoadingDomains(false);
       }
     };
+    const fetchProfile = async () => {
+      const userId = auth.getCurrentUserId();
+      if (!userId) {
+        setIsLoadingProfile(false);
+        return;
+      }
+      try {
+        const profile = await profileService.getProfile(userId);
+        setFormData(prev => ({
+          ...prev,
+          full_name: profile.full_name,
+          email: profile.email,
+          selected_domain: profile.selected_domain || prev.selected_domain,
+          experience_level: profile.experience_level || prev.experience_level,
+          years_of_experience: profile.years_of_experience || prev.years_of_experience,
+          learning_goal: profile.learning_goal || prev.learning_goal,
+          career_goal: profile.career_goal || prev.career_goal,
+          motivation: profile.motivation || prev.motivation,
+        }));
+        // Skip basic info step if name and email are present
+        if (profile.full_name && profile.email) {
+          setStep(2);
+        }
+      } catch (err) {
+        console.error('Failed to load profile', err);
+        // continue without pre-filling
+      } finally {
+        setIsLoadingProfile(false);
+      }
+    };
     fetchDomains();
+    fetchProfile();
   }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
@@ -83,10 +117,10 @@ export const Onboarding: React.FC = () => {
     }
   };
 
-  if (isLoadingDomains) {
+  if (isLoadingDomains || isLoadingProfile) {
     return (
       <AppLayout>
-        <Loader fullScreen message="Loading domains..." />
+        <Loader fullScreen message="Loading profile..." />
       </AppLayout>
     );
   }
