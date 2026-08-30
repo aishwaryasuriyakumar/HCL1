@@ -170,22 +170,29 @@ export const SkillGapPage: React.FC = () => {
           </div>
           
           <div className="space-y-6">
-            <Card className="border-none text-white overflow-hidden shadow-lg" style={{ background: 'var(--gradient-brand)' }}>
-              <CardContent className="p-8">
-                <h3 className="font-bold text-2xl mb-3 text-white">Ready to close the gap?</h3>
-                <p className="text-white/90 mb-6 text-sm leading-relaxed">
-                  We have mapped out the precise learning path you need to master these skills and reach your career goal.
-                </p>
-                <Button 
-                  className="w-full font-bold shadow-md"
-                  style={{ background: '#ffffff', color: '#6654f5' }}
-                  size="lg"
-                  onClick={handleGeneratePath}
-                >
-                  View Personalized Roadmap
-                </Button>
-              </CardContent>
-            </Card>
+            <div 
+              className="p-8 rounded-2xl shadow-xl border border-primary/30 relative overflow-hidden"
+              style={{ background: 'linear-gradient(135deg, #11121e 0%, #1c1d2e 50%, #0b0c18 100%)' }}
+            >
+              <div 
+                className="absolute top-0 left-0 right-0 h-1"
+                style={{ background: 'var(--gradient-brand)' }}
+              />
+              <h3 className="font-extrabold text-2xl mb-3 text-white tracking-tight" style={{ color: '#ffffff' }}>
+                Ready to close the gap?
+              </h3>
+              <p className="text-slate-200 mb-6 text-sm leading-relaxed" style={{ color: '#f1f5f9' }}>
+                We have mapped out the precise learning path you need to master these skills and reach your career goal.
+              </p>
+              <Button 
+                className="w-full font-bold shadow-lg"
+                style={{ background: 'var(--gradient-brand)', color: '#ffffff' }}
+                size="lg"
+                onClick={handleGeneratePath}
+              >
+                View Personalized Roadmap
+              </Button>
+            </div>
 
             <Card>
               <CardHeader>

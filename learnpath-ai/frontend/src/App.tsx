@@ -15,10 +15,12 @@ import { auth } from './utils/auth';
 import { GeneratePath } from './pages/GeneratePath';
 
 
+import { AuthPage } from './pages/AuthPage';
+
 // Simple PrivateRoute wrapper
 const PrivateRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   if (!auth.isAuthenticated()) {
-    return <Navigate to="/onboarding" replace />;
+    return <Navigate to="/sign-in" replace />;
   }
   return <>{children}</>;
 };
@@ -29,6 +31,11 @@ export const App: React.FC = () => {
       <Routes>
         {/* Public / Landing Route */}
         <Route path="/" element={<Home />} />
+
+        {/* Authentication Routes */}
+        <Route path="/auth" element={<AuthPage />} />
+        <Route path="/sign-in" element={<AuthPage initialMode="signin" />} />
+        <Route path="/sign-up" element={<AuthPage initialMode="signup" />} />
         
         {/* Onboarding Flow (Creates User Session) */}
         <Route path="/onboarding" element={<Onboarding />} />
