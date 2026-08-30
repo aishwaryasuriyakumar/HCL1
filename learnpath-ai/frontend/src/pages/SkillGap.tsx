@@ -46,11 +46,19 @@ export const SkillGapPage: React.FC = () => {
     setGenerationError(null);
     setIsGeneratingPath(true);
     try {
-      const pathResult = await learningPathService.generatePath(userId);
+      // Retrieve pending payload from localStorage if present
+      const pending = localStorage.getItem('pendingLearningPath');
+      const payload = pending ? JSON.parse(pending) : {};
+      const pathResult = await learningPathService.generatePath({
+        user_id: userId,
+        ...payload,
+      } as any);
+      // Clear pending after successful generation
+      localStorage.removeItem('pendingLearningPath');
       navigate(`/path/${pathResult.path_id}`);
     } catch (err: any) {
       console.error(err);
-      // If generation fails (e.g., path already exists or backend error), try fetching the latest path
+      // If generation fails, try fetching the latest path
       try {
         const latest = await learningPathService.getLatestPath(userId);
         navigate(`/path/${latest.path_id}`);
