@@ -5,7 +5,8 @@ import type {
   SkillGapResult,
   DomainInfo,
   MasteryStartResponse, MasterySubmitRequest, MasteryResult, MasteryAttemptHistoryItem,
-  CuratedPathResources
+  CuratedPathResources,
+  UserLearningPathsResponse
 } from '../types/schemas';
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
@@ -26,22 +27,30 @@ const api = axios.create({
   },
 });
 
+import { DEFAULT_DOMAINS } from '../data/domains';
+
 export const domainService = {
   getDomains: async (): Promise<DomainInfo[]> => {
-    // The backend may return data in several possible formats:
-    // 1. An array of DomainInfo objects.
-    // 2. An object with a "domains" key containing the array.
-    // 3. A plain dictionary where each key maps to a DomainInfo.
-    const response = await api.get<any>('/domains');
-    const data = response.data;
-    if (Array.isArray(data)) {
-      return data as DomainInfo[];
+    try {
+      const response = await api.get<any>('/domains');
+      const data = response.data;
+      if (Array.isArray(data) && data.length > 0) {
+        return data as DomainInfo[];
+      }
+      if (data && Array.isArray(data.domains) && data.domains.length > 0) {
+        return data.domains as DomainInfo[];
+      }
+      if (data && typeof data === 'object' && Object.keys(data).length > 0) {
+        const values = Object.values(data) as DomainInfo[];
+        if (values.length > 0 && values[0].id) {
+          return values;
+        }
+      }
+      return DEFAULT_DOMAINS;
+    } catch (err) {
+      console.warn('Failed to fetch domains from API, using default domain catalogue', err);
+      return DEFAULT_DOMAINS;
     }
-    if (data && Array.isArray(data.domains)) {
-      return data.domains as DomainInfo[];
-    }
-    // Fallback: treat the object as a map of id -> DomainInfo
-    return Object.values(data) as DomainInfo[];
   }
 };
 
@@ -112,8 +121,42 @@ export const learningPathService = {
     return response.data;
   },
 
+  // Retrieve ALL learning paths belonging to the user
+  getUserPaths: async (userId: string): Promise<UserLearningPathsResponse> => {
+    const response = await api.get<any>(`/learning-path/user/${userId}`);
+    const data = response.data;
+    if (data && Array.isArray(data.paths)) {
+      return data as UserLearningPathsResponse;
+    }
+    if (data && data.path_id) {
+      const phases = data.phases || [];
+      const completed = phases.filter((ph: any) => ph.status === 'completed').length;
+      const total = phases.length;
+      const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
+      return {
+        user_id: userId,
+        paths: [{
+          path_id: data.path_id,
+          domain: data.domain,
+          title: data.title,
+          description: data.description,
+          learning_goal: data.learning_goal,
+          career_goal: data.career_goal,
+          experience_level: data.overall_level || 'intermediate',
+          status: completed === total && total > 0 ? 'completed' : 'in_progress',
+          progress_percentage: pct,
+          completed_phases: completed,
+          total_phases: total,
+          phases: phases,
+          created_at: data.generated_at
+        }]
+      };
+    }
+    return { user_id: userId, paths: [] };
+  },
+
   getLatestPath: async (userId: string): Promise<LearningPathResult> => {
-    const response = await api.get<LearningPathResult>(`/learning-path/user/${userId}`);
+    const response = await api.get<any>(`/learning-path/user/${userId}/latest`);
     return response.data;
   }
 };

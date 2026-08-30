@@ -1,64 +1,166 @@
+/* Ambient Background Glows */
+.home-ambient-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+.glow-1 {
+  top: 5%;
+  left: 15%;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(102, 84, 245, 0.15) 0%, transparent 70%);
+}
+
+.glow-2 {
+  top: 15%;
+  right: 15%;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(202, 90, 139, 0.12) 0%, transparent 70%);
+}
+
+/* Hero Section */
 .hero-section {
-  padding: var(--spacing-12) 0;
-  background: radial-gradient(circle at top, rgba(99, 102, 241, 0.15) 0%, transparent 50%);
+  position: relative;
+  padding: 4.5rem 0 3.5rem;
+  overflow: hidden;
 }
 
 .hero-title {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
+  font-weight: 800;
+  line-height: 1.15;
   margin-bottom: var(--spacing-4);
+  letter-spacing: -0.03em;
 }
 
 @media (min-width: 768px) {
   .hero-title {
-    font-size: 3.5rem;
+    font-size: 3.75rem;
   }
 }
 
-.text-gradient {
-  background: linear-gradient(to right, #818cf8, #c084fc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .hero-subtitle {
-  font-size: 1.125rem;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--color-text-muted);
 }
 
-.max-w-2xl {
-  max-width: 42rem;
-}
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-.ml-2 {
-  margin-left: var(--spacing-2);
+.hero-cta-btn {
+  box-shadow: 0 8px 24px -4px rgba(102, 84, 245, 0.4);
 }
 
+.hero-secondary-btn {
+  border-radius: var(--radius-full);
+}
+
+/* Stats Strip */
+.hero-stats-strip {
+  margin-top: 3.5rem;
+}
+
+.stat-pill {
+  background: #ffffff;
+  border: 1px solid rgba(102, 84, 245, 0.12);
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius-xl);
+  box-shadow: 0 4px 16px -2px rgba(102, 84, 245, 0.06);
+  text-align: center;
+  transition: all var(--transition-normal);
+}
+
+.stat-pill:hover {
+  transform: translateY(-3px);
+  border-color: var(--color-border-hover);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.02em;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+/* Features Section */
 .features-section {
-  padding: var(--spacing-12) 0;
+  padding: 4rem 0 5rem;
+  position: relative;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--spacing-3);
 }
 
 .feature-card {
-  padding: var(--spacing-6);
-  background-color: var(--color-surface);
-  border-radius: var(--radius-xl);
-  border: 1px solid var(--color-border);
-  transition: transform var(--transition-normal);
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: var(--radius-2xl);
+  border: 1px solid rgba(102, 84, 245, 0.12);
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .feature-card:hover {
-  transform: translateY(-5px);
-  border-color: var(--color-primary-hover);
-  box-shadow: var(--shadow-glow);
+  transform: translateY(-6px);
+  border-color: rgba(102, 84, 245, 0.35);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.feature-icon-wrapper {
+  width: 3rem;
+  height: 3rem;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.icon-purple {
+  background: rgba(102, 84, 245, 0.1);
+  color: var(--color-primary);
+  border: 1px solid rgba(102, 84, 245, 0.2);
+}
+
+.icon-pink {
+  background: rgba(202, 90, 139, 0.1);
+  color: var(--color-accent);
+  border: 1px solid rgba(202, 90, 139, 0.2);
+}
+
+.icon-gold {
+  background: rgba(242, 179, 71, 0.12);
+  color: #d97706;
+  border: 1px solid rgba(242, 179, 71, 0.25);
 }
 
 .feature-title {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+  font-weight: 700;
   margin-bottom: var(--spacing-2);
+  color: var(--color-text);
 }
 
 .feature-desc {
-  font-size: 0.95rem;
+  font-size: 0.925rem;
   line-height: 1.6;
+  color: var(--color-text-muted);
 }

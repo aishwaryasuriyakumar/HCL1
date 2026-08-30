@@ -2,6 +2,7 @@ export interface DomainInfo {
   id: string;
   name: string;
   description?: string;
+  skills?: string[];
 }
 
 export type ExperienceLevel = 'beginner' | 'intermediate' | 'advanced' | 'professional';
@@ -223,6 +224,27 @@ export interface LearningPathResult {
   phases: PhaseSpec[];
   capstone_project: CapstoneProject;
   generated_at: string;
+}
+
+export interface UserPathSummary {
+  path_id: string;
+  domain: string;
+  title: string;
+  description: string;
+  learning_goal: string;
+  career_goal: string;
+  experience_level: string;
+  status: string;
+  progress_percentage: number;
+  completed_phases: number;
+  total_phases: number;
+  phases: PhaseSpec[];
+  created_at?: string;
+}
+
+export interface UserLearningPathsResponse {
+  user_id: string;
+  paths: UserPathSummary[];
 }
 
 // --- Resources ---

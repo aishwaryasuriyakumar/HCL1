@@ -133,7 +133,8 @@ def test_mastery_full_flow_fail_remediate_retest_and_unlock():
     # Verify learning path phase 2 remains locked after failure
     res_path_check = client.get(f"/api/learning-paths/user/{user_id}")
     assert res_path_check.status_code == 200
-    current_phases = res_path_check.json()["phases"]
+    data_check = res_path_check.json()
+    current_phases = data_check.get("phases") or data_check["paths"][0]["phases"]
     assert current_phases[0]["phase_id"] == phase_1_id
     assert current_phases[1]["phase_id"] == phase_2_id
     assert current_phases[1]["status"] == "locked"
@@ -200,7 +201,8 @@ def test_mastery_full_flow_fail_remediate_retest_and_unlock():
     # 6. Verify Phase 1 is Completed and Phase 2 is Unlocked ("available")!
     res_path_unlocked = client.get(f"/api/learning-paths/user/{user_id}")
     assert res_path_unlocked.status_code == 200
-    updated_phases = res_path_unlocked.json()["phases"]
+    data_unlocked = res_path_unlocked.json()
+    updated_phases = data_unlocked.get("phases") or data_unlocked["paths"][0]["phases"]
     assert updated_phases[0]["status"] == "completed"
     assert updated_phases[1]["status"] == "available"
 

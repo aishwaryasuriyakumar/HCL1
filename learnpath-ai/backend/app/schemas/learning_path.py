@@ -80,3 +80,27 @@ class LearningPathResult(BaseModel):
     generated_at: datetime
 
     model_config = ConfigDict(from_attributes=True, populate_by_name=True)
+
+class UserPathSummary(BaseModel):
+    path_id: UUID
+    domain: str
+    title: str
+    description: str
+    learning_goal: str
+    career_goal: str
+    experience_level: str
+    status: str
+    progress_percentage: float
+    completed_phases: int
+    total_phases: int
+    phases: List[PhaseSpec] = Field(default_factory=list)
+    created_at: Optional[datetime] = None
+
+    model_config = ConfigDict(from_attributes=True, populate_by_name=True)
+
+class UserLearningPathsResponse(BaseModel):
+    user_id: UUID
+    paths: List[UserPathSummary]
+
+    model_config = ConfigDict(from_attributes=True, populate_by_name=True)
+

@@ -170,35 +170,36 @@ export const SkillGapPage: React.FC = () => {
           </div>
           
           <div className="space-y-6">
-            <Card className="bg-primary text-white border-none">
-              <CardContent className="p-6">
-                <h3 className="font-semibold text-xl mb-4">Ready to close the gap?</h3>
-                <p className="opacity-90 mb-6">
-                  We have mapped out the precise learning path you need to master these skills.
+            <Card className="border-none text-white overflow-hidden shadow-lg" style={{ background: 'var(--gradient-brand)' }}>
+              <CardContent className="p-8">
+                <h3 className="font-bold text-2xl mb-3 text-white">Ready to close the gap?</h3>
+                <p className="text-white/90 mb-6 text-sm leading-relaxed">
+                  We have mapped out the precise learning path you need to master these skills and reach your career goal.
                 </p>
                 <Button 
-                  className="w-full bg-white text-primary hover:bg-gray-100" 
+                  className="w-full font-bold shadow-md"
+                  style={{ background: '#ffffff', color: '#6654f5' }}
                   size="lg"
                   onClick={handleGeneratePath}
                 >
-                  View Learning Path
+                  View Personalized Roadmap
                 </Button>
               </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">Recommended Focus</CardTitle>
+                <CardTitle className="text-lg">Recommended Priority Focus</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-4">
                   {skillGap.recommended_focus.map((focus) => (
-                    <li key={focus.order} className="flex gap-3">
-                      <div className="bg-primary/10 text-primary w-6 h-6 rounded-full flex items-center justify-center font-bold text-sm shrink-0">
+                    <li key={focus.order} className="flex gap-3 items-start">
+                      <div className="bg-primary/10 text-primary w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm shrink-0 border border-primary/20">
                         {focus.order}
                       </div>
                       <div>
-                        <div className="font-medium">{focus.skill}</div>
+                        <div className="font-semibold text-sm">{focus.skill}</div>
                         <div className="text-xs text-muted mt-1">{focus.reason}</div>
                       </div>
                     </li>

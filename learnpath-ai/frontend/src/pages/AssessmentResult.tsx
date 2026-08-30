@@ -74,24 +74,24 @@ export const AssessmentResultPage: React.FC = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-6 mb-8">
-          <Card className="text-center bg-primary text-white border-none">
+          <Card className="text-center text-white border-none shadow-lg" style={{ background: 'var(--gradient-brand)' }}>
             <CardContent className="p-6">
-              <div className="text-sm uppercase tracking-wider mb-2 opacity-80">Overall Score</div>
-              <div className="text-5xl font-bold">{Math.round(result.overall.score)}%</div>
+              <div className="text-xs uppercase tracking-wider mb-2 font-bold text-white/80">Overall Score</div>
+              <div className="text-5xl font-extrabold text-white">{Math.round(result.overall.score)}%</div>
             </CardContent>
           </Card>
           
           <Card className="text-center border-primary/20">
             <CardContent className="p-6">
-              <div className="text-sm uppercase tracking-wider mb-2 text-muted">Proficiency Level</div>
+              <div className="text-xs uppercase tracking-wider mb-2 text-muted font-bold">Proficiency Level</div>
               <div className="text-3xl font-bold text-primary capitalize">{result.overall.proficiency}</div>
             </CardContent>
           </Card>
           
           <Card className="text-center border-primary/20">
             <CardContent className="p-6">
-              <div className="text-sm uppercase tracking-wider mb-2 text-muted">Accuracy</div>
-              <div className="text-3xl font-bold">
+              <div className="text-xs uppercase tracking-wider mb-2 text-muted font-bold">Accuracy</div>
+              <div className="text-3xl font-bold text-gray-900">
                 {result.overall.correct_answers} / {result.overall.total_questions}
               </div>
             </CardContent>
