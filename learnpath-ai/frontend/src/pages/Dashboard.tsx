@@ -4,12 +4,31 @@ import { AppLayout } from '../components/layout/AppLayout';
 import { Button } from '../components/ui/Button';
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from '../components/ui/Card';
 import { Loader } from '../components/ui/Loader';
-import { learningPathService } from '../services/api';
+import { learningPathService, profileService } from '../services/api';
 import { auth } from '../utils/auth';
 import type { LearningPathResult } from '../types/schemas';
 
 export const Dashboard: React.FC = () => {
   const navigate = useNavigate();
+  const handleStartNewPath = async () => {
+    const userId = auth.getCurrentUserId();
+    if (!userId) {
+      navigate('/');
+      return;
+    }
+    try {
+      const profile = await profileService.getProfile(userId);
+      if (profile.full_name && profile.email) {
+        // Existing learner – skip basic info
+        navigate('/onboarding?skip=basic');
+      } else {
+        navigate('/onboarding');
+      }
+    } catch (err) {
+      console.error('Failed to load profile', err);
+      navigate('/onboarding');
+    }
+  };
   const [path, setPath] = useState<LearningPathResult | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -43,7 +62,7 @@ export const Dashboard: React.FC = () => {
       <AppLayout>
         <div className="container py-12 max-w-2xl text-center">
           <div className="alert-error mb-6">{error || "No learning path found"}</div>
-          <Button onClick={() => navigate('/onboarding')}>Start New Path</Button>
+          <Button onClick={handleStartNewPath}>Start New Path</Button>
         </div>
       </AppLayout>
     );

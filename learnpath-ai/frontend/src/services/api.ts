@@ -10,6 +10,15 @@ import type {
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
 
+// Payload type for learning‑path generation
+export interface GeneratePathPayload {
+  user_id: string;
+  selected_domain: string;
+  experience_level: string;
+  learning_goal: string;
+  career_goal: string;
+}
+
 const api = axios.create({
   baseURL: API_URL,
   headers: {
@@ -37,6 +46,10 @@ export const domainService = {
 };
 
 export const profileService = {
+  updateProfile: async (userId: string, data: any) => {
+    const response = await api.put(`/profiles/${userId}`, data);
+    return response.data;
+  },
   createProfile: async (profile: LearnerProfileCreate): Promise<LearnerProfileResponse> => {
     const response = await api.post<LearnerProfileResponse>('/profiles', profile);
     return response.data;
@@ -88,8 +101,9 @@ export const skillGapService = {
 };
 
 export const learningPathService = {
-  generatePath: async (userId: string): Promise<LearningPathResult> => {
-    const response = await api.post<LearningPathResult>('/learning-path/generate', { user_id: userId });
+  // Generate a learning path using the full payload
+  generatePath: async (payload: GeneratePathPayload): Promise<LearningPathResult> => {
+    const response = await api.post<LearningPathResult>('/learning-path/generate', payload);
     return response.data;
   },
   

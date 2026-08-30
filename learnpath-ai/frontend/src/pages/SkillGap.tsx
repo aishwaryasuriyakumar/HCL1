@@ -15,6 +15,7 @@ export const SkillGapPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [isGeneratingPath, setIsGeneratingPath] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [generationError, setGenerationError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchSkillGaps = async () => {
@@ -40,14 +41,22 @@ export const SkillGapPage: React.FC = () => {
   const handleGeneratePath = async () => {
     const userId = auth.getCurrentUserId();
     if (!userId) return;
-    
+
+    setError(null);
+    setGenerationError(null);
     setIsGeneratingPath(true);
     try {
       const pathResult = await learningPathService.generatePath(userId);
       navigate(`/path/${pathResult.path_id}`);
     } catch (err: any) {
       console.error(err);
-      setError("Failed to generate learning path. Please try again.");
+      // If generation fails (e.g., path already exists or backend error), try fetching the latest path
+      try {
+        const latest = await learningPathService.getLatestPath(userId);
+        navigate(`/path/${latest.path_id}`);
+      } catch (fallbackErr) {
+        setGenerationError('Failed to generate learning path. Please try again.');
+      }
       setIsGeneratingPath(false);
     }
   };
@@ -79,6 +88,12 @@ export const SkillGapPage: React.FC = () => {
     <AppLayout>
       <div className="container py-12 max-w-5xl">
         {isGeneratingPath && <Loader fullScreen message="AI is crafting your personalized roadmap..." />}
+        {generationError && (
+          <div className="alert-error mb-6 text-center">
+            {generationError}
+            <Button className="mt-4 block mx-auto" onClick={handleGeneratePath}>Retry</Button>
+          </div>
+        )}
         
         <div className="mb-10 text-center">
           <h1 className="text-3xl font-bold mb-4">Your Skill Gap Analysis</h1>
