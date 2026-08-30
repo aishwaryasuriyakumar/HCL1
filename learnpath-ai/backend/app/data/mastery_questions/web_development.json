@@ -1,0 +1,2612 @@
+[
+  {
+    "id": "mastery_web_sema_001",
+    "domain": "web_development",
+    "skill": "HTML",
+    "topic": "Semantic Elements",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Semantic Elements in HTML?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Semantic Elements"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Semantic Elements"
+      },
+      {
+        "id": "C",
+        "text": "It converts Semantic Elements into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates HTML entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Semantic Elements is essential for proper execution and architectural alignment in HTML.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_sema_002",
+    "domain": "web_development",
+    "skill": "HTML",
+    "topic": "Semantic Elements",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Semantic Elements, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Semantic Elements"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Semantic Elements requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_sema_003",
+    "domain": "web_development",
+    "skill": "HTML",
+    "topic": "Semantic Elements",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Semantic Elements be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Semantic Elements"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Semantic Elements architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_form_001",
+    "domain": "web_development",
+    "skill": "HTML",
+    "topic": "Forms & Validation",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Forms & Validation in HTML?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Forms & Validation"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Forms & Validation"
+      },
+      {
+        "id": "C",
+        "text": "It converts Forms & Validation into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates HTML entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Forms & Validation is essential for proper execution and architectural alignment in HTML.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_form_002",
+    "domain": "web_development",
+    "skill": "HTML",
+    "topic": "Forms & Validation",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Forms & Validation, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Forms & Validation"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Forms & Validation requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_form_003",
+    "domain": "web_development",
+    "skill": "HTML",
+    "topic": "Forms & Validation",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Forms & Validation be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Forms & Validation"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Forms & Validation architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_acce_001",
+    "domain": "web_development",
+    "skill": "HTML",
+    "topic": "Accessibility",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Accessibility in HTML?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Accessibility"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Accessibility"
+      },
+      {
+        "id": "C",
+        "text": "It converts Accessibility into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates HTML entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Accessibility is essential for proper execution and architectural alignment in HTML.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_acce_002",
+    "domain": "web_development",
+    "skill": "HTML",
+    "topic": "Accessibility",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Accessibility, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Accessibility"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Accessibility requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_acce_003",
+    "domain": "web_development",
+    "skill": "HTML",
+    "topic": "Accessibility",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Accessibility be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Accessibility"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Accessibility architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_flex_001",
+    "domain": "web_development",
+    "skill": "CSS",
+    "topic": "Flexbox",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Flexbox in CSS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Flexbox"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Flexbox"
+      },
+      {
+        "id": "C",
+        "text": "It converts Flexbox into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates CSS entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Flexbox is essential for proper execution and architectural alignment in CSS.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_flex_002",
+    "domain": "web_development",
+    "skill": "CSS",
+    "topic": "Flexbox",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Flexbox, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Flexbox"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Flexbox requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_flex_003",
+    "domain": "web_development",
+    "skill": "CSS",
+    "topic": "Flexbox",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Flexbox be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Flexbox"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Flexbox architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_grid_001",
+    "domain": "web_development",
+    "skill": "CSS",
+    "topic": "Grid Layout",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Grid Layout in CSS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Grid Layout"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Grid Layout"
+      },
+      {
+        "id": "C",
+        "text": "It converts Grid Layout into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates CSS entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Grid Layout is essential for proper execution and architectural alignment in CSS.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_grid_002",
+    "domain": "web_development",
+    "skill": "CSS",
+    "topic": "Grid Layout",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Grid Layout, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Grid Layout"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Grid Layout requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_grid_003",
+    "domain": "web_development",
+    "skill": "CSS",
+    "topic": "Grid Layout",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Grid Layout be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Grid Layout"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Grid Layout architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_resp_001",
+    "domain": "web_development",
+    "skill": "CSS",
+    "topic": "Responsive Media Queries",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Responsive Media Queries in CSS?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Responsive Media Queries"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Responsive Media Queries"
+      },
+      {
+        "id": "C",
+        "text": "It converts Responsive Media Queries into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates CSS entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Responsive Media Queries is essential for proper execution and architectural alignment in CSS.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_resp_002",
+    "domain": "web_development",
+    "skill": "CSS",
+    "topic": "Responsive Media Queries",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Responsive Media Queries, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Responsive Media Queries"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Responsive Media Queries requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_resp_003",
+    "domain": "web_development",
+    "skill": "CSS",
+    "topic": "Responsive Media Queries",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Responsive Media Queries be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Responsive Media Queries"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Responsive Media Queries architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_asyn_001",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "topic": "Async/Await",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Async/Await in JavaScript?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Async/Await"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Async/Await"
+      },
+      {
+        "id": "C",
+        "text": "It converts Async/Await into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates JavaScript entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Async/Await is essential for proper execution and architectural alignment in JavaScript.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_asyn_002",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "topic": "Async/Await",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Async/Await, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Async/Await"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Async/Await requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_asyn_003",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "topic": "Async/Await",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Async/Await be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Async/Await"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Async/Await architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_even_001",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "topic": "Event Loop",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Event Loop in JavaScript?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Event Loop"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Event Loop"
+      },
+      {
+        "id": "C",
+        "text": "It converts Event Loop into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates JavaScript entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Event Loop is essential for proper execution and architectural alignment in JavaScript.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_even_002",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "topic": "Event Loop",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Event Loop, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Event Loop"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Event Loop requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_even_003",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "topic": "Event Loop",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Event Loop be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Event Loop"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Event Loop architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_clos_001",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "topic": "Closures & Scope",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Closures & Scope in JavaScript?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Closures & Scope"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Closures & Scope"
+      },
+      {
+        "id": "C",
+        "text": "It converts Closures & Scope into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates JavaScript entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Closures & Scope is essential for proper execution and architectural alignment in JavaScript.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_clos_002",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "topic": "Closures & Scope",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Closures & Scope, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Closures & Scope"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Closures & Scope requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_clos_003",
+    "domain": "web_development",
+    "skill": "JavaScript",
+    "topic": "Closures & Scope",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Closures & Scope be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Closures & Scope"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Closures & Scope architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_even_001",
+    "domain": "web_development",
+    "skill": "DOM",
+    "topic": "Event Delegation",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Event Delegation in DOM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Event Delegation"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Event Delegation"
+      },
+      {
+        "id": "C",
+        "text": "It converts Event Delegation into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates DOM entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Event Delegation is essential for proper execution and architectural alignment in DOM.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_even_002",
+    "domain": "web_development",
+    "skill": "DOM",
+    "topic": "Event Delegation",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Event Delegation, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Event Delegation"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Event Delegation requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_even_003",
+    "domain": "web_development",
+    "skill": "DOM",
+    "topic": "Event Delegation",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Event Delegation be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Event Delegation"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Event Delegation architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_dom _001",
+    "domain": "web_development",
+    "skill": "DOM",
+    "topic": "DOM Manipulation",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with DOM Manipulation in DOM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for DOM Manipulation"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for DOM Manipulation"
+      },
+      {
+        "id": "C",
+        "text": "It converts DOM Manipulation into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates DOM entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding DOM Manipulation is essential for proper execution and architectural alignment in DOM.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_dom _002",
+    "domain": "web_development",
+    "skill": "DOM",
+    "topic": "DOM Manipulation",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving DOM Manipulation, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in DOM Manipulation"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying DOM Manipulation requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_dom _003",
+    "domain": "web_development",
+    "skill": "DOM",
+    "topic": "DOM Manipulation",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in DOM Manipulation be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for DOM Manipulation"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design DOM Manipulation architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_perf_001",
+    "domain": "web_development",
+    "skill": "DOM",
+    "topic": "Performance & Reflow",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Performance & Reflow in DOM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Performance & Reflow"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Performance & Reflow"
+      },
+      {
+        "id": "C",
+        "text": "It converts Performance & Reflow into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates DOM entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Performance & Reflow is essential for proper execution and architectural alignment in DOM.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_perf_002",
+    "domain": "web_development",
+    "skill": "DOM",
+    "topic": "Performance & Reflow",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Performance & Reflow, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Performance & Reflow"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Performance & Reflow requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_perf_003",
+    "domain": "web_development",
+    "skill": "DOM",
+    "topic": "Performance & Reflow",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Performance & Reflow be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Performance & Reflow"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Performance & Reflow architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_http_001",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "topic": "HTTP Methods & Status Codes",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with HTTP Methods & Status Codes in HTTP & REST APIs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for HTTP Methods & Status Codes"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for HTTP Methods & Status Codes"
+      },
+      {
+        "id": "C",
+        "text": "It converts HTTP Methods & Status Codes into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates HTTP & REST APIs entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding HTTP Methods & Status Codes is essential for proper execution and architectural alignment in HTTP & REST APIs.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_http_002",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "topic": "HTTP Methods & Status Codes",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving HTTP Methods & Status Codes, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in HTTP Methods & Status Codes"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying HTTP Methods & Status Codes requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_http_003",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "topic": "HTTP Methods & Status Codes",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in HTTP Methods & Status Codes be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for HTTP Methods & Status Codes"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design HTTP Methods & Status Codes architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_head_001",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "topic": "Headers & Cookies",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Headers & Cookies in HTTP & REST APIs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Headers & Cookies"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Headers & Cookies"
+      },
+      {
+        "id": "C",
+        "text": "It converts Headers & Cookies into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates HTTP & REST APIs entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Headers & Cookies is essential for proper execution and architectural alignment in HTTP & REST APIs.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_head_002",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "topic": "Headers & Cookies",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Headers & Cookies, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Headers & Cookies"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Headers & Cookies requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_head_003",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "topic": "Headers & Cookies",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Headers & Cookies be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Headers & Cookies"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Headers & Cookies architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_rest_001",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "topic": "RESTful Architecture",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with RESTful Architecture in HTTP & REST APIs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for RESTful Architecture"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for RESTful Architecture"
+      },
+      {
+        "id": "C",
+        "text": "It converts RESTful Architecture into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates HTTP & REST APIs entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding RESTful Architecture is essential for proper execution and architectural alignment in HTTP & REST APIs.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_rest_002",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "topic": "RESTful Architecture",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving RESTful Architecture, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in RESTful Architecture"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying RESTful Architecture requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_rest_003",
+    "domain": "web_development",
+    "skill": "HTTP & REST APIs",
+    "topic": "RESTful Architecture",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in RESTful Architecture be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for RESTful Architecture"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design RESTful Architecture architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_comp_001",
+    "domain": "web_development",
+    "skill": "React",
+    "topic": "Components & Props",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Components & Props in React?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Components & Props"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Components & Props"
+      },
+      {
+        "id": "C",
+        "text": "It converts Components & Props into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates React entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Components & Props is essential for proper execution and architectural alignment in React.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_comp_002",
+    "domain": "web_development",
+    "skill": "React",
+    "topic": "Components & Props",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Components & Props, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Components & Props"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Components & Props requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_comp_003",
+    "domain": "web_development",
+    "skill": "React",
+    "topic": "Components & Props",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Components & Props be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Components & Props"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Components & Props architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_hook_001",
+    "domain": "web_development",
+    "skill": "React",
+    "topic": "Hooks (useState, useEffect)",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Hooks (useState, useEffect) in React?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Hooks (useState, useEffect)"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Hooks (useState, useEffect)"
+      },
+      {
+        "id": "C",
+        "text": "It converts Hooks (useState, useEffect) into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates React entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Hooks (useState, useEffect) is essential for proper execution and architectural alignment in React.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_hook_002",
+    "domain": "web_development",
+    "skill": "React",
+    "topic": "Hooks (useState, useEffect)",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Hooks (useState, useEffect), which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Hooks (useState, useEffect)"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Hooks (useState, useEffect) requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_hook_003",
+    "domain": "web_development",
+    "skill": "React",
+    "topic": "Hooks (useState, useEffect)",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Hooks (useState, useEffect) be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Hooks (useState, useEffect)"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Hooks (useState, useEffect) architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_comp_001",
+    "domain": "web_development",
+    "skill": "React",
+    "topic": "Component Lifecycle",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Component Lifecycle in React?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Component Lifecycle"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Component Lifecycle"
+      },
+      {
+        "id": "C",
+        "text": "It converts Component Lifecycle into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates React entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Component Lifecycle is essential for proper execution and architectural alignment in React.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_comp_002",
+    "domain": "web_development",
+    "skill": "React",
+    "topic": "Component Lifecycle",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Component Lifecycle, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Component Lifecycle"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Component Lifecycle requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_comp_003",
+    "domain": "web_development",
+    "skill": "React",
+    "topic": "Component Lifecycle",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Component Lifecycle be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Component Lifecycle"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Component Lifecycle architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_cont_001",
+    "domain": "web_development",
+    "skill": "State Management",
+    "topic": "Context API",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Context API in State Management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Context API"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Context API"
+      },
+      {
+        "id": "C",
+        "text": "It converts Context API into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates State Management entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Context API is essential for proper execution and architectural alignment in State Management.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_cont_002",
+    "domain": "web_development",
+    "skill": "State Management",
+    "topic": "Context API",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Context API, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Context API"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Context API requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_cont_003",
+    "domain": "web_development",
+    "skill": "State Management",
+    "topic": "Context API",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Context API be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Context API"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Context API architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_redu_001",
+    "domain": "web_development",
+    "skill": "State Management",
+    "topic": "Redux Toolkit",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Redux Toolkit in State Management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Redux Toolkit"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Redux Toolkit"
+      },
+      {
+        "id": "C",
+        "text": "It converts Redux Toolkit into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates State Management entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Redux Toolkit is essential for proper execution and architectural alignment in State Management.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_redu_002",
+    "domain": "web_development",
+    "skill": "State Management",
+    "topic": "Redux Toolkit",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Redux Toolkit, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Redux Toolkit"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Redux Toolkit requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_redu_003",
+    "domain": "web_development",
+    "skill": "State Management",
+    "topic": "Redux Toolkit",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Redux Toolkit be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Redux Toolkit"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Redux Toolkit architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_loca_001",
+    "domain": "web_development",
+    "skill": "State Management",
+    "topic": "Local vs Global State",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Local vs Global State in State Management?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Local vs Global State"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Local vs Global State"
+      },
+      {
+        "id": "C",
+        "text": "It converts Local vs Global State into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates State Management entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Local vs Global State is essential for proper execution and architectural alignment in State Management.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_loca_002",
+    "domain": "web_development",
+    "skill": "State Management",
+    "topic": "Local vs Global State",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Local vs Global State, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Local vs Global State"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Local vs Global State requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_loca_003",
+    "domain": "web_development",
+    "skill": "State Management",
+    "topic": "Local vs Global State",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Local vs Global State be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Local vs Global State"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Local vs Global State architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_rout_001",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "topic": "Routing & Middleware",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Routing & Middleware in Backend Fundamentals?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Routing & Middleware"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Routing & Middleware"
+      },
+      {
+        "id": "C",
+        "text": "It converts Routing & Middleware into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Backend Fundamentals entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Routing & Middleware is essential for proper execution and architectural alignment in Backend Fundamentals.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_rout_002",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "topic": "Routing & Middleware",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Routing & Middleware, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Routing & Middleware"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Routing & Middleware requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_rout_003",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "topic": "Routing & Middleware",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Routing & Middleware be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Routing & Middleware"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Routing & Middleware architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_requ_001",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "topic": "Request-Response Lifecycle",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Request-Response Lifecycle in Backend Fundamentals?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Request-Response Lifecycle"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Request-Response Lifecycle"
+      },
+      {
+        "id": "C",
+        "text": "It converts Request-Response Lifecycle into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Backend Fundamentals entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Request-Response Lifecycle is essential for proper execution and architectural alignment in Backend Fundamentals.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_requ_002",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "topic": "Request-Response Lifecycle",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Request-Response Lifecycle, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Request-Response Lifecycle"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Request-Response Lifecycle requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_requ_003",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "topic": "Request-Response Lifecycle",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Request-Response Lifecycle be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Request-Response Lifecycle"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Request-Response Lifecycle architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_erro_001",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "topic": "Error Handling",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Error Handling in Backend Fundamentals?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Error Handling"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Error Handling"
+      },
+      {
+        "id": "C",
+        "text": "It converts Error Handling into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Backend Fundamentals entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Error Handling is essential for proper execution and architectural alignment in Backend Fundamentals.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_erro_002",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "topic": "Error Handling",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Error Handling, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Error Handling"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Error Handling requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_erro_003",
+    "domain": "web_development",
+    "skill": "Backend Fundamentals",
+    "topic": "Error Handling",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Error Handling be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Error Handling"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Error Handling architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_jwt _001",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "topic": "JWT Tokens",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with JWT Tokens in Authentication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for JWT Tokens"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for JWT Tokens"
+      },
+      {
+        "id": "C",
+        "text": "It converts JWT Tokens into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Authentication entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding JWT Tokens is essential for proper execution and architectural alignment in Authentication.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_jwt _002",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "topic": "JWT Tokens",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving JWT Tokens, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in JWT Tokens"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying JWT Tokens requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_jwt _003",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "topic": "JWT Tokens",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in JWT Tokens be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for JWT Tokens"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design JWT Tokens architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_oaut_001",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "topic": "OAuth2",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with OAuth2 in Authentication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for OAuth2"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for OAuth2"
+      },
+      {
+        "id": "C",
+        "text": "It converts OAuth2 into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Authentication entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding OAuth2 is essential for proper execution and architectural alignment in Authentication.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_oaut_002",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "topic": "OAuth2",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving OAuth2, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in OAuth2"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying OAuth2 requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_oaut_003",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "topic": "OAuth2",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in OAuth2 be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for OAuth2"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design OAuth2 architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_pass_001",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "topic": "Password Hashing (bcrypt)",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Password Hashing (bcrypt) in Authentication?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Password Hashing (bcrypt)"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Password Hashing (bcrypt)"
+      },
+      {
+        "id": "C",
+        "text": "It converts Password Hashing (bcrypt) into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Authentication entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Password Hashing (bcrypt) is essential for proper execution and architectural alignment in Authentication.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_pass_002",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "topic": "Password Hashing (bcrypt)",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Password Hashing (bcrypt), which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Password Hashing (bcrypt)"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Password Hashing (bcrypt) requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_pass_003",
+    "domain": "web_development",
+    "skill": "Authentication",
+    "topic": "Password Hashing (bcrypt)",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Password Hashing (bcrypt) be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Password Hashing (bcrypt)"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Password Hashing (bcrypt) architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_crud_001",
+    "domain": "web_development",
+    "skill": "Databases",
+    "topic": "CRUD Queries",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with CRUD Queries in Databases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for CRUD Queries"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for CRUD Queries"
+      },
+      {
+        "id": "C",
+        "text": "It converts CRUD Queries into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Databases entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding CRUD Queries is essential for proper execution and architectural alignment in Databases.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_crud_002",
+    "domain": "web_development",
+    "skill": "Databases",
+    "topic": "CRUD Queries",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving CRUD Queries, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in CRUD Queries"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying CRUD Queries requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_crud_003",
+    "domain": "web_development",
+    "skill": "Databases",
+    "topic": "CRUD Queries",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in CRUD Queries be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for CRUD Queries"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design CRUD Queries architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_sche_001",
+    "domain": "web_development",
+    "skill": "Databases",
+    "topic": "Schema Design & Foreign Keys",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Schema Design & Foreign Keys in Databases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Schema Design & Foreign Keys"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Schema Design & Foreign Keys"
+      },
+      {
+        "id": "C",
+        "text": "It converts Schema Design & Foreign Keys into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Databases entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Schema Design & Foreign Keys is essential for proper execution and architectural alignment in Databases.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_sche_002",
+    "domain": "web_development",
+    "skill": "Databases",
+    "topic": "Schema Design & Foreign Keys",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Schema Design & Foreign Keys, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Schema Design & Foreign Keys"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Schema Design & Foreign Keys requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_sche_003",
+    "domain": "web_development",
+    "skill": "Databases",
+    "topic": "Schema Design & Foreign Keys",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Schema Design & Foreign Keys be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Schema Design & Foreign Keys"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Schema Design & Foreign Keys architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_orm _001",
+    "domain": "web_development",
+    "skill": "Databases",
+    "topic": "ORM & Migrations",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with ORM & Migrations in Databases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for ORM & Migrations"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for ORM & Migrations"
+      },
+      {
+        "id": "C",
+        "text": "It converts ORM & Migrations into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Databases entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding ORM & Migrations is essential for proper execution and architectural alignment in Databases.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_orm _002",
+    "domain": "web_development",
+    "skill": "Databases",
+    "topic": "ORM & Migrations",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving ORM & Migrations, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in ORM & Migrations"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying ORM & Migrations requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_web_orm _003",
+    "domain": "web_development",
+    "skill": "Databases",
+    "topic": "ORM & Migrations",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in ORM & Migrations be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for ORM & Migrations"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design ORM & Migrations architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  }
+]

@@ -17,19 +17,32 @@ Skill Knowledge (Prerequisites & Domain Rules)
       ↓
 Learning Path Agent
       ↓
-Gemini LLM (Dynamic Phase & Objective Grouping)
+Gemini LLM / Fallback (Dynamic Phase & Objective Grouping)
       ↓
 LearningPathResult (Validated & Topologically Ordered)
       ↓
-Resource Curator Agent (Discovers, Validates, Ranks, Explains)
+Current Phase Learning
       ↓
-Public Resource Providers (YouTube, freeCodeCamp, Official Docs, MIT OCW)
+Learner Marks Phase Complete
       ↓
-Original Platform URLs & Card Data (No content proxying or mirroring)
+Mastery Assessment (POST /api/mastery/start)
       ↓
-Frontend Navigation ("Start Learning" -> Opens Original Platform)
+Backend Scores Assessment Deterministically
       ↓
-Future Mastery Agent
+Mastery Agent Evaluates Result (MasteryResult)
+      ↓
+   PASS / FAIL
+      ↓
+PASS → Unlock Next Phase (status: available) & Complete Current Phase
+FAIL → Identify Weak Topics (< 60%) & Set Remediation Required
+      ↓
+Remediation Completed (POST /api/mastery/{attempt_id}/remediation-complete)
+      ↓
+Retest (Attempt increments, prioritizes weak topics)
+      ↓
+Pass → Unlock Next Phase (or Learning Path Completed if final phase)
+      ↓
+Progress Tracking / Dashboard
 ```
 
 ### Dynamic Path Generation Principles
@@ -43,3 +56,10 @@ The system does **NOT** use pre-built learning paths (e.g. `generative_ai_learni
 2. **Public Access Compliance**: Queries only public APIs, public structured data, public documentation, and public curriculum metadata. Does not bypass paywalls, require user logins, or harvest credentials.
 3. **Multi-Factor Scoring & Format Diversity**: Deterministically ranks candidates across 7 factors (relevance 40%, quality 15%, rating 10%, review confidence 10%, freshness 10%, level match 10%, platform reliability 5%) and selects a balanced mix of video, documentation, interactive, and course formats.
 4. **No LLM URL Hallucination**: All factual metadata and URLs originate strictly from verified provider adapters. Gemini LLM is used ONLY to evaluate semantic fit and generate personalized `why_recommended` explanations.
+
+### Mastery Assessment Agent Principles
+1. **Deterministic Backend Scoring**: Scoring is calculated strictly on the backend. The overall passing threshold is 75% (`MASTERY_PASS_THRESHOLD`), and topic mastery threshold is 60% (`TOPIC_MASTERY_THRESHOLD`).
+2. **Phase Topic Alignment**: Mastery tests evaluate precisely the topics and skills defined in the current phase.
+3. **Information Security**: Before submission, answers and explanations are completely stripped. Full reviews are accessible only after valid submission.
+4. **Phase Progression Boundary**: When a learner passes, `MasteryService` calls `LearningPathService.complete_phase` and `LearningPathService.unlock_next_phase` to update existing phase statuses atomically without regenerating the path.
+5. **Remediation & Retest Weighted Coverage**: If a learner fails, weak topics (`< 60%`) are pinpointed. Once marked complete, retesting prioritizes weak topics while still assessing the full phase with varied questions.

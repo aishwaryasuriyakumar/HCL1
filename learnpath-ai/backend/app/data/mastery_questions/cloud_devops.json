@@ -1,0 +1,2612 @@
+[
+  {
+    "id": "mastery_clo_shel_001",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "topic": "Shell Scripting",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Shell Scripting in Linux?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Shell Scripting"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Shell Scripting"
+      },
+      {
+        "id": "C",
+        "text": "It converts Shell Scripting into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Linux entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Shell Scripting is essential for proper execution and architectural alignment in Linux.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_shel_002",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "topic": "Shell Scripting",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Shell Scripting, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Shell Scripting"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Shell Scripting requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_shel_003",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "topic": "Shell Scripting",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Shell Scripting be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Shell Scripting"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Shell Scripting architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_file_001",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "topic": "File Permissions & Chmod",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with File Permissions & Chmod in Linux?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for File Permissions & Chmod"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for File Permissions & Chmod"
+      },
+      {
+        "id": "C",
+        "text": "It converts File Permissions & Chmod into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Linux entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding File Permissions & Chmod is essential for proper execution and architectural alignment in Linux.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_file_002",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "topic": "File Permissions & Chmod",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving File Permissions & Chmod, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in File Permissions & Chmod"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying File Permissions & Chmod requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_file_003",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "topic": "File Permissions & Chmod",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in File Permissions & Chmod be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for File Permissions & Chmod"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design File Permissions & Chmod architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_proc_001",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "topic": "Process Management",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Process Management in Linux?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Process Management"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Process Management"
+      },
+      {
+        "id": "C",
+        "text": "It converts Process Management into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Linux entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Process Management is essential for proper execution and architectural alignment in Linux.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_proc_002",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "topic": "Process Management",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Process Management, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Process Management"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Process Management requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_proc_003",
+    "domain": "cloud_devops",
+    "skill": "Linux",
+    "topic": "Process Management",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Process Management be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Process Management"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Process Management architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_dns _001",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "topic": "DNS Resolution",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with DNS Resolution in Networking?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for DNS Resolution"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for DNS Resolution"
+      },
+      {
+        "id": "C",
+        "text": "It converts DNS Resolution into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Networking entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding DNS Resolution is essential for proper execution and architectural alignment in Networking.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_dns _002",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "topic": "DNS Resolution",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving DNS Resolution, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in DNS Resolution"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying DNS Resolution requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_dns _003",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "topic": "DNS Resolution",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in DNS Resolution be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for DNS Resolution"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design DNS Resolution architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_tcp/_001",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "topic": "TCP/IP Protocols",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with TCP/IP Protocols in Networking?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for TCP/IP Protocols"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for TCP/IP Protocols"
+      },
+      {
+        "id": "C",
+        "text": "It converts TCP/IP Protocols into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Networking entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding TCP/IP Protocols is essential for proper execution and architectural alignment in Networking.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_tcp/_002",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "topic": "TCP/IP Protocols",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving TCP/IP Protocols, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in TCP/IP Protocols"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying TCP/IP Protocols requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_tcp/_003",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "topic": "TCP/IP Protocols",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in TCP/IP Protocols be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for TCP/IP Protocols"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design TCP/IP Protocols architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_subn_001",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "topic": "Subnets & CIDR",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Subnets & CIDR in Networking?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Subnets & CIDR"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Subnets & CIDR"
+      },
+      {
+        "id": "C",
+        "text": "It converts Subnets & CIDR into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Networking entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Subnets & CIDR is essential for proper execution and architectural alignment in Networking.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_subn_002",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "topic": "Subnets & CIDR",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Subnets & CIDR, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Subnets & CIDR"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Subnets & CIDR requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_subn_003",
+    "domain": "cloud_devops",
+    "skill": "Networking",
+    "topic": "Subnets & CIDR",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Subnets & CIDR be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Subnets & CIDR"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Subnets & CIDR architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_bran_001",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "topic": "Branching & Merging",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Branching & Merging in Git?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Branching & Merging"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Branching & Merging"
+      },
+      {
+        "id": "C",
+        "text": "It converts Branching & Merging into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Git entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Branching & Merging is essential for proper execution and architectural alignment in Git.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_bran_002",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "topic": "Branching & Merging",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Branching & Merging, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Branching & Merging"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Branching & Merging requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_bran_003",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "topic": "Branching & Merging",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Branching & Merging be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Branching & Merging"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Branching & Merging architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_reba_001",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "topic": "Rebase vs Merge",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Rebase vs Merge in Git?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Rebase vs Merge"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Rebase vs Merge"
+      },
+      {
+        "id": "C",
+        "text": "It converts Rebase vs Merge into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Git entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Rebase vs Merge is essential for proper execution and architectural alignment in Git.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_reba_002",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "topic": "Rebase vs Merge",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Rebase vs Merge, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Rebase vs Merge"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Rebase vs Merge requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_reba_003",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "topic": "Rebase vs Merge",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Rebase vs Merge be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Rebase vs Merge"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Rebase vs Merge architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_git _001",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "topic": "Git Hooks",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Git Hooks in Git?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Git Hooks"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Git Hooks"
+      },
+      {
+        "id": "C",
+        "text": "It converts Git Hooks into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Git entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Git Hooks is essential for proper execution and architectural alignment in Git.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_git _002",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "topic": "Git Hooks",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Git Hooks, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Git Hooks"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Git Hooks requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_git _003",
+    "domain": "cloud_devops",
+    "skill": "Git",
+    "topic": "Git Hooks",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Git Hooks be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Git Hooks"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Git Hooks architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_dock_001",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "topic": "Dockerfiles",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Dockerfiles in Docker?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Dockerfiles"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Dockerfiles"
+      },
+      {
+        "id": "C",
+        "text": "It converts Dockerfiles into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Docker entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Dockerfiles is essential for proper execution and architectural alignment in Docker.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_dock_002",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "topic": "Dockerfiles",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Dockerfiles, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Dockerfiles"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Dockerfiles requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_dock_003",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "topic": "Dockerfiles",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Dockerfiles be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Dockerfiles"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Dockerfiles architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_mult_001",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "topic": "Multi-stage Builds",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Multi-stage Builds in Docker?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Multi-stage Builds"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Multi-stage Builds"
+      },
+      {
+        "id": "C",
+        "text": "It converts Multi-stage Builds into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Docker entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Multi-stage Builds is essential for proper execution and architectural alignment in Docker.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_mult_002",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "topic": "Multi-stage Builds",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Multi-stage Builds, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Multi-stage Builds"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Multi-stage Builds requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_mult_003",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "topic": "Multi-stage Builds",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Multi-stage Builds be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Multi-stage Builds"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Multi-stage Builds architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_imag_001",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "topic": "Image Optimization",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Image Optimization in Docker?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Image Optimization"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Image Optimization"
+      },
+      {
+        "id": "C",
+        "text": "It converts Image Optimization into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Docker entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Image Optimization is essential for proper execution and architectural alignment in Docker.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_imag_002",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "topic": "Image Optimization",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Image Optimization, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Image Optimization"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Image Optimization requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_imag_003",
+    "domain": "cloud_devops",
+    "skill": "Docker",
+    "topic": "Image Optimization",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Image Optimization be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Image Optimization"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Image Optimization architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_cont_001",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "topic": "Container Runtimes",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Container Runtimes in Containers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Container Runtimes"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Container Runtimes"
+      },
+      {
+        "id": "C",
+        "text": "It converts Container Runtimes into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Containers entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Container Runtimes is essential for proper execution and architectural alignment in Containers.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_cont_002",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "topic": "Container Runtimes",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Container Runtimes, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Container Runtimes"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Container Runtimes requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_cont_003",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "topic": "Container Runtimes",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Container Runtimes be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Container Runtimes"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Container Runtimes architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_port_001",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "topic": "Port Mapping",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Port Mapping in Containers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Port Mapping"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Port Mapping"
+      },
+      {
+        "id": "C",
+        "text": "It converts Port Mapping into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Containers entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Port Mapping is essential for proper execution and architectural alignment in Containers.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_port_002",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "topic": "Port Mapping",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Port Mapping, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Port Mapping"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Port Mapping requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_port_003",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "topic": "Port Mapping",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Port Mapping be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Port Mapping"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Port Mapping architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_volu_001",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "topic": "Volume Mounts",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Volume Mounts in Containers?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Volume Mounts"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Volume Mounts"
+      },
+      {
+        "id": "C",
+        "text": "It converts Volume Mounts into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Containers entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Volume Mounts is essential for proper execution and architectural alignment in Containers.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_volu_002",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "topic": "Volume Mounts",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Volume Mounts, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Volume Mounts"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Volume Mounts requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_volu_003",
+    "domain": "cloud_devops",
+    "skill": "Containers",
+    "topic": "Volume Mounts",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Volume Mounts be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Volume Mounts"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Volume Mounts architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_pipe_001",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "topic": "Pipeline Automation",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Pipeline Automation in CI/CD?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Pipeline Automation"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Pipeline Automation"
+      },
+      {
+        "id": "C",
+        "text": "It converts Pipeline Automation into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates CI/CD entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Pipeline Automation is essential for proper execution and architectural alignment in CI/CD.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_pipe_002",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "topic": "Pipeline Automation",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Pipeline Automation, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Pipeline Automation"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Pipeline Automation requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_pipe_003",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "topic": "Pipeline Automation",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Pipeline Automation be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Pipeline Automation"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Pipeline Automation architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_gith_001",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "topic": "GitHub Actions",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with GitHub Actions in CI/CD?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for GitHub Actions"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for GitHub Actions"
+      },
+      {
+        "id": "C",
+        "text": "It converts GitHub Actions into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates CI/CD entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding GitHub Actions is essential for proper execution and architectural alignment in CI/CD.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_gith_002",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "topic": "GitHub Actions",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving GitHub Actions, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in GitHub Actions"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying GitHub Actions requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_gith_003",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "topic": "GitHub Actions",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in GitHub Actions be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for GitHub Actions"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design GitHub Actions architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_arti_001",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "topic": "Artifact Management",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Artifact Management in CI/CD?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Artifact Management"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Artifact Management"
+      },
+      {
+        "id": "C",
+        "text": "It converts Artifact Management into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates CI/CD entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Artifact Management is essential for proper execution and architectural alignment in CI/CD.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_arti_002",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "topic": "Artifact Management",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Artifact Management, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Artifact Management"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Artifact Management requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_arti_003",
+    "domain": "cloud_devops",
+    "skill": "CI/CD",
+    "topic": "Artifact Management",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Artifact Management be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Artifact Management"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Artifact Management architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_iaas_001",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "topic": "IaaS vs PaaS vs SaaS",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with IaaS vs PaaS vs SaaS in Cloud Fundamentals?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for IaaS vs PaaS vs SaaS"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for IaaS vs PaaS vs SaaS"
+      },
+      {
+        "id": "C",
+        "text": "It converts IaaS vs PaaS vs SaaS into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Cloud Fundamentals entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding IaaS vs PaaS vs SaaS is essential for proper execution and architectural alignment in Cloud Fundamentals.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_iaas_002",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "topic": "IaaS vs PaaS vs SaaS",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving IaaS vs PaaS vs SaaS, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in IaaS vs PaaS vs SaaS"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying IaaS vs PaaS vs SaaS requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_iaas_003",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "topic": "IaaS vs PaaS vs SaaS",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in IaaS vs PaaS vs SaaS be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for IaaS vs PaaS vs SaaS"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design IaaS vs PaaS vs SaaS architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_regi_001",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "topic": "Regions & Availability Zones",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Regions & Availability Zones in Cloud Fundamentals?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Regions & Availability Zones"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Regions & Availability Zones"
+      },
+      {
+        "id": "C",
+        "text": "It converts Regions & Availability Zones into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Cloud Fundamentals entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Regions & Availability Zones is essential for proper execution and architectural alignment in Cloud Fundamentals.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_regi_002",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "topic": "Regions & Availability Zones",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Regions & Availability Zones, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Regions & Availability Zones"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Regions & Availability Zones requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_regi_003",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "topic": "Regions & Availability Zones",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Regions & Availability Zones be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Regions & Availability Zones"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Regions & Availability Zones architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_stor_001",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "topic": "Storage Services (S3/Blob)",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Storage Services (S3/Blob) in Cloud Fundamentals?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Storage Services (S3/Blob)"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Storage Services (S3/Blob)"
+      },
+      {
+        "id": "C",
+        "text": "It converts Storage Services (S3/Blob) into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Cloud Fundamentals entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Storage Services (S3/Blob) is essential for proper execution and architectural alignment in Cloud Fundamentals.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_stor_002",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "topic": "Storage Services (S3/Blob)",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Storage Services (S3/Blob), which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Storage Services (S3/Blob)"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Storage Services (S3/Blob) requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_stor_003",
+    "domain": "cloud_devops",
+    "skill": "Cloud Fundamentals",
+    "topic": "Storage Services (S3/Blob)",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Storage Services (S3/Blob) be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Storage Services (S3/Blob)"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Storage Services (S3/Blob) architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_prov_001",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "topic": "Provisioning",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Provisioning in Virtual Machines?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Provisioning"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Provisioning"
+      },
+      {
+        "id": "C",
+        "text": "It converts Provisioning into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Virtual Machines entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Provisioning is essential for proper execution and architectural alignment in Virtual Machines.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_prov_002",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "topic": "Provisioning",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Provisioning, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Provisioning"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Provisioning requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_prov_003",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "topic": "Provisioning",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Provisioning be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Provisioning"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Provisioning architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_ssh _001",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "topic": "SSH Key Management",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with SSH Key Management in Virtual Machines?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for SSH Key Management"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for SSH Key Management"
+      },
+      {
+        "id": "C",
+        "text": "It converts SSH Key Management into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Virtual Machines entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding SSH Key Management is essential for proper execution and architectural alignment in Virtual Machines.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_ssh _002",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "topic": "SSH Key Management",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving SSH Key Management, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in SSH Key Management"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying SSH Key Management requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_ssh _003",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "topic": "SSH Key Management",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in SSH Key Management be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for SSH Key Management"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design SSH Key Management architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_secu_001",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "topic": "Security Groups",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Security Groups in Virtual Machines?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Security Groups"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Security Groups"
+      },
+      {
+        "id": "C",
+        "text": "It converts Security Groups into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Virtual Machines entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Security Groups is essential for proper execution and architectural alignment in Virtual Machines.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_secu_002",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "topic": "Security Groups",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Security Groups, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Security Groups"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Security Groups requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_secu_003",
+    "domain": "cloud_devops",
+    "skill": "Virtual Machines",
+    "topic": "Security Groups",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Security Groups be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Security Groups"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Security Groups architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_pods_001",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "topic": "Pods & Deployments",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Pods & Deployments in Kubernetes Basics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Pods & Deployments"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Pods & Deployments"
+      },
+      {
+        "id": "C",
+        "text": "It converts Pods & Deployments into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Kubernetes Basics entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Pods & Deployments is essential for proper execution and architectural alignment in Kubernetes Basics.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_pods_002",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "topic": "Pods & Deployments",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Pods & Deployments, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Pods & Deployments"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Pods & Deployments requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_pods_003",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "topic": "Pods & Deployments",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Pods & Deployments be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Pods & Deployments"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Pods & Deployments architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_serv_001",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "topic": "Services & Ingress",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Services & Ingress in Kubernetes Basics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Services & Ingress"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Services & Ingress"
+      },
+      {
+        "id": "C",
+        "text": "It converts Services & Ingress into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Kubernetes Basics entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Services & Ingress is essential for proper execution and architectural alignment in Kubernetes Basics.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_serv_002",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "topic": "Services & Ingress",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Services & Ingress, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Services & Ingress"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Services & Ingress requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_serv_003",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "topic": "Services & Ingress",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Services & Ingress be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Services & Ingress"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Services & Ingress architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_conf_001",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "topic": "ConfigMaps & Secrets",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with ConfigMaps & Secrets in Kubernetes Basics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for ConfigMaps & Secrets"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for ConfigMaps & Secrets"
+      },
+      {
+        "id": "C",
+        "text": "It converts ConfigMaps & Secrets into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Kubernetes Basics entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding ConfigMaps & Secrets is essential for proper execution and architectural alignment in Kubernetes Basics.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_conf_002",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "topic": "ConfigMaps & Secrets",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving ConfigMaps & Secrets, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in ConfigMaps & Secrets"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying ConfigMaps & Secrets requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_conf_003",
+    "domain": "cloud_devops",
+    "skill": "Kubernetes Basics",
+    "topic": "ConfigMaps & Secrets",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in ConfigMaps & Secrets be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for ConfigMaps & Secrets"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design ConfigMaps & Secrets architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_iam _001",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "topic": "IAM Policies & Roles",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with IAM Policies & Roles in Cloud Security?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for IAM Policies & Roles"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for IAM Policies & Roles"
+      },
+      {
+        "id": "C",
+        "text": "It converts IAM Policies & Roles into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Cloud Security entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding IAM Policies & Roles is essential for proper execution and architectural alignment in Cloud Security.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_iam _002",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "topic": "IAM Policies & Roles",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving IAM Policies & Roles, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in IAM Policies & Roles"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying IAM Policies & Roles requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_iam _003",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "topic": "IAM Policies & Roles",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in IAM Policies & Roles be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for IAM Policies & Roles"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design IAM Policies & Roles architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_leas_001",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "topic": "Least Privilege",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Least Privilege in Cloud Security?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Least Privilege"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Least Privilege"
+      },
+      {
+        "id": "C",
+        "text": "It converts Least Privilege into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Cloud Security entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Least Privilege is essential for proper execution and architectural alignment in Cloud Security.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_leas_002",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "topic": "Least Privilege",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Least Privilege, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Least Privilege"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Least Privilege requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_leas_003",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "topic": "Least Privilege",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Least Privilege be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Least Privilege"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Least Privilege architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_secr_001",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "topic": "Secrets Management",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Secrets Management in Cloud Security?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Secrets Management"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Secrets Management"
+      },
+      {
+        "id": "C",
+        "text": "It converts Secrets Management into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Cloud Security entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Secrets Management is essential for proper execution and architectural alignment in Cloud Security.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_secr_002",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "topic": "Secrets Management",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Secrets Management, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Secrets Management"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Secrets Management requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_clo_secr_003",
+    "domain": "cloud_devops",
+    "skill": "Cloud Security",
+    "topic": "Secrets Management",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Secrets Management be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Secrets Management"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Secrets Management architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  }
+]

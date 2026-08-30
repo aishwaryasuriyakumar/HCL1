@@ -1,0 +1,2612 @@
+[
+  {
+    "id": "mastery_dat_data_001",
+    "domain": "data_science",
+    "skill": "Python",
+    "topic": "Data Structures",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Data Structures in Python?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Data Structures"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Data Structures"
+      },
+      {
+        "id": "C",
+        "text": "It converts Data Structures into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Python entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Data Structures is essential for proper execution and architectural alignment in Python.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_data_002",
+    "domain": "data_science",
+    "skill": "Python",
+    "topic": "Data Structures",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Data Structures, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Data Structures"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Data Structures requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_data_003",
+    "domain": "data_science",
+    "skill": "Python",
+    "topic": "Data Structures",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Data Structures be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Data Structures"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Data Structures architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_func_001",
+    "domain": "data_science",
+    "skill": "Python",
+    "topic": "Functions & Generators",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Functions & Generators in Python?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Functions & Generators"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Functions & Generators"
+      },
+      {
+        "id": "C",
+        "text": "It converts Functions & Generators into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Python entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Functions & Generators is essential for proper execution and architectural alignment in Python.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_func_002",
+    "domain": "data_science",
+    "skill": "Python",
+    "topic": "Functions & Generators",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Functions & Generators, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Functions & Generators"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Functions & Generators requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_func_003",
+    "domain": "data_science",
+    "skill": "Python",
+    "topic": "Functions & Generators",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Functions & Generators be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Functions & Generators"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Functions & Generators architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_list_001",
+    "domain": "data_science",
+    "skill": "Python",
+    "topic": "List Comprehensions",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with List Comprehensions in Python?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for List Comprehensions"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for List Comprehensions"
+      },
+      {
+        "id": "C",
+        "text": "It converts List Comprehensions into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Python entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding List Comprehensions is essential for proper execution and architectural alignment in Python.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_list_002",
+    "domain": "data_science",
+    "skill": "Python",
+    "topic": "List Comprehensions",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving List Comprehensions, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in List Comprehensions"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying List Comprehensions requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_list_003",
+    "domain": "data_science",
+    "skill": "Python",
+    "topic": "List Comprehensions",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in List Comprehensions be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for List Comprehensions"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design List Comprehensions architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_arra_001",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "topic": "Array Indexing",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Array Indexing in NumPy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Array Indexing"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Array Indexing"
+      },
+      {
+        "id": "C",
+        "text": "It converts Array Indexing into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates NumPy entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Array Indexing is essential for proper execution and architectural alignment in NumPy.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_arra_002",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "topic": "Array Indexing",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Array Indexing, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Array Indexing"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Array Indexing requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_arra_003",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "topic": "Array Indexing",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Array Indexing be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Array Indexing"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Array Indexing architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_broa_001",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "topic": "Broadcasting",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Broadcasting in NumPy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Broadcasting"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Broadcasting"
+      },
+      {
+        "id": "C",
+        "text": "It converts Broadcasting into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates NumPy entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Broadcasting is essential for proper execution and architectural alignment in NumPy.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_broa_002",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "topic": "Broadcasting",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Broadcasting, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Broadcasting"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Broadcasting requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_broa_003",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "topic": "Broadcasting",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Broadcasting be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Broadcasting"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Broadcasting architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_line_001",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "topic": "Linear Algebra Ops",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Linear Algebra Ops in NumPy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Linear Algebra Ops"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Linear Algebra Ops"
+      },
+      {
+        "id": "C",
+        "text": "It converts Linear Algebra Ops into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates NumPy entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Linear Algebra Ops is essential for proper execution and architectural alignment in NumPy.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_line_002",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "topic": "Linear Algebra Ops",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Linear Algebra Ops, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Linear Algebra Ops"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Linear Algebra Ops requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_line_003",
+    "domain": "data_science",
+    "skill": "NumPy",
+    "topic": "Linear Algebra Ops",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Linear Algebra Ops be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Linear Algebra Ops"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Linear Algebra Ops architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_data_001",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "topic": "Data Aggregation",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Data Aggregation in Pandas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Data Aggregation"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Data Aggregation"
+      },
+      {
+        "id": "C",
+        "text": "It converts Data Aggregation into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Pandas entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Data Aggregation is essential for proper execution and architectural alignment in Pandas.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_data_002",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "topic": "Data Aggregation",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Data Aggregation, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Data Aggregation"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Data Aggregation requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_data_003",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "topic": "Data Aggregation",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Data Aggregation be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Data Aggregation"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Data Aggregation architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_grou_001",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "topic": "Groupby Operations",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Groupby Operations in Pandas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Groupby Operations"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Groupby Operations"
+      },
+      {
+        "id": "C",
+        "text": "It converts Groupby Operations into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Pandas entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Groupby Operations is essential for proper execution and architectural alignment in Pandas.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_grou_002",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "topic": "Groupby Operations",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Groupby Operations, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Groupby Operations"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Groupby Operations requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_grou_003",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "topic": "Groupby Operations",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Groupby Operations be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Groupby Operations"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Groupby Operations architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_merg_001",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "topic": "Merging & Joining",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Merging & Joining in Pandas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Merging & Joining"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Merging & Joining"
+      },
+      {
+        "id": "C",
+        "text": "It converts Merging & Joining into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Pandas entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Merging & Joining is essential for proper execution and architectural alignment in Pandas.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_merg_002",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "topic": "Merging & Joining",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Merging & Joining, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Merging & Joining"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Merging & Joining requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_merg_003",
+    "domain": "data_science",
+    "skill": "Pandas",
+    "topic": "Merging & Joining",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Merging & Joining be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Merging & Joining"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Merging & Joining architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_desc_001",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "topic": "Descriptive Statistics",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Descriptive Statistics in Statistics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Descriptive Statistics"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Descriptive Statistics"
+      },
+      {
+        "id": "C",
+        "text": "It converts Descriptive Statistics into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Statistics entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Descriptive Statistics is essential for proper execution and architectural alignment in Statistics.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_desc_002",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "topic": "Descriptive Statistics",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Descriptive Statistics, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Descriptive Statistics"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Descriptive Statistics requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_desc_003",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "topic": "Descriptive Statistics",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Descriptive Statistics be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Descriptive Statistics"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Descriptive Statistics architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_samp_001",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "topic": "Sampling Distributions",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Sampling Distributions in Statistics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Sampling Distributions"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Sampling Distributions"
+      },
+      {
+        "id": "C",
+        "text": "It converts Sampling Distributions into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Statistics entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Sampling Distributions is essential for proper execution and architectural alignment in Statistics.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_samp_002",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "topic": "Sampling Distributions",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Sampling Distributions, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Sampling Distributions"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Sampling Distributions requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_samp_003",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "topic": "Sampling Distributions",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Sampling Distributions be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Sampling Distributions"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Sampling Distributions architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_corr_001",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "topic": "Correlation Analysis",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Correlation Analysis in Statistics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Correlation Analysis"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Correlation Analysis"
+      },
+      {
+        "id": "C",
+        "text": "It converts Correlation Analysis into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Statistics entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Correlation Analysis is essential for proper execution and architectural alignment in Statistics.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_corr_002",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "topic": "Correlation Analysis",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Correlation Analysis, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Correlation Analysis"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Correlation Analysis requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_corr_003",
+    "domain": "data_science",
+    "skill": "Statistics",
+    "topic": "Correlation Analysis",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Correlation Analysis be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Correlation Analysis"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Correlation Analysis architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_outl_001",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "topic": "Outlier Detection",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Outlier Detection in Data Cleaning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Outlier Detection"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Outlier Detection"
+      },
+      {
+        "id": "C",
+        "text": "It converts Outlier Detection into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Cleaning entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Outlier Detection is essential for proper execution and architectural alignment in Data Cleaning.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_outl_002",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "topic": "Outlier Detection",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Outlier Detection, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Outlier Detection"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Outlier Detection requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_outl_003",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "topic": "Outlier Detection",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Outlier Detection be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Outlier Detection"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Outlier Detection architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_dedu_001",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "topic": "Deduplication",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Deduplication in Data Cleaning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Deduplication"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Deduplication"
+      },
+      {
+        "id": "C",
+        "text": "It converts Deduplication into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Cleaning entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Deduplication is essential for proper execution and architectural alignment in Data Cleaning.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_dedu_002",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "topic": "Deduplication",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Deduplication, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Deduplication"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Deduplication requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_dedu_003",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "topic": "Deduplication",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Deduplication be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Deduplication"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Deduplication architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_type_001",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "topic": "Type Conversion",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Type Conversion in Data Cleaning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Type Conversion"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Type Conversion"
+      },
+      {
+        "id": "C",
+        "text": "It converts Type Conversion into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Cleaning entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Type Conversion is essential for proper execution and architectural alignment in Data Cleaning.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_type_002",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "topic": "Type Conversion",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Type Conversion, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Type Conversion"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Type Conversion requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_type_003",
+    "domain": "data_science",
+    "skill": "Data Cleaning",
+    "topic": "Type Conversion",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Type Conversion be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Type Conversion"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Type Conversion architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_dist_001",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "topic": "Distribution Analysis",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Distribution Analysis in Exploratory Data Analysis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Distribution Analysis"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Distribution Analysis"
+      },
+      {
+        "id": "C",
+        "text": "It converts Distribution Analysis into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Exploratory Data Analysis entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Distribution Analysis is essential for proper execution and architectural alignment in Exploratory Data Analysis.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_dist_002",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "topic": "Distribution Analysis",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Distribution Analysis, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Distribution Analysis"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Distribution Analysis requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_dist_003",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "topic": "Distribution Analysis",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Distribution Analysis be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Distribution Analysis"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Distribution Analysis architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_corr_001",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "topic": "Correlation Heatmaps",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Correlation Heatmaps in Exploratory Data Analysis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Correlation Heatmaps"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Correlation Heatmaps"
+      },
+      {
+        "id": "C",
+        "text": "It converts Correlation Heatmaps into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Exploratory Data Analysis entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Correlation Heatmaps is essential for proper execution and architectural alignment in Exploratory Data Analysis.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_corr_002",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "topic": "Correlation Heatmaps",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Correlation Heatmaps, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Correlation Heatmaps"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Correlation Heatmaps requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_corr_003",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "topic": "Correlation Heatmaps",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Correlation Heatmaps be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Correlation Heatmaps"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Correlation Heatmaps architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_feat_001",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "topic": "Feature Relationships",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Feature Relationships in Exploratory Data Analysis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Feature Relationships"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Feature Relationships"
+      },
+      {
+        "id": "C",
+        "text": "It converts Feature Relationships into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Exploratory Data Analysis entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Feature Relationships is essential for proper execution and architectural alignment in Exploratory Data Analysis.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_feat_002",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "topic": "Feature Relationships",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Feature Relationships, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Feature Relationships"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Feature Relationships requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_feat_003",
+    "domain": "data_science",
+    "skill": "Exploratory Data Analysis",
+    "topic": "Feature Relationships",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Feature Relationships be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Feature Relationships"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Feature Relationships architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_matp_001",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "topic": "Matplotlib Plots",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Matplotlib Plots in Data Visualization?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Matplotlib Plots"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Matplotlib Plots"
+      },
+      {
+        "id": "C",
+        "text": "It converts Matplotlib Plots into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Visualization entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Matplotlib Plots is essential for proper execution and architectural alignment in Data Visualization.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_matp_002",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "topic": "Matplotlib Plots",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Matplotlib Plots, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Matplotlib Plots"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Matplotlib Plots requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_matp_003",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "topic": "Matplotlib Plots",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Matplotlib Plots be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Matplotlib Plots"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Matplotlib Plots architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_seab_001",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "topic": "Seaborn Visualizations",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Seaborn Visualizations in Data Visualization?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Seaborn Visualizations"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Seaborn Visualizations"
+      },
+      {
+        "id": "C",
+        "text": "It converts Seaborn Visualizations into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Visualization entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Seaborn Visualizations is essential for proper execution and architectural alignment in Data Visualization.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_seab_002",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "topic": "Seaborn Visualizations",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Seaborn Visualizations, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Seaborn Visualizations"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Seaborn Visualizations requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_seab_003",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "topic": "Seaborn Visualizations",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Seaborn Visualizations be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Seaborn Visualizations"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Seaborn Visualizations architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_dash_001",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "topic": "Dashboard Layouts",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Dashboard Layouts in Data Visualization?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Dashboard Layouts"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Dashboard Layouts"
+      },
+      {
+        "id": "C",
+        "text": "It converts Dashboard Layouts into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Visualization entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Dashboard Layouts is essential for proper execution and architectural alignment in Data Visualization.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_dash_002",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "topic": "Dashboard Layouts",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Dashboard Layouts, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Dashboard Layouts"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Dashboard Layouts requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_dash_003",
+    "domain": "data_science",
+    "skill": "Data Visualization",
+    "topic": "Dashboard Layouts",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Dashboard Layouts be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Dashboard Layouts"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Dashboard Layouts architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_aggr_001",
+    "domain": "data_science",
+    "skill": "SQL",
+    "topic": "Aggregations",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Aggregations in SQL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Aggregations"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Aggregations"
+      },
+      {
+        "id": "C",
+        "text": "It converts Aggregations into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates SQL entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Aggregations is essential for proper execution and architectural alignment in SQL.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_aggr_002",
+    "domain": "data_science",
+    "skill": "SQL",
+    "topic": "Aggregations",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Aggregations, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Aggregations"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Aggregations requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_aggr_003",
+    "domain": "data_science",
+    "skill": "SQL",
+    "topic": "Aggregations",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Aggregations be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Aggregations"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Aggregations architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_wind_001",
+    "domain": "data_science",
+    "skill": "SQL",
+    "topic": "Window Functions",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Window Functions in SQL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Window Functions"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Window Functions"
+      },
+      {
+        "id": "C",
+        "text": "It converts Window Functions into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates SQL entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Window Functions is essential for proper execution and architectural alignment in SQL.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_wind_002",
+    "domain": "data_science",
+    "skill": "SQL",
+    "topic": "Window Functions",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Window Functions, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Window Functions"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Window Functions requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_wind_003",
+    "domain": "data_science",
+    "skill": "SQL",
+    "topic": "Window Functions",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Window Functions be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Window Functions"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Window Functions architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_comp_001",
+    "domain": "data_science",
+    "skill": "SQL",
+    "topic": "Complex Joins",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Complex Joins in SQL?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Complex Joins"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Complex Joins"
+      },
+      {
+        "id": "C",
+        "text": "It converts Complex Joins into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates SQL entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Complex Joins is essential for proper execution and architectural alignment in SQL.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_comp_002",
+    "domain": "data_science",
+    "skill": "SQL",
+    "topic": "Complex Joins",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Complex Joins, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Complex Joins"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Complex Joins requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_comp_003",
+    "domain": "data_science",
+    "skill": "SQL",
+    "topic": "Complex Joins",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Complex Joins be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Complex Joins"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Complex Joins architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_supe_001",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "topic": "Supervised Basics",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Supervised Basics in Machine Learning Basics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Supervised Basics"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Supervised Basics"
+      },
+      {
+        "id": "C",
+        "text": "It converts Supervised Basics into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Machine Learning Basics entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Supervised Basics is essential for proper execution and architectural alignment in Machine Learning Basics.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_supe_002",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "topic": "Supervised Basics",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Supervised Basics, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Supervised Basics"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Supervised Basics requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_supe_003",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "topic": "Supervised Basics",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Supervised Basics be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Supervised Basics"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Supervised Basics architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_trai_001",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "topic": "Train-Test Splits",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Train-Test Splits in Machine Learning Basics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Train-Test Splits"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Train-Test Splits"
+      },
+      {
+        "id": "C",
+        "text": "It converts Train-Test Splits into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Machine Learning Basics entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Train-Test Splits is essential for proper execution and architectural alignment in Machine Learning Basics.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_trai_002",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "topic": "Train-Test Splits",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Train-Test Splits, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Train-Test Splits"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Train-Test Splits requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_trai_003",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "topic": "Train-Test Splits",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Train-Test Splits be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Train-Test Splits"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Train-Test Splits architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_over_001",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "topic": "Overfitting & Underfitting",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Overfitting & Underfitting in Machine Learning Basics?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Overfitting & Underfitting"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Overfitting & Underfitting"
+      },
+      {
+        "id": "C",
+        "text": "It converts Overfitting & Underfitting into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Machine Learning Basics entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Overfitting & Underfitting is essential for proper execution and architectural alignment in Machine Learning Basics.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_over_002",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "topic": "Overfitting & Underfitting",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Overfitting & Underfitting, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Overfitting & Underfitting"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Overfitting & Underfitting requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_over_003",
+    "domain": "data_science",
+    "skill": "Machine Learning Basics",
+    "topic": "Overfitting & Underfitting",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Overfitting & Underfitting be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Overfitting & Underfitting"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Overfitting & Underfitting architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_busi_001",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "topic": "Business Insights",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Business Insights in Data Interpretation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Business Insights"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Business Insights"
+      },
+      {
+        "id": "C",
+        "text": "It converts Business Insights into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Interpretation entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Business Insights is essential for proper execution and architectural alignment in Data Interpretation.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_busi_002",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "topic": "Business Insights",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Business Insights, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Business Insights"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Business Insights requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_busi_003",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "topic": "Business Insights",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Business Insights be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Business Insights"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Business Insights architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_stat_001",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "topic": "Statistical Significance",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Statistical Significance in Data Interpretation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Statistical Significance"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Statistical Significance"
+      },
+      {
+        "id": "C",
+        "text": "It converts Statistical Significance into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Interpretation entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Statistical Significance is essential for proper execution and architectural alignment in Data Interpretation.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_stat_002",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "topic": "Statistical Significance",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Statistical Significance, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Statistical Significance"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Statistical Significance requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_stat_003",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "topic": "Statistical Significance",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Statistical Significance be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Statistical Significance"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Statistical Significance architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_a/b _001",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "topic": "A/B Testing Analysis",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with A/B Testing Analysis in Data Interpretation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for A/B Testing Analysis"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for A/B Testing Analysis"
+      },
+      {
+        "id": "C",
+        "text": "It converts A/B Testing Analysis into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Interpretation entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding A/B Testing Analysis is essential for proper execution and architectural alignment in Data Interpretation.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_a/b _002",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "topic": "A/B Testing Analysis",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving A/B Testing Analysis, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in A/B Testing Analysis"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying A/B Testing Analysis requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_dat_a/b _003",
+    "domain": "data_science",
+    "skill": "Data Interpretation",
+    "topic": "A/B Testing Analysis",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in A/B Testing Analysis be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for A/B Testing Analysis"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design A/B Testing Analysis architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  }
+]

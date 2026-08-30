@@ -3,8 +3,12 @@ import time
 import logging
 from typing import Type, TypeVar, Optional, Any
 from pydantic import BaseModel, ValidationError
-from google import genai
-from google.genai import types
+try:
+    from google import genai
+    from google.genai import types
+except ImportError:
+    genai = None
+    types = None
 
 from app.core.config import settings
 
@@ -16,17 +20,19 @@ class LLMService:
     def __init__(self, api_key: Optional[str] = None, model_name: Optional[str] = None):
         self.api_key = api_key or settings.effective_gemini_api_key
         self.model_name = model_name or settings.effective_gemini_model
-        self._client: Optional[genai.Client] = None
+        self._client: Optional[Any] = None
 
     @property
-    def client(self) -> genai.Client:
+    def client(self) -> Any:
+        if genai is None:
+            raise ValueError("google-genai package is not installed.")
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY / LLM_API_KEY is not configured.")
         if self._client is None:
             self._client = genai.Client(api_key=self.api_key)
         return self._client
 
-    def _call_gemini_with_retry(self, prompt: str, config: types.GenerateContentConfig, max_retries: int = 3) -> str:
+    def _call_gemini_with_retry(self, prompt: str, config: Any, max_retries: int = 3) -> str:
         models_to_try = [self.model_name]
         if "gemini-3.6-flash" not in models_to_try:
             models_to_try.append("gemini-3.6-flash")
@@ -67,6 +73,9 @@ class LLMService:
         """
         logger.info(f"llm_generation_started model={self.model_name}")
         
+        if types is None:
+            raise ValueError("google-genai package is not installed.")
+
         config = types.GenerateContentConfig(
             system_instruction=system_instruction,
             response_mime_type="application/json",

@@ -1,0 +1,647 @@
+import json
+import os
+
+questions_dir = r"c:\Users\prasa\OneDrive\Music\Desktop\hcl_learning\HCL1\learnpath-ai\backend\app\data\mastery_questions"
+os.makedirs(questions_dir, exist_ok=True)
+
+# 1. Generative AI Questions
+genai_questions = [
+    # RAG - Chunking
+    {
+        "id": "mastery_genai_rag_001",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Chunking",
+        "difficulty": "easy",
+        "question": "What is the primary purpose of chunking long documents in a Retrieval-Augmented Generation (RAG) pipeline?",
+        "options": [
+            {"id": "A", "text": "To compress the text using lossy encoding"},
+            {"id": "B", "text": "To fit text within embedding model context limits and retrieve relevant granular passages"},
+            {"id": "C", "text": "To convert unstructured text directly into SQL relational tables"},
+            {"id": "D", "text": "To eliminate the need for vector databases"}
+        ],
+        "correct_option_id": "B",
+        "explanation": "Chunking splits large documents into smaller semantic units so they fit within context window limits and enable fine-grained retrieval.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_rag_002",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Chunking",
+        "difficulty": "medium",
+        "question": "When implementing recursive character text splitting with an overlap of 10-15%, what is the key advantage of preserving chunk overlap?",
+        "options": [
+            {"id": "A", "text": "It speeds up vector indexing by 50%"},
+            {"id": "B", "text": "It prevents loss of semantic context across chunk boundaries"},
+            {"id": "C", "text": "It reduces the total number of vector embeddings needed"},
+            {"id": "D", "text": "It ensures chunks are encrypted before storage"}
+        ],
+        "correct_option_id": "B",
+        "explanation": "Chunk overlap ensures that sentences or concepts spanning a chunk boundary are not split abruptly, preserving semantic continuity.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_rag_003",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Chunking",
+        "difficulty": "hard",
+        "question": "In a RAG system for legal contracts with hierarchical clauses, which chunking strategy is most effective to avoid retrieving disconnected sub-clauses?",
+        "options": [
+            {"id": "A", "text": "Fixed 128-token arbitrary chunking with zero overlap"},
+            {"id": "B", "text": "Document-level summarization with no chunking"},
+            {"id": "C", "text": "Parent-document / Hierarchical chunking where small child chunks link to the full parent clause"},
+            {"id": "D", "text": "Character-level sliding window of 20 characters"}
+        ],
+        "correct_option_id": "C",
+        "explanation": "Parent-document or hierarchical chunking indexes small chunks for accurate vector retrieval while retrieving the full parent clause for LLM synthesis.",
+        "weight": 1
+    },
+    # RAG - Embeddings
+    {
+        "id": "mastery_genai_rag_004",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Embeddings",
+        "difficulty": "easy",
+        "question": "What mathematical representation do dense text embedding models produce for a given string?",
+        "options": [
+            {"id": "A", "text": "A fixed-size high-dimensional numerical vector capturing semantic meaning"},
+            {"id": "B", "text": "A binary hash of characters without semantic properties"},
+            {"id": "C", "text": "A parse tree encoded as an XML document"},
+            {"id": "D", "text": "A single floating-point scalar value between 0 and 1"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "Embedding models convert text into fixed-length dense numerical vectors representing semantic features in a high-dimensional space.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_rag_005",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Embeddings",
+        "difficulty": "medium",
+        "question": "Why is cosine similarity commonly preferred over Euclidean distance when comparing normalized embeddings in vector search?",
+        "options": [
+            {"id": "A", "text": "Cosine similarity measures vector direction/angle regardless of magnitude"},
+            {"id": "B", "text": "Cosine similarity requires no mathematical operations"},
+            {"id": "C", "text": "Euclidean distance is only applicable to 2D coordinates"},
+            {"id": "D", "text": "Cosine similarity always produces integer scores"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "Cosine similarity evaluates the cosine of the angle between vectors, capturing orientation and semantic alignment independent of scale.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_rag_006",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Embeddings",
+        "difficulty": "hard",
+        "question": "When switching an embedding model in an active RAG system from text-embedding-ada-002 (1536-dim) to a 768-dim model, what must be done?",
+        "options": [
+            {"id": "A", "text": "Pad the 768-dim embeddings with 768 zeros and continue without re-indexing"},
+            {"id": "B", "text": "Re-embed and re-index the entire document corpus because vector spaces and dimensions are incompatible"},
+            {"id": "C", "text": "Multiply query vectors by 2 to match dimensions"},
+            {"id": "D", "text": "Nothing; vector databases automatically translate between different model spaces"}
+        ],
+        "correct_option_id": "B",
+        "explanation": "Embeddings from different models reside in completely different semantic coordinate spaces with different dimensionalities, requiring full re-indexing.",
+        "weight": 1
+    },
+    # RAG - Retrieval
+    {
+        "id": "mastery_genai_rag_007",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Retrieval",
+        "difficulty": "easy",
+        "question": "What is the standard metric used in Top-K vector retrieval to rank chunk candidates?",
+        "options": [
+            {"id": "A", "text": "File creation timestamp"},
+            {"id": "B", "text": "Cosine similarity or dot product score between query vector and chunk vectors"},
+            {"id": "C", "text": "Alphabetical sorting of chunk headers"},
+            {"id": "D", "text": "Number of punctuation marks in the chunk"}
+        ],
+        "correct_option_id": "B",
+        "explanation": "Vector retrieval ranks chunks according to similarity metrics such as cosine similarity or inner product with the query vector.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_rag_008",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Retrieval",
+        "difficulty": "medium",
+        "question": "What is Hybrid Search in modern RAG architectures?",
+        "options": [
+            {"id": "A", "text": "Executing queries simultaneously on Google and Bing"},
+            {"id": "B", "text": "Combining dense semantic vector search with sparse keyword search (BM25) using reciprocal rank fusion"},
+            {"id": "C", "text": "Running search on both CPU and GPU hardware"},
+            {"id": "D", "text": "Combining Python search with JavaScript search"}
+        ],
+        "correct_option_id": "B",
+        "explanation": "Hybrid search blends sparse keyword matching (like BM25) for exact terms/acronyms with dense vector search for conceptual semantics.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_rag_009",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Retrieval",
+        "difficulty": "hard",
+        "question": "How does adding a Cross-Encoder Reranker stage improve a two-stage retrieval pipeline?",
+        "options": [
+            {"id": "A", "text": "It replaces the vector database entirely for infinite-scale indexing"},
+            {"id": "B", "text": "It performs full joint cross-attention on query-document pairs to re-score the top candidate passages with higher precision"},
+            {"id": "C", "text": "It converts text to speech for audio retrieval"},
+            {"id": "D", "text": "It removes all stopwords from the database"}
+        ],
+        "correct_option_id": "B",
+        "explanation": "Bi-encoders provide fast candidate retrieval, while cross-encoders jointly process query and text to provide highly accurate relevance ranking.",
+        "weight": 1
+    },
+    # RAG - Context Injection
+    {
+        "id": "mastery_genai_rag_010",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Context Injection",
+        "difficulty": "easy",
+        "question": "How is retrieved context typically supplied to the LLM during generation in a RAG pipeline?",
+        "options": [
+            {"id": "A", "text": "By fine-tuning the model weights on the retrieved chunk in real time"},
+            {"id": "B", "text": "By inserting the retrieved passages into the system or user prompt template alongside the user question"},
+            {"id": "C", "text": "By compiling the context into binary bytecode"},
+            {"id": "D", "text": "By emailing the context to the model provider"}
+        ],
+        "correct_option_id": "B",
+        "explanation": "Context injection formats retrieved passages inside a structured prompt template directing the LLM to answer using the provided evidence.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_rag_011",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Context Injection",
+        "difficulty": "medium",
+        "question": "What is the 'Lost in the Middle' phenomenon in LLM context injection?",
+        "options": [
+            {"id": "A", "text": "LLMs lose network connectivity during long prompts"},
+            {"id": "B", "text": "LLMs attend significantly better to information placed at the very beginning or end of the prompt context compared to the middle"},
+            {"id": "C", "text": "Embeddings degrade when middle tokens are removed"},
+            {"id": "D", "text": "Vector databases drop middle chunks during pagination"}
+        ],
+        "correct_option_id": "B",
+        "explanation": "Research shows LLMs recall information positioned at the start and end of prompt context with higher fidelity than information in the middle.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_rag_012",
+        "domain": "generative_ai",
+        "skill": "RAG",
+        "topic": "Context Injection",
+        "difficulty": "hard",
+        "question": "To mitigate hallucinations when retrieved context is insufficient or irrelevant, what prompt engineering instruction should be included?",
+        "options": [
+            {"id": "A", "text": "'Always guess if you are unsure.'"},
+            {"id": "B", "text": "'Base your answer strictly on the provided context. If the answer cannot be determined from the context, state that the information is unavailable.'"},
+            {"id": "C", "text": "'Ignore the context and search your pre-trained memory.'"},
+            {"id": "D", "text": "'Repeat the user question 5 times before answering.'"}
+        ],
+        "correct_option_id": "B",
+        "explanation": "Explicit grounding constraints instruct the LLM to decline answering when the context lacks sufficient evidence, preventing hallucination.",
+        "weight": 1
+    },
+    # Other skills in GenAI
+    {
+        "id": "mastery_genai_llm_001",
+        "domain": "generative_ai",
+        "skill": "LLM Fundamentals",
+        "topic": "LLM Fundamentals",
+        "difficulty": "easy",
+        "question": "What is an autoregressive language model's core objective during text generation?",
+        "options": [
+            {"id": "A", "text": "Predicting the probability distribution of the next token given preceding tokens"},
+            {"id": "B", "text": "Sorting tokens in alphabetical order"},
+            {"id": "C", "text": "Calculating Euclidean distances between sentences"},
+            {"id": "D", "text": "Translating natural language directly into assembly code"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "Autoregressive LLMs generate text token-by-token by predicting the conditional probability distribution of the next token.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_llm_002",
+        "domain": "generative_ai",
+        "skill": "LLM Fundamentals",
+        "topic": "LLM Fundamentals",
+        "difficulty": "medium",
+        "question": "How does increasing temperature from 0.0 to 1.0 influence LLM generation?",
+        "options": [
+            {"id": "A", "text": "It increases compute clock speed of the GPU"},
+            {"id": "B", "text": "It flattens the token probability distribution, leading to more varied and creative responses"},
+            {"id": "C", "text": "It enforces deterministic greedy token selection"},
+            {"id": "D", "text": "It reduces the context window limit"}
+        ],
+        "correct_option_id": "B",
+        "explanation": "Higher temperature scales logits before softmax, flattening probabilities and increasing sampling randomness.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_prompt_001",
+        "domain": "generative_ai",
+        "skill": "Prompt Engineering",
+        "topic": "Prompt Engineering",
+        "difficulty": "easy",
+        "question": "What distinguishes few-shot prompting from zero-shot prompting?",
+        "options": [
+            {"id": "A", "text": "Few-shot provides explicit input-output demonstration examples within the prompt"},
+            {"id": "B", "text": "Few-shot fine-tunes the weights of the base model"},
+            {"id": "C", "text": "Few-shot requires multiple API keys"},
+            {"id": "D", "text": "Few-shot only works with open-source models"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "Few-shot prompting provides sample exemplars of task inputs and expected outputs inside the prompt context to guide generation.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_prompt_002",
+        "domain": "generative_ai",
+        "skill": "Prompt Engineering",
+        "topic": "Prompt Engineering",
+        "difficulty": "medium",
+        "question": "Why does Chain-of-Thought (CoT) prompting improve performance on multi-step reasoning tasks?",
+        "options": [
+            {"id": "A", "text": "It bypasses tokenization"},
+            {"id": "B", "text": "It prompts the model to generate intermediate reasoning steps before arriving at the final answer"},
+            {"id": "C", "text": "It decreases memory consumption to zero"},
+            {"id": "D", "text": "It changes the model's loss function"}
+        ],
+        "correct_option_id": "B",
+        "explanation": "Chain-of-Thought breaks complex tasks into explicit intermediate reasoning steps, allowing compute allocation across reasoning tokens.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_vdb_001",
+        "domain": "generative_ai",
+        "skill": "Vector Databases",
+        "topic": "Vector Databases",
+        "difficulty": "easy",
+        "question": "What is the primary function of an Approximate Nearest Neighbor (ANN) index in vector databases?",
+        "options": [
+            {"id": "A", "text": "To trade exact distance calculations for sub-linear retrieval speed across millions of vectors"},
+            {"id": "B", "text": "To convert vectors to text strings"},
+            {"id": "C", "text": "To replace relational SQL primary keys"},
+            {"id": "D", "text": "To compress audio files"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "ANN indexes (like HNSW or IVF) allow fast logarithmic or sub-linear similarity search across massive vector datasets.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_vdb_002",
+        "domain": "generative_ai",
+        "skill": "Vector Databases",
+        "topic": "Vector Databases",
+        "difficulty": "medium",
+        "question": "In HNSW (Hierarchical Navigable Small World) indexing, how is high search performance achieved?",
+        "options": [
+            {"id": "A", "text": "Multi-layer graph traversal with long-range links at top layers and dense local links at bottom layers"},
+            {"id": "B", "text": "Sequential brute-force scanning of all vectors"},
+            {"id": "C", "text": "Sorting vectors in 1D space"},
+            {"id": "D", "text": "Translating embeddings into B-Trees"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "HNSW builds hierarchical proximity graphs where top layers allow rapid coarse navigation and lower layers offer fine-grained neighbor search.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_agent_001",
+        "domain": "generative_ai",
+        "skill": "AI Agents",
+        "topic": "AI Agents",
+        "difficulty": "easy",
+        "question": "In an LLM agent framework, what does 'tool calling' (function calling) enable?",
+        "options": [
+            {"id": "A", "text": "Allowing the model to invoke external APIs, databases, or calculators to take actions and gather dynamic data"},
+            {"id": "B", "text": "Translating python code to C++ automatically"},
+            {"id": "C", "text": "Enforcing GPU overclocking"},
+            {"id": "D", "text": "Formatting markdown headers"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "Tool calling enables LLM agents to interact with external environments by executing structured functions and consuming their outputs.",
+        "weight": 1
+    },
+    # Fine-tuning
+    {
+        "id": "mastery_genai_ft_001",
+        "domain": "generative_ai",
+        "skill": "Fine-tuning",
+        "topic": "Fine-tuning",
+        "difficulty": "easy",
+        "question": "What is the primary objective of Instruction Fine-Tuning (SFT) on a base foundation model?",
+        "options": [
+            {"id": "A", "text": "Adapting the raw base model to follow instructions and act as a conversational assistant"},
+            {"id": "B", "text": "Compressing the model to run on a smart watch"},
+            {"id": "C", "text": "Removing all neural network layers"},
+            {"id": "D", "text": "Eliminating GPU memory requirements"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "Supervised Fine-Tuning aligns raw next-token prediction models to follow user prompts and formatting requirements.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_ft_002",
+        "domain": "generative_ai",
+        "skill": "Fine-tuning",
+        "topic": "Fine-tuning",
+        "difficulty": "medium",
+        "question": "How does LoRA (Low-Rank Adaptation) enable parameter-efficient fine-tuning (PEFT)?",
+        "options": [
+            {"id": "A", "text": "By decomposing weight update matrices into low-rank decomposition matrices (A and B), training only a tiny fraction of parameters"},
+            {"id": "B", "text": "By quantizing all float32 weights to 1-bit integers without rank matrices"},
+            {"id": "C", "text": "By freezing the entire model and updating nothing"},
+            {"id": "D", "text": "By adding 100 extra layers on top"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "LoRA freezes the pre-trained weights and injects trainable low-rank decomposition matrices into Transformer attention layers.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_ft_003",
+        "domain": "generative_ai",
+        "skill": "Fine-tuning",
+        "topic": "Fine-tuning",
+        "difficulty": "hard",
+        "question": "In RLHF/DPO pipelines, what is the key advantage of Direct Preference Optimization (DPO) over PPO with a separate reward model?",
+        "options": [
+            {"id": "A", "text": "DPO implicitly optimizes the policy directly on pairwise preference data without training a separate reward model or using reinforcement learning loops"},
+            {"id": "B", "text": "DPO requires zero labeled data"},
+            {"id": "C", "text": "DPO only works on 8-bit CPUs"},
+            {"id": "D", "text": "DPO deletes the base model weights"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "DPO derives a closed-form substitution that allows direct policy optimization over preference pairs without unstable RL training loops.",
+        "weight": 1
+    },
+    # Transformers
+    {
+        "id": "mastery_genai_trans_001",
+        "domain": "generative_ai",
+        "skill": "Transformers",
+        "topic": "Transformers",
+        "difficulty": "easy",
+        "question": "What is the core mathematical mechanism that allows Transformers to model long-range token relationships in parallel?",
+        "options": [
+            {"id": "A", "text": "Self-Attention mechanism (Scaled Dot-Product Attention)"},
+            {"id": "B", "text": "Sequential recurrent hidden state passing (RNN)"},
+            {"id": "C", "text": "Convolutional pooling kernels"},
+            {"id": "D", "text": "Binary tree search"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "Self-attention computes pairwise interaction weights between all tokens simultaneously via Query, Key, and Value projections.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_trans_002",
+        "domain": "generative_ai",
+        "skill": "Transformers",
+        "topic": "Transformers",
+        "difficulty": "medium",
+        "question": "What is the computational and memory complexity of standard full self-attention with respect to sequence length N?",
+        "options": [
+            {"id": "A", "text": "O(N^2) quadratic complexity"},
+            {"id": "B", "text": "O(log N) logarithmic complexity"},
+            {"id": "C", "text": "O(1) constant complexity"},
+            {"id": "D", "text": "O(N!) factorial complexity"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "Standard self-attention computes an N x N attention matrix, leading to quadratic computational and memory scaling with context length.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_trans_003",
+        "domain": "generative_ai",
+        "skill": "Transformers",
+        "topic": "Transformers",
+        "difficulty": "hard",
+        "question": "How does FlashAttention optimize self-attention performance during training and inference?",
+        "options": [
+            {"id": "A", "text": "By tiling computation to minimize high-bandwidth GPU SRAM memory reads/writes and avoiding materialization of the full N x N attention matrix"},
+            {"id": "B", "text": "By pruning 90% of attention heads randomly"},
+            {"id": "C", "text": "By converting floating point operations into integer additions"},
+            {"id": "D", "text": "By running attention on the host CPU"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "FlashAttention uses tiling and online softmax to compute exact attention in GPU SRAM, drastically cutting memory IO bottlenecks.",
+        "weight": 1
+    },
+    # Tokens & Context Windows
+    {
+        "id": "mastery_genai_tok_001",
+        "domain": "generative_ai",
+        "skill": "Tokens & Context Windows",
+        "topic": "Tokens & Context Windows",
+        "difficulty": "easy",
+        "question": "What is Byte-Pair Encoding (BPE) primarily used for in modern LLMs?",
+        "options": [
+            {"id": "A", "text": "Subword tokenization that balances vocabulary size and handles out-of-vocabulary words"},
+            {"id": "B", "text": "Encrypting tokens during network transit"},
+            {"id": "C", "text": "Calculating cosine similarity"},
+            {"id": "D", "text": "Rendering text on screen"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "BPE constructs a subword vocabulary by iteratively merging frequent character pairs, allowing representation of any word without exploding vocab size.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_tok_002",
+        "domain": "generative_ai",
+        "skill": "Tokens & Context Windows",
+        "topic": "Tokens & Context Windows",
+        "difficulty": "medium",
+        "question": "What is the role of the KV Cache during autoregressive LLM inference?",
+        "options": [
+            {"id": "A", "text": "Storing Key and Value tensors of past tokens so they do not need to be recomputed for every newly generated token"},
+            {"id": "B", "text": "Caching HTTP API responses on the web server"},
+            {"id": "C", "text": "Storing database credentials securely"},
+            {"id": "D", "text": "Compressing prompt text into JPEG images"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "KV Caching saves previously computed Key/Value representations, turning per-token attention computation from O(N^2) to O(N) per step.",
+        "weight": 1
+    },
+    # LLM Evaluation
+    {
+        "id": "mastery_genai_eval_001",
+        "domain": "generative_ai",
+        "skill": "LLM Evaluation",
+        "topic": "LLM Evaluation",
+        "difficulty": "easy",
+        "question": "In RAG evaluation frameworks (such as RAGAS), what does 'Faithfulness' measure?",
+        "options": [
+            {"id": "A", "text": "Whether the generated answer is grounded in and strictly supported by the retrieved context"},
+            {"id": "B", "text": "How polite the tone of the model is"},
+            {"id": "C", "text": "The network latency of the embedding endpoint"},
+            {"id": "D", "text": "The percentage of English words in the output"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "Faithfulness checks that all claims in the generated response can be directly inferred from the retrieved source context without hallucinations.",
+        "weight": 1
+    },
+    {
+        "id": "mastery_genai_eval_002",
+        "domain": "generative_ai",
+        "skill": "LLM Evaluation",
+        "topic": "LLM Evaluation",
+        "difficulty": "medium",
+        "question": "What does 'Answer Relevance' quantify in RAG evaluation?",
+        "options": [
+            {"id": "A", "text": "How directly and completely the generated answer addresses the user's prompt without introducing extraneous details"},
+            {"id": "B", "text": "The time elapsed between request and response"},
+            {"id": "C", "text": "Whether the response contains valid HTML code"},
+            {"id": "D", "text": "The length of the response in characters"}
+        ],
+        "correct_option_id": "A",
+        "explanation": "Answer Relevance evaluates whether the model answered the actual user question accurately without digression.",
+        "weight": 1
+    }
+]
+
+# Helper function to generate standardized mastery questions for any domain
+def generate_domain_questions(domain, skills_topics):
+    questions = []
+    for skill, topics in skills_topics.items():
+        for topic in topics:
+            # Easy
+            questions.append({
+                "id": f"mastery_{domain[:3]}_{topic.lower()[:4]}_001",
+                "domain": domain,
+                "skill": skill,
+                "topic": topic,
+                "difficulty": "easy",
+                "question": f"What is a fundamental concept or core best practice associated with {topic} in {skill}?",
+                "options": [
+                    {"id": "A", "text": f"It establishes foundational correctness and standard workflows for {topic}"},
+                    {"id": "B", "text": f"It bypasses all validation and error handling for {topic}"},
+                    {"id": "C", "text": f"It converts {topic} into unrelated legacy systems"},
+                    {"id": "D", "text": f"It deprecates {skill} entirely"}
+                ],
+                "correct_option_id": "A",
+                "explanation": f"Understanding {topic} is essential for proper execution and architectural alignment in {skill}.",
+                "weight": 1
+            })
+            # Medium
+            questions.append({
+                "id": f"mastery_{domain[:3]}_{topic.lower()[:4]}_002",
+                "domain": domain,
+                "skill": skill,
+                "topic": topic,
+                "difficulty": "medium",
+                "question": f"When implementing practical solutions involving {topic}, which trade-off or pattern is most critical to address?",
+                "options": [
+                    {"id": "A", "text": f"Balancing performance, resource efficiency, and correctness in {topic}"},
+                    {"id": "B", "text": "Hardcoding static configuration directly into compiled binaries"},
+                    {"id": "C", "text": "Ignoring boundary edge conditions and failure modes"},
+                    {"id": "D", "text": "Replacing all structured data with raw unstructured strings"}
+                ],
+                "correct_option_id": "A",
+                "explanation": f"In production systems, applying {topic} requires balancing computational efficiency and reliability.",
+                "weight": 1
+            })
+            # Hard
+            questions.append({
+                "id": f"mastery_{domain[:3]}_{topic.lower()[:4]}_003",
+                "domain": domain,
+                "skill": skill,
+                "topic": topic,
+                "difficulty": "hard",
+                "question": f"In a complex production scenario with high concurrency or strict constraints, how should anomalies in {topic} be handled?",
+                "options": [
+                    {"id": "A", "text": f"Using resilient failover mechanisms, telemetry, and automated remediation designed for {topic}"},
+                    {"id": "B", "text": "Terminating the server process immediately on first warning"},
+                    {"id": "C", "text": "Suppressing all error logs and returning mock data"},
+                    {"id": "D", "text": "Rebooting the cluster randomly"}
+                ],
+                "correct_option_id": "A",
+                "explanation": f"Advanced practitioners design {topic} architectures with observability, isolation, and graceful recovery.",
+                "weight": 1
+            })
+    return questions
+
+# 2. Machine Learning Questions
+ml_skills_topics = {
+    "Python for ML": ["NumPy Arrays", "Pandas DataFrames", "Vectorization"],
+    "Data Preprocessing": ["Missing Data Imputation", "Feature Scaling", "Categorical Encoding"],
+    "Statistics & Probability": ["Distributions", "Hypothesis Testing", "Bayes Theorem"],
+    "Regression": ["Linear Regression", "Ridge & Lasso", "Cost Functions"],
+    "Classification": ["Logistic Regression", "Decision Trees", "SVM"],
+    "Feature Engineering": ["Feature Selection", "Polynomial Features", "Dimensionality Reduction"],
+    "Model Evaluation": ["Confusion Matrix", "Precision & Recall", "ROC-AUC", "Cross Validation"],
+    "Ensemble Learning": ["Random Forests", "Gradient Boosting", "XGBoost"],
+    "Unsupervised Learning": ["K-Means", "PCA", "Hierarchical Clustering"],
+    "Model Deployment": ["Model Serialization", "Inference Pipelines", "Monitoring"]
+}
+ml_questions = generate_domain_questions("machine_learning", ml_skills_topics)
+
+# 3. Data Science Questions
+ds_skills_topics = {
+    "Python": ["Data Structures", "Functions & Generators", "List Comprehensions"],
+    "NumPy": ["Array Indexing", "Broadcasting", "Linear Algebra Ops"],
+    "Pandas": ["Data Aggregation", "Groupby Operations", "Merging & Joining"],
+    "Statistics": ["Descriptive Statistics", "Sampling Distributions", "Correlation Analysis"],
+    "Data Cleaning": ["Outlier Detection", "Deduplication", "Type Conversion"],
+    "Exploratory Data Analysis": ["Distribution Analysis", "Correlation Heatmaps", "Feature Relationships"],
+    "Data Visualization": ["Matplotlib Plots", "Seaborn Visualizations", "Dashboard Layouts"],
+    "SQL": ["Aggregations", "Window Functions", "Complex Joins"],
+    "Machine Learning Basics": ["Supervised Basics", "Train-Test Splits", "Overfitting & Underfitting"],
+    "Data Interpretation": ["Business Insights", "Statistical Significance", "A/B Testing Analysis"]
+}
+ds_questions = generate_domain_questions("data_science", ds_skills_topics)
+
+# 4. Web Development Questions
+web_skills_topics = {
+    "HTML": ["Semantic Elements", "Forms & Validation", "Accessibility"],
+    "CSS": ["Flexbox", "Grid Layout", "Responsive Media Queries"],
+    "JavaScript": ["Async/Await", "Event Loop", "Closures & Scope"],
+    "DOM": ["Event Delegation", "DOM Manipulation", "Performance & Reflow"],
+    "HTTP & REST APIs": ["HTTP Methods & Status Codes", "Headers & Cookies", "RESTful Architecture"],
+    "React": ["Components & Props", "Hooks (useState, useEffect)", "Component Lifecycle"],
+    "State Management": ["Context API", "Redux Toolkit", "Local vs Global State"],
+    "Backend Fundamentals": ["Routing & Middleware", "Request-Response Lifecycle", "Error Handling"],
+    "Authentication": ["JWT Tokens", "OAuth2", "Password Hashing (bcrypt)"],
+    "Databases": ["CRUD Queries", "Schema Design & Foreign Keys", "ORM & Migrations"]
+}
+web_questions = generate_domain_questions("web_development", web_skills_topics)
+
+# 5. Cloud & DevOps Questions
+cloud_skills_topics = {
+    "Linux": ["Shell Scripting", "File Permissions & Chmod", "Process Management"],
+    "Networking": ["DNS Resolution", "TCP/IP Protocols", "Subnets & CIDR"],
+    "Git": ["Branching & Merging", "Rebase vs Merge", "Git Hooks"],
+    "Docker": ["Dockerfiles", "Multi-stage Builds", "Image Optimization"],
+    "Containers": ["Container Runtimes", "Port Mapping", "Volume Mounts"],
+    "CI/CD": ["Pipeline Automation", "GitHub Actions", "Artifact Management"],
+    "Cloud Fundamentals": ["IaaS vs PaaS vs SaaS", "Regions & Availability Zones", "Storage Services (S3/Blob)"],
+    "Virtual Machines": ["Provisioning", "SSH Key Management", "Security Groups"],
+    "Kubernetes Basics": ["Pods & Deployments", "Services & Ingress", "ConfigMaps & Secrets"],
+    "Cloud Security": ["IAM Policies & Roles", "Least Privilege", "Secrets Management"]
+}
+cloud_questions = generate_domain_questions("cloud_devops", cloud_skills_topics)
+
+# Write all to disk
+domain_datasets = {
+    "generative_ai.json": genai_questions,
+    "machine_learning.json": ml_questions,
+    "data_science.json": ds_questions,
+    "web_development.json": web_questions,
+    "cloud_devops.json": cloud_questions,
+}
+
+for filename, qlist in domain_datasets.items():
+    filepath = os.path.join(questions_dir, filename)
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(qlist, f, indent=2)
+    print(f"Wrote {filepath} with {len(qlist)} questions")

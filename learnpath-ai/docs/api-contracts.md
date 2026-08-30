@@ -82,10 +82,82 @@ Contracts are implemented as Pydantic models in `backend/app/schemas/`.
 }
 ```
 
-### 4. LearningPathAgentInput (Future)
+---
+
+## Mastery Assessment Module Contracts
+
+### 1. MasteryAgentInput
 ```json
 {
-  "learner": "LearnerProfileResponse",
-  "skill_gap": "SkillGapResult"
+  "user_id": "UUID",
+  "learning_path_id": "UUID",
+  "phase": {
+    "phase_id": "phase_01",
+    "order": 1,
+    "title": "Retrieval-Augmented Generation",
+    "skills": ["RAG"],
+    "resource_topics": ["Chunking", "Embeddings", "Retrieval", "Context Injection"],
+    "status": "available"
+  },
+  "assessment_result": {}
+}
+```
+
+### 2. MasteryTopicResult
+```json
+{
+  "topic": "Chunking",
+  "questions_attempted": 3,
+  "correct_answers": 3,
+  "score": 100.0,
+  "status": "mastered (mastered | needs_improvement)"
+}
+```
+
+### 3. MasteryResult
+```json
+{
+  "mastery_attempt_id": "UUID",
+  "user_id": "UUID",
+  "learning_path_id": "UUID",
+  "phase_id": "phase_01",
+  "phase_title": "Retrieval-Augmented Generation",
+  "score": 80.0,
+  "pass_threshold": 75.0,
+  "passed": true,
+  "topic_results": [
+    {
+      "topic": "Chunking",
+      "questions_attempted": 2,
+      "correct_answers": 2,
+      "score": 100.0,
+      "status": "mastered"
+    },
+    {
+      "topic": "Retrieval",
+      "questions_attempted": 3,
+      "correct_answers": 2,
+      "score": 66.67,
+      "status": "mastered"
+    }
+  ],
+  "weak_topics": [],
+  "next_action": "unlock_next_phase (unlock_next_phase | remediation_required | retest_required | learning_path_completed)",
+  "attempt_number": 1,
+  "submitted_at": "2026-08-30T10:00:00Z",
+  "explanation": "Congratulations! You scored 80.0%, exceeding the required 75.0% mastery threshold."
+}
+```
+
+### 4. RemediationRequest
+```json
+{
+  "user_id": "UUID",
+  "phase_id": "phase_01",
+  "domain": "generative_ai",
+  "weak_topics": [
+    "Chunking",
+    "Retrieval"
+  ]
 }
 ```

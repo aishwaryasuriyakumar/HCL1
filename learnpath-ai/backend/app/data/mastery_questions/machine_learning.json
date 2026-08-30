@@ -1,0 +1,2699 @@
+[
+  {
+    "id": "mastery_mac_nump_001",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "topic": "NumPy Arrays",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with NumPy Arrays in Python for ML?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for NumPy Arrays"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for NumPy Arrays"
+      },
+      {
+        "id": "C",
+        "text": "It converts NumPy Arrays into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Python for ML entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding NumPy Arrays is essential for proper execution and architectural alignment in Python for ML.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_nump_002",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "topic": "NumPy Arrays",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving NumPy Arrays, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in NumPy Arrays"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying NumPy Arrays requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_nump_003",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "topic": "NumPy Arrays",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in NumPy Arrays be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for NumPy Arrays"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design NumPy Arrays architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_pand_001",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "topic": "Pandas DataFrames",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Pandas DataFrames in Python for ML?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Pandas DataFrames"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Pandas DataFrames"
+      },
+      {
+        "id": "C",
+        "text": "It converts Pandas DataFrames into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Python for ML entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Pandas DataFrames is essential for proper execution and architectural alignment in Python for ML.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_pand_002",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "topic": "Pandas DataFrames",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Pandas DataFrames, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Pandas DataFrames"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Pandas DataFrames requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_pand_003",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "topic": "Pandas DataFrames",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Pandas DataFrames be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Pandas DataFrames"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Pandas DataFrames architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_vect_001",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "topic": "Vectorization",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Vectorization in Python for ML?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Vectorization"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Vectorization"
+      },
+      {
+        "id": "C",
+        "text": "It converts Vectorization into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Python for ML entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Vectorization is essential for proper execution and architectural alignment in Python for ML.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_vect_002",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "topic": "Vectorization",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Vectorization, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Vectorization"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Vectorization requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_vect_003",
+    "domain": "machine_learning",
+    "skill": "Python for ML",
+    "topic": "Vectorization",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Vectorization be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Vectorization"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Vectorization architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_miss_001",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "topic": "Missing Data Imputation",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Missing Data Imputation in Data Preprocessing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Missing Data Imputation"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Missing Data Imputation"
+      },
+      {
+        "id": "C",
+        "text": "It converts Missing Data Imputation into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Preprocessing entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Missing Data Imputation is essential for proper execution and architectural alignment in Data Preprocessing.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_miss_002",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "topic": "Missing Data Imputation",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Missing Data Imputation, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Missing Data Imputation"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Missing Data Imputation requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_miss_003",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "topic": "Missing Data Imputation",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Missing Data Imputation be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Missing Data Imputation"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Missing Data Imputation architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_feat_001",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "topic": "Feature Scaling",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Feature Scaling in Data Preprocessing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Feature Scaling"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Feature Scaling"
+      },
+      {
+        "id": "C",
+        "text": "It converts Feature Scaling into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Preprocessing entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Feature Scaling is essential for proper execution and architectural alignment in Data Preprocessing.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_feat_002",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "topic": "Feature Scaling",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Feature Scaling, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Feature Scaling"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Feature Scaling requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_feat_003",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "topic": "Feature Scaling",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Feature Scaling be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Feature Scaling"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Feature Scaling architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_cate_001",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "topic": "Categorical Encoding",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Categorical Encoding in Data Preprocessing?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Categorical Encoding"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Categorical Encoding"
+      },
+      {
+        "id": "C",
+        "text": "It converts Categorical Encoding into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Data Preprocessing entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Categorical Encoding is essential for proper execution and architectural alignment in Data Preprocessing.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_cate_002",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "topic": "Categorical Encoding",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Categorical Encoding, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Categorical Encoding"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Categorical Encoding requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_cate_003",
+    "domain": "machine_learning",
+    "skill": "Data Preprocessing",
+    "topic": "Categorical Encoding",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Categorical Encoding be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Categorical Encoding"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Categorical Encoding architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_dist_001",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "topic": "Distributions",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Distributions in Statistics & Probability?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Distributions"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Distributions"
+      },
+      {
+        "id": "C",
+        "text": "It converts Distributions into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Statistics & Probability entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Distributions is essential for proper execution and architectural alignment in Statistics & Probability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_dist_002",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "topic": "Distributions",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Distributions, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Distributions"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Distributions requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_dist_003",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "topic": "Distributions",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Distributions be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Distributions"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Distributions architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_hypo_001",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "topic": "Hypothesis Testing",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Hypothesis Testing in Statistics & Probability?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Hypothesis Testing"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Hypothesis Testing"
+      },
+      {
+        "id": "C",
+        "text": "It converts Hypothesis Testing into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Statistics & Probability entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Hypothesis Testing is essential for proper execution and architectural alignment in Statistics & Probability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_hypo_002",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "topic": "Hypothesis Testing",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Hypothesis Testing, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Hypothesis Testing"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Hypothesis Testing requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_hypo_003",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "topic": "Hypothesis Testing",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Hypothesis Testing be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Hypothesis Testing"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Hypothesis Testing architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_baye_001",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "topic": "Bayes Theorem",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Bayes Theorem in Statistics & Probability?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Bayes Theorem"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Bayes Theorem"
+      },
+      {
+        "id": "C",
+        "text": "It converts Bayes Theorem into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Statistics & Probability entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Bayes Theorem is essential for proper execution and architectural alignment in Statistics & Probability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_baye_002",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "topic": "Bayes Theorem",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Bayes Theorem, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Bayes Theorem"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Bayes Theorem requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_baye_003",
+    "domain": "machine_learning",
+    "skill": "Statistics & Probability",
+    "topic": "Bayes Theorem",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Bayes Theorem be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Bayes Theorem"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Bayes Theorem architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_line_001",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "topic": "Linear Regression",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Linear Regression in Regression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Linear Regression"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Linear Regression"
+      },
+      {
+        "id": "C",
+        "text": "It converts Linear Regression into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Regression entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Linear Regression is essential for proper execution and architectural alignment in Regression.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_line_002",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "topic": "Linear Regression",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Linear Regression, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Linear Regression"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Linear Regression requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_line_003",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "topic": "Linear Regression",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Linear Regression be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Linear Regression"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Linear Regression architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_ridg_001",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "topic": "Ridge & Lasso",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Ridge & Lasso in Regression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Ridge & Lasso"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Ridge & Lasso"
+      },
+      {
+        "id": "C",
+        "text": "It converts Ridge & Lasso into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Regression entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Ridge & Lasso is essential for proper execution and architectural alignment in Regression.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_ridg_002",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "topic": "Ridge & Lasso",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Ridge & Lasso, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Ridge & Lasso"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Ridge & Lasso requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_ridg_003",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "topic": "Ridge & Lasso",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Ridge & Lasso be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Ridge & Lasso"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Ridge & Lasso architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_cost_001",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "topic": "Cost Functions",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Cost Functions in Regression?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Cost Functions"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Cost Functions"
+      },
+      {
+        "id": "C",
+        "text": "It converts Cost Functions into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Regression entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Cost Functions is essential for proper execution and architectural alignment in Regression.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_cost_002",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "topic": "Cost Functions",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Cost Functions, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Cost Functions"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Cost Functions requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_cost_003",
+    "domain": "machine_learning",
+    "skill": "Regression",
+    "topic": "Cost Functions",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Cost Functions be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Cost Functions"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Cost Functions architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_logi_001",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "topic": "Logistic Regression",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Logistic Regression in Classification?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Logistic Regression"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Logistic Regression"
+      },
+      {
+        "id": "C",
+        "text": "It converts Logistic Regression into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Classification entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Logistic Regression is essential for proper execution and architectural alignment in Classification.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_logi_002",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "topic": "Logistic Regression",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Logistic Regression, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Logistic Regression"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Logistic Regression requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_logi_003",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "topic": "Logistic Regression",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Logistic Regression be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Logistic Regression"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Logistic Regression architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_deci_001",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "topic": "Decision Trees",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Decision Trees in Classification?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Decision Trees"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Decision Trees"
+      },
+      {
+        "id": "C",
+        "text": "It converts Decision Trees into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Classification entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Decision Trees is essential for proper execution and architectural alignment in Classification.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_deci_002",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "topic": "Decision Trees",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Decision Trees, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Decision Trees"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Decision Trees requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_deci_003",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "topic": "Decision Trees",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Decision Trees be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Decision Trees"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Decision Trees architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_svm_001",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "topic": "SVM",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with SVM in Classification?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for SVM"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for SVM"
+      },
+      {
+        "id": "C",
+        "text": "It converts SVM into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Classification entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding SVM is essential for proper execution and architectural alignment in Classification.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_svm_002",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "topic": "SVM",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving SVM, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in SVM"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying SVM requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_svm_003",
+    "domain": "machine_learning",
+    "skill": "Classification",
+    "topic": "SVM",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in SVM be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for SVM"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design SVM architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_feat_001",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "topic": "Feature Selection",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Feature Selection in Feature Engineering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Feature Selection"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Feature Selection"
+      },
+      {
+        "id": "C",
+        "text": "It converts Feature Selection into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Feature Engineering entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Feature Selection is essential for proper execution and architectural alignment in Feature Engineering.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_feat_002",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "topic": "Feature Selection",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Feature Selection, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Feature Selection"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Feature Selection requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_feat_003",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "topic": "Feature Selection",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Feature Selection be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Feature Selection"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Feature Selection architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_poly_001",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "topic": "Polynomial Features",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Polynomial Features in Feature Engineering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Polynomial Features"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Polynomial Features"
+      },
+      {
+        "id": "C",
+        "text": "It converts Polynomial Features into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Feature Engineering entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Polynomial Features is essential for proper execution and architectural alignment in Feature Engineering.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_poly_002",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "topic": "Polynomial Features",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Polynomial Features, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Polynomial Features"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Polynomial Features requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_poly_003",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "topic": "Polynomial Features",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Polynomial Features be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Polynomial Features"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Polynomial Features architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_dime_001",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "topic": "Dimensionality Reduction",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Dimensionality Reduction in Feature Engineering?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Dimensionality Reduction"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Dimensionality Reduction"
+      },
+      {
+        "id": "C",
+        "text": "It converts Dimensionality Reduction into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Feature Engineering entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Dimensionality Reduction is essential for proper execution and architectural alignment in Feature Engineering.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_dime_002",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "topic": "Dimensionality Reduction",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Dimensionality Reduction, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Dimensionality Reduction"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Dimensionality Reduction requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_dime_003",
+    "domain": "machine_learning",
+    "skill": "Feature Engineering",
+    "topic": "Dimensionality Reduction",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Dimensionality Reduction be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Dimensionality Reduction"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Dimensionality Reduction architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_conf_001",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "Confusion Matrix",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Confusion Matrix in Model Evaluation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Confusion Matrix"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Confusion Matrix"
+      },
+      {
+        "id": "C",
+        "text": "It converts Confusion Matrix into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Model Evaluation entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Confusion Matrix is essential for proper execution and architectural alignment in Model Evaluation.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_conf_002",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "Confusion Matrix",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Confusion Matrix, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Confusion Matrix"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Confusion Matrix requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_conf_003",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "Confusion Matrix",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Confusion Matrix be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Confusion Matrix"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Confusion Matrix architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_prec_001",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "Precision & Recall",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Precision & Recall in Model Evaluation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Precision & Recall"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Precision & Recall"
+      },
+      {
+        "id": "C",
+        "text": "It converts Precision & Recall into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Model Evaluation entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Precision & Recall is essential for proper execution and architectural alignment in Model Evaluation.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_prec_002",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "Precision & Recall",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Precision & Recall, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Precision & Recall"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Precision & Recall requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_prec_003",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "Precision & Recall",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Precision & Recall be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Precision & Recall"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Precision & Recall architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_roc-_001",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "ROC-AUC",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with ROC-AUC in Model Evaluation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for ROC-AUC"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for ROC-AUC"
+      },
+      {
+        "id": "C",
+        "text": "It converts ROC-AUC into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Model Evaluation entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding ROC-AUC is essential for proper execution and architectural alignment in Model Evaluation.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_roc-_002",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "ROC-AUC",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving ROC-AUC, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in ROC-AUC"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying ROC-AUC requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_roc-_003",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "ROC-AUC",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in ROC-AUC be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for ROC-AUC"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design ROC-AUC architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_cros_001",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "Cross Validation",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Cross Validation in Model Evaluation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Cross Validation"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Cross Validation"
+      },
+      {
+        "id": "C",
+        "text": "It converts Cross Validation into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Model Evaluation entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Cross Validation is essential for proper execution and architectural alignment in Model Evaluation.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_cros_002",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "Cross Validation",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Cross Validation, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Cross Validation"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Cross Validation requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_cros_003",
+    "domain": "machine_learning",
+    "skill": "Model Evaluation",
+    "topic": "Cross Validation",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Cross Validation be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Cross Validation"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Cross Validation architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_rand_001",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "topic": "Random Forests",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Random Forests in Ensemble Learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Random Forests"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Random Forests"
+      },
+      {
+        "id": "C",
+        "text": "It converts Random Forests into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Ensemble Learning entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Random Forests is essential for proper execution and architectural alignment in Ensemble Learning.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_rand_002",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "topic": "Random Forests",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Random Forests, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Random Forests"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Random Forests requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_rand_003",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "topic": "Random Forests",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Random Forests be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Random Forests"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Random Forests architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_grad_001",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "topic": "Gradient Boosting",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Gradient Boosting in Ensemble Learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Gradient Boosting"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Gradient Boosting"
+      },
+      {
+        "id": "C",
+        "text": "It converts Gradient Boosting into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Ensemble Learning entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Gradient Boosting is essential for proper execution and architectural alignment in Ensemble Learning.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_grad_002",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "topic": "Gradient Boosting",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Gradient Boosting, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Gradient Boosting"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Gradient Boosting requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_grad_003",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "topic": "Gradient Boosting",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Gradient Boosting be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Gradient Boosting"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Gradient Boosting architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_xgbo_001",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "topic": "XGBoost",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with XGBoost in Ensemble Learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for XGBoost"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for XGBoost"
+      },
+      {
+        "id": "C",
+        "text": "It converts XGBoost into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Ensemble Learning entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding XGBoost is essential for proper execution and architectural alignment in Ensemble Learning.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_xgbo_002",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "topic": "XGBoost",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving XGBoost, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in XGBoost"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying XGBoost requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_xgbo_003",
+    "domain": "machine_learning",
+    "skill": "Ensemble Learning",
+    "topic": "XGBoost",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in XGBoost be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for XGBoost"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design XGBoost architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_k-me_001",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "topic": "K-Means",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with K-Means in Unsupervised Learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for K-Means"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for K-Means"
+      },
+      {
+        "id": "C",
+        "text": "It converts K-Means into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Unsupervised Learning entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding K-Means is essential for proper execution and architectural alignment in Unsupervised Learning.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_k-me_002",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "topic": "K-Means",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving K-Means, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in K-Means"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying K-Means requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_k-me_003",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "topic": "K-Means",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in K-Means be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for K-Means"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design K-Means architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_pca_001",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "topic": "PCA",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with PCA in Unsupervised Learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for PCA"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for PCA"
+      },
+      {
+        "id": "C",
+        "text": "It converts PCA into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Unsupervised Learning entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding PCA is essential for proper execution and architectural alignment in Unsupervised Learning.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_pca_002",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "topic": "PCA",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving PCA, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in PCA"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying PCA requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_pca_003",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "topic": "PCA",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in PCA be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for PCA"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design PCA architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_hier_001",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Hierarchical Clustering in Unsupervised Learning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Hierarchical Clustering"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Hierarchical Clustering"
+      },
+      {
+        "id": "C",
+        "text": "It converts Hierarchical Clustering into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Unsupervised Learning entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Hierarchical Clustering is essential for proper execution and architectural alignment in Unsupervised Learning.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_hier_002",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Hierarchical Clustering, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Hierarchical Clustering"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Hierarchical Clustering requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_hier_003",
+    "domain": "machine_learning",
+    "skill": "Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Hierarchical Clustering be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Hierarchical Clustering"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Hierarchical Clustering architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_mode_001",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "topic": "Model Serialization",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Model Serialization in Model Deployment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Model Serialization"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Model Serialization"
+      },
+      {
+        "id": "C",
+        "text": "It converts Model Serialization into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Model Deployment entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Model Serialization is essential for proper execution and architectural alignment in Model Deployment.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_mode_002",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "topic": "Model Serialization",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Model Serialization, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Model Serialization"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Model Serialization requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_mode_003",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "topic": "Model Serialization",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Model Serialization be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Model Serialization"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Model Serialization architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_infe_001",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "topic": "Inference Pipelines",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Inference Pipelines in Model Deployment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Inference Pipelines"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Inference Pipelines"
+      },
+      {
+        "id": "C",
+        "text": "It converts Inference Pipelines into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Model Deployment entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Inference Pipelines is essential for proper execution and architectural alignment in Model Deployment.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_infe_002",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "topic": "Inference Pipelines",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Inference Pipelines, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Inference Pipelines"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Inference Pipelines requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_infe_003",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "topic": "Inference Pipelines",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Inference Pipelines be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Inference Pipelines"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Inference Pipelines architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_moni_001",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "topic": "Monitoring",
+    "difficulty": "easy",
+    "question": "What is a fundamental concept or core best practice associated with Monitoring in Model Deployment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It establishes foundational correctness and standard workflows for Monitoring"
+      },
+      {
+        "id": "B",
+        "text": "It bypasses all validation and error handling for Monitoring"
+      },
+      {
+        "id": "C",
+        "text": "It converts Monitoring into unrelated legacy systems"
+      },
+      {
+        "id": "D",
+        "text": "It deprecates Model Deployment entirely"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Understanding Monitoring is essential for proper execution and architectural alignment in Model Deployment.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_moni_002",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "topic": "Monitoring",
+    "difficulty": "medium",
+    "question": "When implementing practical solutions involving Monitoring, which trade-off or pattern is most critical to address?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balancing performance, resource efficiency, and correctness in Monitoring"
+      },
+      {
+        "id": "B",
+        "text": "Hardcoding static configuration directly into compiled binaries"
+      },
+      {
+        "id": "C",
+        "text": "Ignoring boundary edge conditions and failure modes"
+      },
+      {
+        "id": "D",
+        "text": "Replacing all structured data with raw unstructured strings"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "In production systems, applying Monitoring requires balancing computational efficiency and reliability.",
+    "weight": 1
+  },
+  {
+    "id": "mastery_mac_moni_003",
+    "domain": "machine_learning",
+    "skill": "Model Deployment",
+    "topic": "Monitoring",
+    "difficulty": "hard",
+    "question": "In a complex production scenario with high concurrency or strict constraints, how should anomalies in Monitoring be handled?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Using resilient failover mechanisms, telemetry, and automated remediation designed for Monitoring"
+      },
+      {
+        "id": "B",
+        "text": "Terminating the server process immediately on first warning"
+      },
+      {
+        "id": "C",
+        "text": "Suppressing all error logs and returning mock data"
+      },
+      {
+        "id": "D",
+        "text": "Rebooting the cluster randomly"
+      }
+    ],
+    "correct_option_id": "A",
+    "explanation": "Advanced practitioners design Monitoring architectures with observability, isolation, and graceful recovery.",
+    "weight": 1
+  }
+]

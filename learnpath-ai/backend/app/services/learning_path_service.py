@@ -109,4 +109,75 @@ class LearningPathService:
             raise HTTPException(status_code=404, detail="Learning path not found")
         return LearningPathResult(**path.path_json)
 
+    def get_path_model(self, db: Session, path_id: str) -> Optional[LearningPath]:
+        return db.query(LearningPath).filter(LearningPath.id == path_id).first()
+
+    def complete_phase(self, db: Session, learning_path_id: str, phase_id: str) -> None:
+        db_path = self.get_path_model(db, learning_path_id)
+        if not db_path:
+            raise HTTPException(status_code=404, detail="Learning path not found")
+
+        path_data = dict(db_path.path_json)
+        phases = path_data.get("phases", [])
+        updated = False
+
+        for phase in phases:
+            if phase.get("phase_id") == phase_id:
+                phase["status"] = "completed"
+                updated = True
+                break
+
+        if updated:
+            db_path.path_json = path_data
+            from sqlalchemy.orm.attributes import flag_modified
+            flag_modified(db_path, "path_json")
+            db.commit()
+            db.refresh(db_path)
+            logger.info(f"phase_completed successfully marked phase {phase_id} as completed in path {learning_path_id}")
+
+    def unlock_next_phase(self, db: Session, learning_path_id: str, current_phase_id: str) -> Optional[str]:
+        db_path = self.get_path_model(db, learning_path_id)
+        if not db_path:
+            raise HTTPException(status_code=404, detail="Learning path not found")
+
+        path_data = dict(db_path.path_json)
+        phases = path_data.get("phases", [])
+
+        # Sort phases by order
+        sorted_phases = sorted(phases, key=lambda p: p.get("order", 0))
+        next_phase_id = None
+
+        for idx, phase in enumerate(sorted_phases):
+            if phase.get("phase_id") == current_phase_id:
+                if idx + 1 < len(sorted_phases):
+                    next_phase = sorted_phases[idx + 1]
+                    next_phase_id = next_phase.get("phase_id")
+                    if next_phase.get("status") == "locked":
+                        next_phase["status"] = "available"
+                break
+
+        if next_phase_id:
+            db_path.path_json = path_data
+            from sqlalchemy.orm.attributes import flag_modified
+            flag_modified(db_path, "path_json")
+            db.commit()
+            db.refresh(db_path)
+            logger.info(f"next_phase_unlocked successfully unlocked next phase {next_phase_id} in path {learning_path_id}")
+
+        return next_phase_id
+
+    def is_final_phase(self, path_data: dict, phase_id: str) -> bool:
+        phases = path_data.get("phases", [])
+        if not phases:
+            return True
+        sorted_phases = sorted(phases, key=lambda p: p.get("order", 0))
+        return sorted_phases[-1].get("phase_id") == phase_id
+
+    def get_phase_info(self, path_data: dict, phase_id: str) -> Optional[dict]:
+        phases = path_data.get("phases", [])
+        for p in phases:
+            if p.get("phase_id") == phase_id:
+                return p
+        return None
+
 learning_path_service = LearningPathService()

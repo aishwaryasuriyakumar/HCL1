@@ -9,6 +9,7 @@ from app.database.base import Base
 from app.models.learner import Learner
 from app.models.assessment import AssessmentAttempt, AssessmentAnswer, SkillAssessmentResult, SkillGapAnalysis
 from app.models.learning_path import LearningPath
+from app.models.mastery import MasteryAttempt, MasteryAnswer
 
 # Create tables
 Base.metadata.create_all(bind=engine)

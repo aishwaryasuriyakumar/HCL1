@@ -50,12 +50,16 @@ class LearningPathAgent:
 
         prompt = self._build_llm_prompt(input_data, domain_skills)
 
-        # 2. Call LLM Service for structured output
-        llm_output: LearningPathLLMOutput = self.llm_service.generate_structured(
-            prompt=prompt,
-            system_instruction=system_instruction,
-            response_model=LearningPathLLMOutput
-        )
+        # 2. Call LLM Service for structured output (with deterministic fallback if unavailable)
+        try:
+            llm_output: LearningPathLLMOutput = self.llm_service.generate_structured(
+                prompt=prompt,
+                system_instruction=system_instruction,
+                response_model=LearningPathLLMOutput
+            )
+        except Exception as e:
+            logger.warning(f"LLM generation unavailable ({e}), generating deterministic fallback path.")
+            llm_output = self._generate_deterministic_fallback_path(input_data, domain, domain_skills)
 
         # 3. Validate & sanitize domain skills (Domain Isolation)
         sanitized_phases = self._sanitize_domain_skills(llm_output.phases, domain_skills)
@@ -266,3 +270,66 @@ Prerequisite Graph: {domain_prereqs}
             prev_phase_id = phase_id
 
         return final_list
+
+    def _generate_deterministic_fallback_path(
+        self,
+        input_data: LearningPathAgentInput,
+        domain: str,
+        domain_skills: List[str]
+    ) -> LearningPathLLMOutput:
+        """
+        Creates a structured deterministic fallback learning path when LLM is offline.
+        """
+        gap_items = input_data.skill_gap_result.skills
+        prioritized_skills = [g.skill for g in gap_items if g.skill in domain_skills]
+
+        if not prioritized_skills:
+            prioritized_skills = list(domain_skills)
+
+        # Partition skills across 3-4 phases
+        chunk_size = max(1, (len(prioritized_skills) + 2) // 3)
+        skill_chunks = [
+            prioritized_skills[i:i + chunk_size]
+            for i in range(0, len(prioritized_skills), chunk_size)
+        ]
+
+        phases = []
+        for idx, chunk in enumerate(skill_chunks, start=1):
+            main_skill = chunk[0] if chunk else "Core Fundamentals"
+            phase_spec = PhaseSpec(
+                phase_id=f"phase_{idx:02d}",
+                order=idx,
+                title=f"{main_skill} Mastery",
+                description=f"Focused learning module on {', '.join(chunk)}.",
+                skills=chunk,
+                resource_topics=[f"{s} Concepts" for s in chunk],
+                learning_objectives=[f"Master practical implementations of {s}" for s in chunk],
+                learning_outcomes=[f"Able to apply {s} in production environments" for s in chunk],
+                project=ProjectSpec(
+                    title=f"{main_skill} Practical Project",
+                    description=f"Hands-on project developing real-world solutions using {', '.join(chunk)}.",
+                    deliverable="Source code and project documentation",
+                    estimated_hours=4.0
+                ),
+                estimated_hours=6.0,
+                difficulty="intermediate",
+                recommendation_reason=f"Targeting critical skill gaps in {', '.join(chunk)}.",
+                status="available" if idx == 1 else "locked"
+            )
+            phases.append(phase_spec)
+
+        capstone = CapstoneProject(
+            title=f"Comprehensive {domain.replace('_', ' ').title()} Capstone",
+            description=f"End-to-end capstone synthesizing {', '.join(prioritized_skills[:4])}.",
+            deliverables=["Full GitHub Repository", "Architecture Documentation"],
+            estimated_hours=12.0
+        )
+
+        return LearningPathLLMOutput(
+            title=f"Personalized {domain.replace('_', ' ').title()} Learning Path",
+            description=f"Tailored learning path focusing on {', '.join(prioritized_skills[:3])}.",
+            overall_level="intermediate",
+            summary_recommendation="Structured roadmap prioritizing prerequisite mastery.",
+            phases=phases,
+            capstone_project=capstone
+        )
