@@ -59,7 +59,7 @@ export const GeneratePath: React.FC = () => {
     fetchData();
   }, []);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
@@ -107,6 +107,17 @@ const pathResult = await learningPathService.generatePath(payload);
         message = err.message;
       }
       setError(message);
+      // Redirect to assessment if skill gap needed
+      if (message.toLowerCase().includes('skill gap analysis required')) {
+        const pendingPath = {
+          selected_domain: formData.selected_domain,
+          experience_level: formData.experience_level,
+          learning_goal: formData.learning_goal,
+          career_goal: formData.career_goal,
+        };
+        localStorage.setItem('pendingLearningPath', JSON.stringify(pendingPath));
+        navigate('/assessment/intro');
+      }
     } finally {
       setIsLoading(false);
     }
