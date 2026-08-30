@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AppLayout } from '../components/layout/AppLayout';
-import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '../components/ui/Card';
+import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/Card';
 import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { Select } from '../components/ui/Select';
@@ -9,19 +9,21 @@ import { Loader } from '../components/ui/Loader';
 import { auth } from '../utils/auth';
 import { profileService, learningPathService, domainService } from '../services/api';
 import type { GeneratePathPayload } from '../services/api';
-import type { LearnerProfileResponse, DomainInfo } from '../types/schemas';
+import type { DomainInfo } from '../types/schemas';
 import './GeneratePath.css';
+
+import { DEFAULT_DOMAINS } from '../data/domains';
 
 export const GeneratePath: React.FC = () => {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
   const [isLoadingInitial, setIsLoadingInitial] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [domains, setDomains] = useState<DomainInfo[]>([]);
+  const [domains, setDomains] = useState<DomainInfo[]>(DEFAULT_DOMAINS);
   const [loaderMessage, setLoaderMessage] = useState('Generating your learning path...');
 
   const [formData, setFormData] = useState({
-    selected_domain: '',
+    selected_domain: DEFAULT_DOMAINS[0].id,
     experience_level: 'beginner',
     learning_goal: '',
     career_goal: ''
@@ -30,28 +32,46 @@ export const GeneratePath: React.FC = () => {
   // Load user profile and domain list on mount
   useEffect(() => {
     const fetchData = async () => {
+      let domainList: DomainInfo[] = DEFAULT_DOMAINS;
+      try {
+        const fetched = await domainService.getDomains();
+        if (fetched && fetched.length > 0) {
+          domainList = fetched;
+          setDomains(fetched);
+        }
+      } catch (err) {
+        console.warn('Failed to load domains, using fallback', err);
+      }
+
       const userId = auth.getCurrentUserId();
       if (!userId) {
-        setError('User not authenticated. Please complete onboarding first.');
+        setFormData(prev => ({
+          ...prev,
+          selected_domain: prev.selected_domain || domainList[0].id
+        }));
         setIsLoadingInitial(false);
         return;
       }
+
       try {
-        const [domainList, profile] = await Promise.all([
-          domainService.getDomains(),
-          profileService.getProfile(userId)
-        ]);
-        setDomains(domainList);
-        // Set defaults based on profile (if available)
-        setFormData({
-          selected_domain: profile.selected_domain?.id || (domainList[0]?.id ?? ''),
-          experience_level: profile.experience_level || 'beginner',
-          learning_goal: profile.learning_goal || '',
-          career_goal: profile.career_goal || ''
-        });
+        const profile = await profileService.getProfile(userId);
+        const domainId = typeof profile.selected_domain === 'object' && profile.selected_domain !== null
+          ? (profile.selected_domain as any).id
+          : profile.selected_domain;
+
+        setFormData(prev => ({
+          ...prev,
+          selected_domain: domainId || prev.selected_domain || domainList[0].id,
+          experience_level: profile.experience_level || prev.experience_level || 'beginner',
+          learning_goal: profile.learning_goal || prev.learning_goal || '',
+          career_goal: profile.career_goal || prev.career_goal || ''
+        }));
       } catch (err: any) {
-        console.error(err);
-        setError('Failed to load initial data. Please try again later.');
+        console.warn('No profile found or failed to load profile', err);
+        setFormData(prev => ({
+          ...prev,
+          selected_domain: prev.selected_domain || domainList[0].id
+        }));
       } finally {
         setIsLoadingInitial(false);
       }

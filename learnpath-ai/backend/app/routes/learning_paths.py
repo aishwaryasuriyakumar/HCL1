@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 from app.database.session import get_db
 from app.services.learning_path_service import learning_path_service
-from app.schemas.learning_path import LearningPathResult
+from app.schemas.learning_path import LearningPathResult, UserLearningPathsResponse
 
 router = APIRouter()
 
@@ -16,7 +16,11 @@ class GeneratePathRequest(BaseModel):
 async def generate_learning_path(request: GeneratePathRequest, db: Session = Depends(get_db)):
     return await learning_path_service.generate_learning_path(db, user_id=str(request.user_id))
 
-@router.get("/user/{user_id}", response_model=LearningPathResult)
+@router.get("/user/{user_id}", response_model=UserLearningPathsResponse)
+def get_user_learning_paths(user_id: str, db: Session = Depends(get_db)):
+    return learning_path_service.get_user_paths(db, user_id=user_id)
+
+@router.get("/user/{user_id}/latest", response_model=LearningPathResult)
 def get_latest_learning_path(user_id: str, db: Session = Depends(get_db)):
     return learning_path_service.get_latest_path(db, user_id=user_id)
 

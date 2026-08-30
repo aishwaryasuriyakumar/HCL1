@@ -1,5 +1,6 @@
 import logging
-from typing import Optional
+from typing import Optional, List
+from uuid import UUID
 from sqlalchemy.orm import Session
 from fastapi import HTTPException
 
@@ -10,7 +11,13 @@ from app.repositories.learner_repository import learner_repo
 from app.services.profile_service import profile_service
 from app.agents.learning_path_agent import LearningPathAgent
 from app.schemas.skill_gap import SkillGapResult
-from app.schemas.learning_path import LearningPathAgentInput, LearningPathResult
+from app.schemas.learning_path import (
+    LearningPathAgentInput,
+    LearningPathResult,
+    UserPathSummary,
+    UserLearningPathsResponse,
+    PhaseSpec,
+)
 from app.data.skill_requirements import PREREQUISITES, SKILL_TARGET_SCORES, SKILL_IMPORTANCE_LEVELS
 
 logger = logging.getLogger(__name__)
@@ -91,6 +98,54 @@ class LearningPathService:
         logger.info(f"learning_path_persisted successfully stored learning path {db_path.id} for user {user_id}")
 
         return result
+
+    def get_user_paths(self, db: Session, user_id: str) -> UserLearningPathsResponse:
+        paths = (
+            db.query(LearningPath)
+            .filter(LearningPath.user_id == user_id)
+            .order_by(LearningPath.created_at.desc())
+            .all()
+        )
+        summaries: List[UserPathSummary] = []
+        for p in paths:
+            path_data = dict(p.path_json)
+            phases = path_data.get("phases", [])
+            total_phases = len(phases)
+            completed_phases = len([ph for ph in phases if ph.get("status") == "completed"])
+            progress_pct = round((completed_phases / total_phases) * 100, 1) if total_phases > 0 else 0.0
+
+            if completed_phases == total_phases and total_phases > 0:
+                status = "completed"
+            elif completed_phases > 0 or any(ph.get("status") in ("in_progress", "available") for ph in phases):
+                status = "in_progress"
+            else:
+                status = "not_started"
+
+            parsed_phases = []
+            for ph in phases:
+                try:
+                    parsed_phases.append(PhaseSpec(**ph))
+                except Exception:
+                    pass
+
+            summary = UserPathSummary(
+                path_id=UUID(str(p.id)),
+                domain=p.domain or path_data.get("domain", ""),
+                title=path_data.get("title", "Personalized Learning Path"),
+                description=path_data.get("description", ""),
+                learning_goal=path_data.get("learning_goal", ""),
+                career_goal=path_data.get("career_goal", ""),
+                experience_level=path_data.get("overall_level", "intermediate"),
+                status=status,
+                progress_percentage=progress_pct,
+                completed_phases=completed_phases,
+                total_phases=total_phases,
+                phases=parsed_phases,
+                created_at=p.created_at
+            )
+            summaries.append(summary)
+
+        return UserLearningPathsResponse(user_id=UUID(str(user_id)), paths=summaries)
 
     def get_latest_path(self, db: Session, user_id: str) -> LearningPathResult:
         path = (

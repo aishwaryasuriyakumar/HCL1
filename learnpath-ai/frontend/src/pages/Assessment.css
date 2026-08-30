@@ -1,53 +1,62 @@
 .assessment-card {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  border: none;
+  box-shadow: var(--shadow-lg);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  background: #ffffff;
 }
 
 .option-card {
   display: flex;
   align-items: center;
-  padding: 1rem 1.25rem;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
+  padding: 1.15rem 1.35rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-xl);
   cursor: pointer;
-  transition: all 0.2s ease;
-  background-color: var(--card-bg);
+  transition: all var(--transition-normal);
+  background-color: #ffffff;
+  margin-bottom: var(--spacing-3);
+  position: relative;
 }
 
 .option-card:hover {
-  background-color: var(--bg-muted);
-  border-color: var(--primary-hover);
+  background-color: var(--color-surface-hover);
+  border-color: var(--color-primary);
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(102, 84, 245, 0.08);
 }
 
 .option-card.selected {
-  border-color: var(--primary-color);
-  background-color: rgba(99, 102, 241, 0.05);
+  border-color: var(--color-primary);
+  background-color: rgba(102, 84, 245, 0.05);
+  box-shadow: 0 0 0 2px rgba(102, 84, 245, 0.25), var(--shadow-sm);
 }
 
 .option-radio {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
-  border: 2px solid var(--border-color);
-  margin-right: 1rem;
+  border: 2px solid var(--color-border);
+  margin-right: 1.15rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  transition: all var(--transition-fast);
+  background-color: #ffffff;
 }
 
 .option-card.selected .option-radio {
-  border-color: var(--primary-color);
+  border-color: var(--color-primary);
 }
 
 .option-radio-inner {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: var(--primary-color);
+  background: var(--gradient-brand);
   opacity: 0;
-  transform: scale(0.5);
-  transition: all 0.2s;
+  transform: scale(0.4);
+  transition: all var(--transition-fast);
 }
 
 .option-radio-inner.active {
@@ -57,5 +66,7 @@
 
 .option-text {
   font-size: 1rem;
+  font-weight: 500;
   line-height: 1.5;
+  color: var(--color-text);
 }

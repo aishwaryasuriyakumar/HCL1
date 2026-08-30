@@ -11,6 +11,8 @@ import { auth } from '../utils/auth';
 import type { LearnerProfileCreate, DomainInfo } from '../types/schemas';
 import './Onboarding.css';
 
+import { DEFAULT_DOMAINS } from '../data/domains';
+
 export const Onboarding: React.FC = () => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
@@ -20,13 +22,13 @@ export const Onboarding: React.FC = () => {
   const [isLoadingProfile, setIsLoadingProfile] = useState(true);
   const [error, setError] = useState<string | null>(null);
   
-  const [domains, setDomains] = useState<DomainInfo[]>([]);
-  const [isLoadingDomains, setIsLoadingDomains] = useState(true);
+  const [domains, setDomains] = useState<DomainInfo[]>(DEFAULT_DOMAINS);
+  const [isLoadingDomains, setIsLoadingDomains] = useState(false);
 
   const [formData, setFormData] = useState<LearnerProfileCreate>({
     full_name: '',
     email: '',
-    selected_domain: '',
+    selected_domain: DEFAULT_DOMAINS[0].id,
     experience_level: 'beginner',
     years_of_experience: 'none',
     learning_goal: '',
@@ -60,11 +62,14 @@ export const Onboarding: React.FC = () => {
       }
       try {
         const profile = await profileService.getProfile(userId);
+        const domainId = typeof profile.selected_domain === 'object' && profile.selected_domain !== null
+          ? (profile.selected_domain as any).id
+          : profile.selected_domain;
         setFormData(prev => ({
           ...prev,
           full_name: profile.full_name,
           email: profile.email,
-          selected_domain: profile.selected_domain || prev.selected_domain,
+          selected_domain: domainId || prev.selected_domain,
           experience_level: profile.experience_level || prev.experience_level,
           years_of_experience: profile.years_of_experience || prev.years_of_experience,
           learning_goal: profile.learning_goal || prev.learning_goal,
