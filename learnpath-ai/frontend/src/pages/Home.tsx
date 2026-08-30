@@ -3,9 +3,12 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Brain, Zap, Target } from 'lucide-react';
 import { AppLayout } from '../components/layout/AppLayout';
 import { Button } from '../components/ui/Button';
+import { auth } from '../utils/auth';
 import './Home.css';
 
 export const Home: React.FC = () => {
+  const isAuthenticated = auth.isAuthenticated();
+  
   return (
     <AppLayout>
       <section className="hero-section text-center">
@@ -16,11 +19,19 @@ export const Home: React.FC = () => {
           <p className="hero-subtitle text-muted mb-8 max-w-2xl mx-auto">
             Tell us your goals, experience, and domain. We'll craft a hyper-personalized roadmap to take your skills to the next level.
           </p>
-          <Link to="/generate">
-            <Button size="lg" className="hero-cta">
-              Get Started <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-          </Link>
+          {isAuthenticated ? (
+            <Link to="/dashboard">
+              <Button size="lg" className="hero-cta">
+                Continue Learning <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
+          ) : (
+            <Link to="/onboarding">
+              <Button size="lg" className="hero-cta">
+                Start Your Learning Journey <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
+          )}
         </div>
       </section>
 
