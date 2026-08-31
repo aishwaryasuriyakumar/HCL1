@@ -283,15 +283,23 @@ Prerequisite Graph: {domain_prereqs}
         gap_items = input_data.skill_gap_result.skills
         prioritized_skills = [g.skill for g in gap_items if g.skill in domain_skills]
 
+        # Ensure we have at least 3 skills to partition into 3+ phases
+        for sk in domain_skills:
+            if len(prioritized_skills) >= 3:
+                break
+            if sk not in prioritized_skills:
+                prioritized_skills.append(sk)
+
         if not prioritized_skills:
             prioritized_skills = list(domain_skills)
 
-        # Partition skills across 3-4 phases
-        chunk_size = max(1, (len(prioritized_skills) + 2) // 3)
+        # Partition skills into 3-4 phases (max 2 skills per phase so we get 3+ phases)
+        chunk_size = max(1, min(2, len(prioritized_skills) // 3))
         skill_chunks = [
             prioritized_skills[i:i + chunk_size]
             for i in range(0, len(prioritized_skills), chunk_size)
         ]
+
 
         phases = []
         for idx, chunk in enumerate(skill_chunks, start=1):
